@@ -5,6 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "eslint": "^6.5.1",
     "next": "^9.0.7",
     "react": "^16.10.2",
