@@ -1,0 +1,1 @@
+{"scripts":{"dev":"next","build":"next build","start":"next start"},"dependencies":{"eslint":"^6.5.1","next":"^9.0.7","react":"^16.10.2","react-dom":"^16.10.2"},"name":"","version":"","readme":"ERROR: No README data found!","_id":"@"}
