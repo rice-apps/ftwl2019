@@ -1,7 +1,7 @@
-import React from "react";
-import { Box, Flex, Image, Button } from "rebass";
+import React from 'react';
+import { Box, Flex, Image, Button } from 'rebass';
 // import logo from "../static/ftwllogo.png";
-import "./Navbar.css";
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -14,9 +14,8 @@ function Navbar() {
           ml="auto"
           mr="auto"
           color="black"
-          bg="white"
-        >
-          <Image src={"../static/ftwllogo.png"} />
+          bg="white">
+          <Image src={'../static/ftwllogo.png'} />
         </Box>
         <Box
           fontSize={2}
@@ -25,8 +24,7 @@ function Navbar() {
           width={[1 / 8, 1 / 8, 1 / 8]}
           height={[1 / 16, 1 / 16, 1 / 16]}
           color="black"
-          bg="red"
-        >
+          bg="red">
           About Us
         </Box>
         <Box
@@ -34,8 +32,7 @@ function Navbar() {
           width={[1 / 8, 1 / 8, 1 / 8]}
           height={[1 / 16, 1 / 16, 1 / 16]}
           color="black"
-          bg="orange"
-        >
+          bg="orange">
           Ways to Give
         </Box>
         <Box
@@ -43,8 +40,7 @@ function Navbar() {
           width={[1 / 8, 1 / 8, 1 / 8]}
           height={[1 / 16, 1 / 16, 1 / 16]}
           color="black"
-          bg="yellow"
-        >
+          bg="yellow">
           Found an Animal?
         </Box>
         <Box
@@ -52,8 +48,7 @@ function Navbar() {
           width={[1 / 8, 1 / 8, 1 / 8]}
           height={[1 / 16, 1 / 16, 1 / 16]}
           color="black"
-          bg="green"
-        >
+          bg="green">
           News & Events
         </Box>
         <Box
@@ -61,12 +56,11 @@ function Navbar() {
           width={[1 / 2, 1 / 2, 1 / 2]}
           height={[1 / 16, 1 / 16, 1 / 16]}
           color="black"
-          bg="white"
-        >
+          bg="white">
           <Flex>
-            <Image src={"../static/Facebookicon.png"} variant="avatar" />
-            <Image src={"../static/Instagramicon.png"} variant="avatar" />
-            <Image src={"../static/Twittericon.png"} variant="avatar" />
+            <Image src={'../static/Facebookicon.png'} variant="avatar" />
+            <Image src={'../static/Instagramicon.png'} variant="avatar" />
+            <Image src={'../static/Twittericon.png'} variant="avatar" />
           </Flex>
           <Flex>
             <Button variant="primary" mr={2}>
@@ -85,7 +79,7 @@ function Navbar() {
 export default Navbar;
 
 const styles = {
-  "background-color": "white",
-  "text-color": "black",
-  "padding-bottom": 120
+  'background-color': 'white',
+  'text-color': 'black',
+  'padding-bottom': 120,
 };
