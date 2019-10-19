@@ -12,111 +12,221 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/Footer.js";
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.css */ "./components/Footer.css");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/AnnaBai/Rice/riceapps/ftwl2019/components/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
- // import './Footer.css';
+
+
 
 function Footer() {
   return __jsx("div", {
     className: "footer",
-    style: styles,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+  }, __jsx("head", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    p: 5,
-    fontSize: 2,
-    width: [1 / 2, 1 / 2, 1 / 2],
-    color: "white",
-    bg: "green",
+  }, __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Open+Sans&display=swap",
+    rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, __jsx("h1", {
+  })), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
-  }, "Friends of Texas Wildlife"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Friends of Texas Wildlife is a 501(c)(3) non-profit organization; 100% of all donations support native Texas wildlife and are tax deductible to the extent permitted by law.")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
-    width: [1 / 2, 1 / 2, 1 / 2],
+    width: [1 / 4, 1 / 4, 1 / 4],
     color: "white",
-    bg: "green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 14
     },
     __self: this
-  }, __jsx("h1", {
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: 2,
+    width: [3 / 5, 3 / 5, 3 / 5],
+    color: "white",
+    padding: "64px 30px 64px 0px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 15
     },
     __self: this
-  }, "Contact Us"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Friends of Texas Wildlife", __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }), "29615 Highland Blvd", __jsx("br", {
+  }, __jsx("div", {
+    "class": "footer-header",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }), "Magnolia, TX 77354", __jsx("br", {
+  }, "Friends of Texas Wildlife"), __jsx("div", {
+    "class": "footer-info",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }), "(281) 259-0039", __jsx("br", {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }), "ftwl.center@gmail.com")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, "Friends of Texas Wildlife is a 501(c)(3) non-profit organization; 100% of all donations support native Texas wildlife and are tax deductible to the extent permitted by law."))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: 2,
+    width: [2 / 5, 2 / 5, 2 / 5],
+    color: "white",
+    padding: "64px 0px 64px 0px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "footer-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Contact Us"), __jsx("div", {
+    "class": "footer-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Friends of Texas Wildlife", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }), "29615 Highland Blvd", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), "Magnolia, TX 77354", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), "(281) 259-0039", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }), "ftwl.center@gmail.com"))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
     width: [1, 1, 1],
     color: "white",
-    bg: "green",
+    padding: "64px 0px 64px 20px",
+    height: "100px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 57
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: "13px",
+    width: [2 / 3, 2 / 3, 2 / 3],
+    color: "white",
+    padding: "0px 10px 10px 10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "About Us"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: "13px",
+    width: [1, 1, 1],
+    color: "white",
+    padding: "0px 10px 10px 10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Ways to Give"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: "13px",
+    width: [2 / 3, 2 / 3, 2 / 3],
+    color: "white",
+    padding: "0px 10px 10px 10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Found an Animal"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: "13px",
+    width: [2 / 3, 2 / 3, 2 / 3],
+    color: "white",
+    padding: "0px 10px 10px 10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "News & Events"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    p: 5,
+    fontSize: "13px",
+    width: [2 / 3, 2 / 3, 2 / 3],
+    color: "white",
+    padding: "0px 10px 10px 10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Store")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -125,71 +235,47 @@ function Footer() {
     width: [1, 1, 1],
     color: "white",
     bg: "green",
-    padding: "10px 20px 10px 20px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 103
     },
     __self: this
-  }, "About Us"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
     width: [1, 1, 1],
     color: "white",
     bg: "green",
-    padding: "10px 20px 10px 20px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 104
     },
     __self: this
-  }, "Ways to Give"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
     width: [1, 1, 1],
     color: "white",
     bg: "green",
-    padding: "10px 20px 10px 20px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 105
     },
     __self: this
-  }, "Found an Animal"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  })))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
-    width: [1, 1, 1],
+    width: [1 / 4, 1 / 4, 1 / 4],
     color: "white",
-    bg: "green",
-    padding: "10px 20px 10px 20px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 109
     },
     __self: this
-  }, "News and Events"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    p: 5,
-    fontSize: 2,
-    width: [1, 1, 1],
-    color: "white",
-    bg: "green",
-    padding: "10px 20px 10px 20px",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Store")))));
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
-var styles = {
-  "background-color": "red" //"object-fit": "cover",
-  //"width": "100%",
-  //"position": "absolute",
-  //"padding": "64px 0px 64px 16px",
-
-};
 
 /***/ }),
 
@@ -207,7 +293,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.css */ "./components/Navbar.css");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/Navbar.js";
+var _jsxFileName = "/Users/AnnaBai/Rice/riceapps/ftwl2019/components/Navbar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // import logo from "../static/ftwllogo.png";
@@ -243,10 +329,10 @@ function Navbar() {
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../static/ftwllogo.png",
+    src: '../static/ftwllogo.png',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   })), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -259,7 +345,7 @@ function Navbar() {
     bg: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, "About Us"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -270,7 +356,7 @@ function Navbar() {
     bg: "orange",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 30
     },
     __self: this
   }, "Ways to Give"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -281,7 +367,7 @@ function Navbar() {
     bg: "yellow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 38
     },
     __self: this
   }, "Found an Animal?"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -292,7 +378,7 @@ function Navbar() {
     bg: "green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 46
     },
     __self: this
   }, "News & Events"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -303,43 +389,43 @@ function Navbar() {
     bg: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 54
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 60
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../static/Facebookicon.png",
+    src: '../static/Facebookicon.png',
     variant: "avatar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 61
     },
     __self: this
   }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../static/Instagramicon.png",
+    src: '../static/Instagramicon.png',
     variant: "avatar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 62
     },
     __self: this
   }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "../static/Twittericon.png",
+    src: '../static/Twittericon.png',
     variant: "avatar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 63
     },
     __self: this
   })), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 65
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Button"], {
@@ -347,7 +433,7 @@ function Navbar() {
     mr: 2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 66
     },
     __self: this
   }, "Donate"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Button"], {
@@ -355,7 +441,7 @@ function Navbar() {
     mr: 2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 69
     },
     __self: this
   }, "Contact Us")))));
@@ -363,9 +449,9 @@ function Navbar() {
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 var styles = {
-  "background-color": "white",
-  "text-color": "black",
-  "padding-bottom": 120
+  'background-color': 'white',
+  'text-color': 'black',
+  'padding-bottom': 120
 };
 
 /***/ }),
@@ -3746,10 +3832,10 @@ var colorStyle = variant({
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js!./":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FAnnaBai%2FRice%2Friceapps%2Fftwl2019%2Fpages%2Findex.js!./":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FAnnaBai%2FRice%2Friceapps%2Fftwl2019%2Fpages%2Findex.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4211,7 +4297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/pages/index.js";
+var _jsxFileName = "/Users/AnnaBai/Rice/riceapps/ftwl2019/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4250,13 +4336,13 @@ function Home() {
 /***/ }),
 
 /***/ 0:
-/*!********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js ***!
-  \********************************************************************************************************************************/
+/*!***********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FAnnaBai%2FRice%2Friceapps%2Fftwl2019%2Fpages%2Findex.js ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FAnnaBai%2FRice%2Friceapps%2Fftwl2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FAnnaBai%2FRice%2Friceapps%2Fftwl2019%2Fpages%2Findex.js!./");
 
 
 /***/ }),

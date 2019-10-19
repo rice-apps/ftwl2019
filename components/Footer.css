@@ -1,4 +1,14 @@
 .footer {
-    padding: 64px 0px 64px 16px;
-    background-color: orange;
+  font-family: 'Open Sans', sans-serif;
+  background: #114b0b;
+}
+
+.footer-header {
+  border: 0px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.footer-info {
+  font-size: 12px;
 }
