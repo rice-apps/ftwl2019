@@ -240,8 +240,9 @@ function Footer() {
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: '../static/facebook-icon.png',
     sx: {
-      width: ['25px', '25px']
+      width: ['30px', '30px']
     },
+    padding: "3px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104
@@ -250,21 +251,23 @@ function Footer() {
   }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: '../static/twitter-icon.png',
     sx: {
-      width: ['25px', '25px']
+      width: ['30px', '30px']
     },
+    padding: "3px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 111
     },
     __self: this
   }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: '../static/instagram-icon.png',
     sx: {
-      width: ['25px', '25px']
+      width: ['30px', '30px']
     },
+    padding: "3px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 118
     },
     __self: this
   }))))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -274,7 +277,7 @@ function Footer() {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 129
     },
     __self: this
   })));
