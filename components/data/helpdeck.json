@@ -1,0 +1,29 @@
+{
+    "cards":
+    [
+        {
+            "description": "Volunteer" ,
+            "heading":"Description" ,
+            "image":"FILL IN LATER",
+            "color": "lightcyan"
+        },
+        {
+            "description": "Donate" ,
+            "heading":"Description" ,
+            "image":"FILL IN LATER",
+            "color": "green"
+        },
+        {
+            "description": "Support the animals while giving your child a unique and memorable birthday party" ,
+            "heading":"Host a Party" ,
+            "image":"../static/party_image.png",
+            "color": "orange"
+        },
+        {
+            "description": "Support us while you shop, both online and offline" ,
+            "heading":"Support Us While Shopping" ,
+            "image":"../static/shopping_basket.png",
+            "color": "green"
+        }
+    ]
+}

@@ -1,7 +1,8 @@
 import Navbar from '../components/Navbar';
-import { Heading, Button } from 'rebass';
-import SmallCard from '../components/SmallCard';
+import { Heading, Text } from 'rebass';
+import HelpDeck from '../components/HelpDeck';
 // import theme from '../components/util/theme';
+import deck from '../components/data/helpdeck.json';
 
 function Help() {
   return (
@@ -13,16 +14,21 @@ function Help() {
             fontFamily: 'cursive',
             fontWeight: 400, 
             color: "green",
-            paddingBottom: 200         
         }}>
             How You Can Help
         </Heading>
 
-        <SmallCard 
-        description= "Support us while you shop, both online and offline" 
-        heading="Support Us While Shopping" 
-        image="../static/shopping_basket.png"/>
+        <Text
+        sx={{
+            textAlign : "center",
+            fontFamily: 'Helvetica',
+            fontWeight: 400, 
+            paddingBottom: 200         
+        }}>
+            Description
+        </Text>
 
+        <HelpDeck cards={deck.cards}/>
     </div>
   );
 }
