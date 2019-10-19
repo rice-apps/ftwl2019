@@ -63,7 +63,7 @@ function Footer() {
     fontSize: 2,
     width: [3 / 5, 3 / 5, 3 / 5],
     color: "white",
-    padding: "64px 30px 64px 0px",
+    padding: "32px 30px 32px 0px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -94,7 +94,7 @@ function Footer() {
     fontSize: 2,
     width: [2 / 5, 2 / 5, 2 / 5],
     color: "white",
-    padding: "64px 0px 64px 0px",
+    padding: "32px 0px 32px 0px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -149,7 +149,7 @@ function Footer() {
     fontSize: 2,
     width: [1, 1, 1],
     color: "white",
-    padding: "64px 0px 64px 20px",
+    padding: "32px 0px 32px 20px",
     height: "100px",
     __source: {
       fileName: _jsxFileName,
@@ -164,7 +164,7 @@ function Footer() {
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
-    fontSize: "13px",
+    fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
     color: "white",
     padding: "0px 10px 10px 10px",
@@ -186,7 +186,7 @@ function Footer() {
     __self: this
   }, "Ways to Give"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
-    fontSize: "13px",
+    fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
     color: "white",
     padding: "0px 10px 10px 10px",
@@ -197,7 +197,7 @@ function Footer() {
     __self: this
   }, "Found an Animal"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
-    fontSize: "13px",
+    fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
     color: "white",
     padding: "0px 10px 10px 10px",
@@ -208,7 +208,7 @@ function Footer() {
     __self: this
   }, "News & Events"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
-    fontSize: "13px",
+    fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
     color: "white",
     padding: "0px 10px 10px 10px",
@@ -224,52 +224,57 @@ function Footer() {
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    alignContent: "flex-end",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
     },
     __self: this
-  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    p: 5,
-    fontSize: 2,
-    width: [1, 1, 1],
-    color: "white",
-    bg: "green",
+  }, __jsx("div", {
+    className: "media-icons",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103
     },
     __self: this
-  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    p: 5,
-    fontSize: 2,
-    width: [1, 1, 1],
-    color: "white",
-    bg: "green",
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/facebook-icon.png',
+    sx: {
+      width: ['25px', '25px']
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104
     },
     __self: this
-  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    p: 5,
-    fontSize: 2,
-    width: [1, 1, 1],
-    color: "white",
-    bg: "green",
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/twitter-icon.png',
+    sx: {
+      width: ['25px', '25px']
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 110
     },
     __self: this
-  })))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/instagram-icon.png',
+    sx: {
+      width: ['25px', '25px']
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }))))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
     width: [1 / 4, 1 / 4, 1 / 4],
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 126
     },
     __self: this
   })));

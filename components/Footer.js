@@ -17,7 +17,7 @@ function Footer() {
           fontSize={2}
           width={[3 / 5, 3 / 5, 3 / 5]}
           color="white"
-          padding="64px 30px 64px 0px">
+          padding="32px 30px 32px 0px">
           <div class="footer-header">Friends of Texas Wildlife</div>
           <div class="footer-info">
             <p>
@@ -33,7 +33,7 @@ function Footer() {
           fontSize={2}
           width={[2 / 5, 2 / 5, 2 / 5]}
           color="white"
-          padding="64px 0px 64px 0px">
+          padding="32px 0px 32px 0px">
           <div class="footer-header">Contact Us</div>
           <div class="footer-info">
             <p>
@@ -59,12 +59,12 @@ function Footer() {
           fontSize={2}
           width={[1, 1, 1]}
           color="white"
-          padding="64px 0px 64px 20px"
+          padding="32px 0px 32px 20px"
           height="100px">
           <Flex>
             <Box
               p={5}
-              fontSize="13px"
+              fontSize="12px"
               width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
               padding="0px 10px 10px 10px">
@@ -75,7 +75,7 @@ function Footer() {
             </Box>
             <Box
               p={5}
-              fontSize="13px"
+              fontSize="12px"
               width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
               padding="0px 10px 10px 10px">
@@ -83,7 +83,7 @@ function Footer() {
             </Box>
             <Box
               p={5}
-              fontSize="13px"
+              fontSize="12px"
               width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
               padding="0px 10px 10px 10px">
@@ -91,7 +91,7 @@ function Footer() {
             </Box>
             <Box
               p={5}
-              fontSize="13px"
+              fontSize="12px"
               width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
               padding="0px 10px 10px 10px">
@@ -99,10 +99,27 @@ function Footer() {
             </Box>
           </Flex>
           <Box>
-            <Flex>
-              <Box p={5} fontSize={2} width={[1, 1, 1]} color="white" bg="green"></Box>
-              <Box p={5} fontSize={2} width={[1, 1, 1]} color="white" bg="green"></Box>
-              <Box p={5} fontSize={2} width={[1, 1, 1]} color="white" bg="green"></Box>
+            <Flex alignContent="flex-end">
+              <div className="media-icons">
+                <Image
+                  src={'../static/facebook-icon.png'}
+                  sx={{
+                    width: ['25px', '25px'],
+                  }}
+                />
+                <Image
+                  src={'../static/twitter-icon.png'}
+                  sx={{
+                    width: ['25px', '25px'],
+                  }}
+                />
+                <Image
+                  src={'../static/instagram-icon.png'}
+                  sx={{
+                    width: ['25px', '25px'],
+                  }}
+                />
+              </div>
             </Flex>
           </Box>
         </Box>
