@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { Heading, Text } from 'rebass';
 import HelpDeck from '../components/HelpDeck';
 // import theme from '../components/util/theme';
@@ -29,6 +30,7 @@ function Help() {
         </Text>
 
         <HelpDeck cards={deck.cards}/>
+        <Footer/>
     </div>
   );
 }

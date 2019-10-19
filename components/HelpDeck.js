@@ -4,10 +4,11 @@ function HelpDeck(props) {
     return(
         <div style={{
             margin: "auto",
-            height: "60%",
-            width: "60%",
+            height: "50%",
+            width: "50%",
             flexDirection:"row", 
             display: "flex", 
+            flexWrap: "wrap",
             justifyContent: "space-around"}}>
             
             {console.log(props.cards)}
