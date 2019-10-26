@@ -1,4 +1,18 @@
+.form {
+    width: 40%;
+    padding: 0px 0px 200px 0px;
+}
+.box {
+    text-align: center;
+    line-height: 180px;
+    vertical-align: text-bottom;
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
 
+}
 .footer {
   font-family: 'Open Sans', sans-serif;
   background: #114b0b;
