@@ -1,0 +1,45 @@
+import React from 'react';
+import TextImage from './TextImage.js';
+import { text } from './Animal.json';
+
+function FoundAnimal() {
+  return (
+    <div className="found-animal">
+      {text.map(t => {
+        return <TextImage title={t.title} text={t.text} image={t.image} />;
+      })}
+      {/* <TextImage
+        title="Background"
+        text="We are often called upon to help what appears to be an orphaned fawn when in actuality;
+        it’s not orphaned at all. Fawns are often left alone for several hours while the mother is looking for food."
+      />
+      <TextImage
+        title="How to help"
+        text="1. If a fawn is obviously ill, lying on its side, kicking, crying or is covered with
+          fire ants, pick it up and place it in a box or animal carrier.
+          A light cloth placed over the animal's head will sometimes calm it. Keep it
+          away from pets and all human activity. Call Friends of Texas Wildlife at once for
+          help. 
+          2. If an uninjured fawn is seen, leave it alone and leave the area.
+          The fawn would not be there if the doe were not nearby. You will not see her.
+          She will return for the fawn only when there are no humans nearby. If you have removed
+          the fawn from its resting spot, TAKE IT BACK AT ONCE and walk away. The doe will be
+          searching for her fawn and will accept it even with a human scent on it."
+        image={'../static/fawn1.png'}
+      />
+      <TextImage
+        title="Don’t pet, feed, talk to or hold the fawn."
+        text="This is a wild animal. Human voices, odor and touch only add to the stress and will cause additional harm. 
+
+        Do not try to make a wild animal your pet. Not only is it not fair to the animal, it is against the law. 
+        According to Chapter 63, Section 63.002 of the Parks and Wildlife Code no person can possess a live game 
+        animal for any purpose not authorized by their code. The first offense for illegal possession of a live deer 
+        is a Class C misdemeanor punishable by a fine of up to $500 plus court costs. There are similar laws for 
+        possession of other animals such as raccoons."
+        image={'../static/fawn2.png'}
+      /> */}
+    </div>
+  );
+}
+
+export default FoundAnimal;
