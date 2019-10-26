@@ -1,28 +1,49 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
-// import './Footer.css';
+import './Footer.css';
 
 function Footer() {
   return (
-    <div className="footer" style={styles}>
+    <div className="footer">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+          rel="stylesheet"></link>
+      </head>
       <Flex>
-        <Box p={5} fontSize={2} width={[1 / 2, 1 / 2, 1 / 2]} color="white" bg="green">
-          <h1>Friends of Texas Wildlife</h1>
-          <p>
-            Friends of Texas Wildlife is a 501(c)(3) non-profit organization; 100% of all donations
-            support native Texas wildlife and are tax deductible to the extent permitted by law.
-          </p>
+        <Box p={5} fontSize={2} width={[1 / 4, 1 / 4, 1 / 4]} color="white"></Box>
+        <Box
+          p={5}
+          fontSize={2}
+          width={[3 / 5, 3 / 5, 3 / 5]}
+          color="white"
+          padding="32px 30px 32px 0px">
+          <div class="footer-header">Friends of Texas Wildlife</div>
+          <div class="footer-info">
+            <p>
+              Friends of Texas Wildlife is a 501(c)(3) non-profit organization; 100% of all
+              donations support native Texas wildlife and are tax deductible to the extent permitted
+              by law.
+            </p>
+          </div>
         </Box>
 
-        <Box p={5} fontSize={2} width={[1 / 2, 1 / 2, 1 / 2]} color="white" bg="green">
-          <h1>Contact Us</h1>
-          <p>
-            Friends of Texas Wildlife<br></br>
-            29615 Highland Blvd<br></br>
-            Magnolia, TX 77354<br></br>
-            (281) 259-0039<br></br>
-            ftwl.center@gmail.com
-          </p>
+        <Box
+          p={5}
+          fontSize={2}
+          width={[2 / 5, 2 / 5, 2 / 5]}
+          color="white"
+          padding="32px 0px 32px 0px">
+          <div class="footer-header">Contact Us</div>
+          <div class="footer-info">
+            <p>
+              Friends of Texas Wildlife<br></br>
+              29615 Highland Blvd<br></br>
+              Magnolia, TX 77354<br></br>
+              (281) 259-0039<br></br>
+              ftwl.center@gmail.com
+            </p>
+          </div>
           {/* <ul style={{ "list-style-type": "none" }}>
                         <li>Friends of Texas Wildlife</li>
                         <li>29615 Highland Blvd</li>
@@ -33,76 +54,82 @@ function Footer() {
         </Box>
 
         {/* Bottom tabs */}
-        <Box p={5} fontSize={2} width={[1, 1, 1]} color="white" bg="green">
+        <Box
+          p={5}
+          fontSize={2}
+          width={[1, 1, 1]}
+          color="white"
+          padding="32px 0px 32px 20px"
+          height="100px">
           <Flex>
             <Box
               p={5}
-              fontSize={2}
-              width={[1, 1, 1]}
+              fontSize="12px"
+              width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
-              bg="green"
-              padding="10px 20px 10px 20px">
+              padding="0px 10px 10px 10px">
               About Us
             </Box>
-            <Box
-              p={5}
-              fontSize={2}
-              width={[1, 1, 1]}
-              color="white"
-              bg="green"
-              padding="10px 20px 10px 20px">
+            <Box p={5} fontSize="13px" width={[1, 1, 1]} color="white" padding="0px 10px 10px 10px">
               Ways to Give
             </Box>
             <Box
               p={5}
-              fontSize={2}
-              width={[1, 1, 1]}
+              fontSize="12px"
+              width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
-              bg="green"
-              padding="10px 20px 10px 20px">
+              padding="0px 10px 10px 10px">
               Found an Animal
             </Box>
             <Box
               p={5}
-              fontSize={2}
-              width={[1, 1, 1]}
+              fontSize="12px"
+              width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
-              bg="green"
-              padding="10px 20px 10px 20px">
-              News and Events
+              padding="0px 10px 10px 10px">
+              News &amp; Events
             </Box>
             <Box
               p={5}
-              fontSize={2}
-              width={[1, 1, 1]}
+              fontSize="12px"
+              width={[2 / 3, 2 / 3, 2 / 3]}
               color="white"
-              bg="green"
-              padding="10px 20px 10px 20px">
+              padding="0px 10px 10px 10px">
               Store
             </Box>
           </Flex>
+          <Box>
+            <Flex alignContent="flex-end">
+              <div className="media-icons">
+                <Image
+                  src={'../static/facebook-icon.png'}
+                  sx={{
+                    width: ['30px', '30px'],
+                  }}
+                  padding="3px"
+                />
+                <Image
+                  src={'../static/twitter-icon.png'}
+                  sx={{
+                    width: ['30px', '30px'],
+                  }}
+                  padding="3px"
+                />
+                <Image
+                  src={'../static/instagram-icon.png'}
+                  sx={{
+                    width: ['30px', '30px'],
+                  }}
+                  padding="3px"
+                />
+              </div>
+            </Flex>
+          </Box>
         </Box>
-
-        {/* Facebook, Twitter, Instagram
-                <Flex>
-                    <Box p={5} fontSize={2} width={[1, 1, 1]} color='white' bg='green'>
-                    </Box>
-                    <Box p={5} fontSize={2} width={[1, 1, 1]} color='white' bg='green'>
-                    </Box>
-                    <Box p={5} fontSize={2} width={[1, 1, 1]} color='white' bg='green'>
-                    </Box>
-                </Flex> */}
+        <Box p={5} fontSize={2} width={[1 / 4, 1 / 4, 1 / 4]} color="white"></Box>
       </Flex>
     </div>
   );
 }
 
 export default Footer;
-
-const styles = {
-  'background-color': 'red',
-  //"object-fit": "cover",
-  //"width": "100%",
-  //"position": "absolute",
-  //"padding": "64px 0px 64px 16px",
-};
