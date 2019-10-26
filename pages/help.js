@@ -4,6 +4,7 @@ import { Heading, Text } from 'rebass';
 import HelpDeck from '../components/HelpDeck';
 // import theme from '../components/util/theme';
 import deck from '../components/data/helpdeck.json';
+import ColoredCard from '../components/ColoredCard';
 
 function Help() {
   return (
@@ -18,7 +19,6 @@ function Help() {
         }}>
             How You Can Help
         </Heading>
-
         <Text
         sx={{
             textAlign : "center",
@@ -31,6 +31,8 @@ function Help() {
 
         <HelpDeck cards={deck.cards}/>
         <Footer/>
+
+        
     </div>
   );
 }
