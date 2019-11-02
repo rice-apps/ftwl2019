@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Hands from '../Images/hands_icon.png';
+import Hands from '../static/home/hands.png';
 import './WaysToGive2.css';
 
 export default class WaysToGive2 extends Component {
