@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -14,7 +14,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.css */ "./components/Footer.css");
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_2__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/components/Footer.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\components\\Footer.js";
+>>>>>>> origin/feature-6
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -301,7 +305,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.css */ "./components/Navbar.css");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_2__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/components/Navbar.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\components\\Navbar.js";
+>>>>>>> origin/feature-6
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // import logo from "../static/ftwllogo.png";
@@ -8351,10 +8359,17 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnewtonhuynh%2FDesktop%2FCoding%2Fftwl2019%2Fpages%2Findex.js!./":
 /*!************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnewtonhuynh%2FDesktop%2FCoding%2Fftwl2019%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************************************************/
+=======
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CGuai%5CDesktop%5Cftwl2019%5Cpages%5Cindex.js!./":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CGuai%5CDesktop%5Cftwl2019%5Cpages%5Cindex.js ***!
+  \************************************************************************************************************************************************************************/
+>>>>>>> origin/feature-6
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14310,7 +14325,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/pages/index.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\pages\\index.js";
+>>>>>>> origin/feature-6
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -14363,6 +14382,7 @@ function Home() {
 /***/ }),
 
 /***/ 0:
+<<<<<<< HEAD
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fnewtonhuynh%2FDesktop%2FCoding%2Fftwl2019%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -14370,6 +14390,15 @@ function Home() {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fnewtonhuynh%2FDesktop%2FCoding%2Fftwl2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnewtonhuynh%2FDesktop%2FCoding%2Fftwl2019%2Fpages%2Findex.js!./");
+=======
+/*!****************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CGuai%5CDesktop%5Cftwl2019%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CGuai%5CDesktop%5Cftwl2019%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CGuai%5CDesktop%5Cftwl2019%5Cpages%5Cindex.js!./");
+>>>>>>> origin/feature-6
 
 
 /***/ }),

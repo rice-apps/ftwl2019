@@ -119,7 +119,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.css */ "./components/Footer.css");
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_2__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/components/Footer.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\components\\Footer.js";
+>>>>>>> origin/feature-6
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -418,7 +422,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.css */ "./components/Navbar.css");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_2__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/components/Navbar.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\components\\Navbar.js";
+>>>>>>> origin/feature-6
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // import logo from "../static/ftwllogo.png";
@@ -2363,7 +2371,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+<<<<<<< HEAD
 var _jsxFileName = "/Users/newtonhuynh/Desktop/Coding/ftwl2019/pages/index.js";
+=======
+var _jsxFileName = "C:\\Users\\Guai\\Desktop\\ftwl2019\\pages\\index.js";
+>>>>>>> origin/feature-6
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2422,7 +2434,11 @@ function Home() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! /Users/newtonhuynh/Desktop/Coding/ftwl2019/pages/index.js */"./pages/index.js");
+=======
+module.exports = __webpack_require__(/*! C:\Users\Guai\Desktop\ftwl2019\pages\index.js */"./pages/index.js");
+>>>>>>> origin/feature-6
 
 
 /***/ }),

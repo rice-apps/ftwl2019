@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-6
 .box {
     text-align: center;
     line-height: 180px;
@@ -9,6 +12,7 @@
     font-weight: 600;
     font-size: 18px;
 
+<<<<<<< HEAD
 =======
 .TextImage {
 }
@@ -32,6 +36,8 @@
     font-size: 18px;
 
 >>>>>>> origin/feature-#8
+=======
+>>>>>>> origin/feature-6
 }
 .footer {
   font-family: 'Open Sans', sans-serif;
@@ -56,6 +62,7 @@
   padding: 1px;
 } */
 
+<<<<<<< HEAD
 .Card{
     font-family: "Kollektif";
     line-height: 0.75;
@@ -64,5 +71,27 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+=======
+.toprow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sublist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+>>>>>>> origin/feature-6
 
 /*# sourceMappingURL=styles.chunk.css.map*/
