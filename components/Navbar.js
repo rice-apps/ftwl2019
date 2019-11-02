@@ -113,5 +113,5 @@ export default Navbar;
 const styles = {
   'background-color': 'white',
   'text-color': 'black',
-  'padding-bottom': 120,
+  'padding-bottom': 40,
 };

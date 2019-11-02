@@ -9,9 +9,10 @@ function HelpDeck(props) {
             flexDirection:"row", 
             display: "flex", 
             flexWrap: "wrap",
-            justifyContent: "space-around"}}>
+            justifyContent: "space-around",
+            paddingBottom: 200,
+            }}>
             
-            {console.log(props.cards)}
             {props.cards.map((card, i) => {
             return (<SmallCard 
                 key= {i}
