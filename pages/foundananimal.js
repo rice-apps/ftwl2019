@@ -1,15 +1,13 @@
 import Navbar from '../components/Navbar';
+import FoundAnAnimal from '../components/FoundAnAnimal';
 import Footer from '../components/Footer';
-import AnimalTopRow from '../components/animal/AnimalTopRow';
-import AnimalList from '../components/animal/AnimalList';
 
 function Home() {
   return (
     <div>
-      <Navbar></Navbar>
-      <AnimalTopRow></AnimalTopRow>
-      <AnimalList></AnimalList>
-      <Footer></Footer>
+      <Navbar />
+      <FoundAnAnimal />
+      <Footer />
     </div>
   );
 }
