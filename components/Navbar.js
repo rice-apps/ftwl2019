@@ -111,7 +111,7 @@ function Navbar() {
 export default Navbar;
 
 const styles = {
-  'background-color': 'white',
-  'text-color': 'black',
-  'padding-bottom': 40,
+  'backgroundColor': 'white',
+  'textColor': 'black',
+  // 'paddingBottom': 40,
 };

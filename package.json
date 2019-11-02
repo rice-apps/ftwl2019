@@ -8,6 +8,7 @@
     "@zeit/next-css": "^1.0.1",
     "eslint": "^6.5.1",
     "next": "^9.0.8-canary.4",
+    "next-images": "^1.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "rebass": "^4.0.6"
