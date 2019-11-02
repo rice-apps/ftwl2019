@@ -5,11 +5,10 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <head>
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-          rel="stylesheet"></link>
-      </head>
+          rel="stylesheet">
+          </link>
       <Flex>
         <Box p={5} fontSize={2} width={[1 / 4, 1 / 4, 1 / 4]} color="white"></Box>
         <Box
@@ -18,8 +17,8 @@ function Footer() {
           width={[3 / 5, 3 / 5, 3 / 5]}
           color="white"
           padding="32px 30px 32px 0px">
-          <div class="footer-header">Friends of Texas Wildlife</div>
-          <div class="footer-info">
+          <div className="footer-header">Friends of Texas Wildlife</div>
+          <div className="footer-info">
             <p>
               Friends of Texas Wildlife is a 501(c)(3) non-profit organization; 100% of all
               donations support native Texas wildlife and are tax deductible to the extent permitted
@@ -34,8 +33,8 @@ function Footer() {
           width={[2 / 5, 2 / 5, 2 / 5]}
           color="white"
           padding="32px 0px 32px 0px">
-          <div class="footer-header">Contact Us</div>
-          <div class="footer-info">
+          <div className="footer-header">Contact Us</div>
+          <div className="footer-info">
             <p>
               Friends of Texas Wildlife<br></br>
               29615 Highland Blvd<br></br>
