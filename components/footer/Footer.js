@@ -5,10 +5,9 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-          rel="stylesheet">
-          </link>
+      <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"></link>
       <Flex>
         <Box p={5} fontSize={2} width={[1 / 4, 1 / 4, 1 / 4]} color="white"></Box>
         <Box

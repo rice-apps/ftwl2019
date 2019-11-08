@@ -1,18 +1,18 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import MainDeer from '../components/MainDeer';
-import NeedAssistance from '../components/NeedAssistance';
-import WaysToGive2 from '../components/WaysToGive2';
+import Navbar from '../components/util/Navbar';
+import Footer from '../components/util/Footer';
+import MainDeer from '../components/splashpage/MainDeer';
+import NeedAssistance from '../components/splashpage/NeedAssistance';
+import WaysToGive2 from '../components/splashpage/NeedAssistance';
 
 function Home() {
-    return (
-        <div>
-            <Navbar/>
-            <MainDeer/>
-            <NeedAssistance/>
-            <WaysToGive2/>
-            <Footer/>
-        </div>
-    )
+  return (
+    <div>
+      <Navbar />
+      <MainDeer />
+      <NeedAssistance />
+      <WaysToGive2 />
+      <Footer />
+    </div>
+  );
 }
 export default Home;

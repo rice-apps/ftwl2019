@@ -1,4 +1,4 @@
-import { Image, Text, Box } from 'rebass';
+import { Image } from 'rebass';
 import './AnimalTopRow.css';
 
 function AnimalTopRow() {

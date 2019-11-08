@@ -1,14 +1,14 @@
-.DHDCopyWrapper{
+.DHDCopyWrapper {
   height: 100vh;
   width: 100vw;
 }
 
-.MenuPlaceholder{
+.MenuPlaceholder {
   height: 12vh;
   width: 100vw;
 }
 
-#DHDMain{
+#DHDMain {
   height: 88vh;
   width: 100vw;
   background-image: url('../static/home/deer.png');
@@ -16,7 +16,7 @@
   color: white;
 }
 
-#DHDTextWrapper{
+#DHDTextWrapper {
   height: 50vh;
   width: 80vw;
   position: absolute;
@@ -24,7 +24,7 @@
   margin-top: 20vh;
 }
 
-#DHDMain h1{
+#DHDMain h1 {
   position: absolute;
   font-size: calc(30px + 2.3vw + 1vh);
   font-style: italic;
@@ -32,13 +32,13 @@
   font-weight: normal;
 }
 
-#DHDMain h2{
+#DHDMain h2 {
   position: absolute;
   margin-top: 18vh;
   font-size: 3vh;
 }
 
-#learnBox{
+#learnBox {
   height: 5vh;
   width: 13vw;
   position: absolute;

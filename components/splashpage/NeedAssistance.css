@@ -1,15 +1,15 @@
-.NAWrapper{
+.NAWrapper {
   height: 100vh;
   width: 100vw;
 }
 
-#randbunny{
+#randbunny {
   height: 100vh;
   position: absolute;
   left: 0vw;
 }
 
-.NATextWrapper{
+.NATextWrapper {
   height: 100vh;
   width: 63vw;
   position: absolute;
@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.NAText{
+.NAText {
   height: 70vh;
   width: 45vw;
   display: flex;
@@ -30,21 +30,20 @@
   color: #646464;
 }
 
-#NATitle{
+#NATitle {
   font-size: calc(35px + 2.5vw + 1.2vh);
   font-style: italic;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
-
 }
 
-.NAinfo{
+.NAinfo {
   font-size: 3vh;
   font-weight: bold;
   margin-top: 2vh;
 }
 
-#callIcon{
+#callIcon {
   height: 3vh;
   width: 3vh;
   margin-right: 1vw;
@@ -52,14 +51,14 @@
   top: 0.3vh;
 }
 
-#clockBg{
+#clockBg {
   height: 3vh;
   width: 3vh;
   position: relative;
   top: 0.3vh;
 }
 
-#clockHand{
+#clockHand {
   height: 2.3vh;
   width: 1vh;
   left: -1vw;
@@ -68,7 +67,7 @@
   z-index: 1;
 }
 
-#calendarIcon{
+#calendarIcon {
   height: 3vh;
   width: 3vh;
   margin-right: 1vw;
@@ -76,17 +75,17 @@
   top: 0.3vh;
 }
 
-#NAparagraph{
+#NAparagraph {
   margin-top: 2vh;
 }
 
-.NAText p{
+.NAText p {
   color: #969696;
   text-align: left;
   font-size: 2vh;
 }
 
-#WildlifeHelpBox{
+#WildlifeHelpBox {
   height: 6vh;
   width: 14vw;
   margin-top: 5vh;
