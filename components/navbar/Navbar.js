@@ -57,6 +57,6 @@ function Navbar() {
 export default Navbar;
 
 const styles = {
-  'backgroundColor': 'white',
-  'textColor': 'black',
+  backgroundColor: 'white',
+  textColor: 'black',
 };

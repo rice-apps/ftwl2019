@@ -1,6 +1,6 @@
 import { Box, Image, Flex } from 'rebass';
 import Link from 'next/link';
-import Title from '../Title';
+import Title from '../util/Title';
 import './Sponsors.css';
 
 function Logo(props) {

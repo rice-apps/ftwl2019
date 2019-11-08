@@ -1,4 +1,4 @@
-import { Image, Text, Box, Flex } from 'rebass';
+import { Box } from 'rebass';
 import './AnimalList.css';
 
 function AnimalList() {

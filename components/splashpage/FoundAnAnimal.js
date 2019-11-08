@@ -1,6 +1,6 @@
-import Title from './Title';
-import AnimalTopRow from './animal/AnimalTopRow';
-import ColoredCard from './ColoredCard';
+import Title from '../util/Title';
+import AnimalTopRow from '../animal/AnimalTopRow';
+import ColoredCard from '../util/ColoredCard';
 import './FoundAnAnimal.css';
 
 function FoundAnAnimal() {
