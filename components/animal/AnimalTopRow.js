@@ -9,28 +9,28 @@ function AnimalTopRow() {
         pr={3}
         pl={3}
         sx={{
-          size: ['16%'],
+          size: ['23%'],
         }}></Image>
       <Image
         src={'../static/animals/Birds.png'}
         pr={3}
         pl={3}
         sx={{
-          size: ['16%'],
+          size: ['23%'],
         }}></Image>
       <Image
         src={'../static/animals/Squirrels.png'}
         pr={3}
         pl={3}
         sx={{
-          size: ['16%'],
+          size: ['23%'],
         }}></Image>
       <Image
         src={'../static/animals/Fawns.png'}
         pr={3}
         pl={3}
         sx={{
-          size: ['16%'],
+          size: ['23%'],
         }}></Image>
     </div>
   );
