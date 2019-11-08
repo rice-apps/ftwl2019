@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Sponsors from '../components/splashpage/Sponsors'
 import Link from 'next/link';
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <Link href='/help'>
         <a>How to Help</a>
       </Link>
+      <Sponsors />
       <Footer />
     </div>
   );
