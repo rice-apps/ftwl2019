@@ -3,11 +3,13 @@ import TextImage from '../components/found-animal-single/TextImage.js';
 import Navbar from '../components/navbar/Navbar.js';
 import Footer from '../components/footer/Footer.js';
 import Animal from '../components/found-animal-single/Animal.js';
+import Title from '../components/util/Title.js';
 
 function FoundAnimal() {
   return (
     <div className="found-animal">
       <Navbar />
+      <Title title="Fawns" />
       <Animal />
       <Footer />
     </div>
