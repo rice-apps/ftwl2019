@@ -6,7 +6,7 @@ import { Label, Input } from '@rebass/forms';
 function InputItem1(props) {
     return (
         <div>
-            <Box height="80px" padding="10px">
+            <Box height="80px" width={1} padding="10px">
                 <Label>{props.label}</Label>
                 <Input
                     placeholder=''
