@@ -8,15 +8,17 @@ function TextImage(props) {
       <Flex>
         <Box>
           <p>
-            <div className="title">
+            <div className="header">
               <b>{props.title}</b>
             </div>
           </p>
           <div className="body">
-            <p>{props.text}</p>
+            {props.text.map(t => {
+              return <p>{t}</p>;
+            })}
           </div>
         </Box>
-        <img src={props.image} />
+        {props.image ? <img src={props.image} /> : null}
       </Flex>
     </div>
   );
