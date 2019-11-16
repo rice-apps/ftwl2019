@@ -5,7 +5,7 @@ function MainDeer() {
   return (
     <div className="DHDCopyWrapper">
       <div className="MenuPlaceholder"></div>
-      <style JSX>
+      <style jsx>
         {`
         #DHDMain {
         height: 88vh;
