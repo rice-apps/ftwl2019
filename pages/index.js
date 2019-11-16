@@ -9,7 +9,6 @@ import Link from 'next/link';
 function Home() {
   return (
     <div>
-      hello
       <Navbar />
       <MainDeer />
       <NeedAssistance />

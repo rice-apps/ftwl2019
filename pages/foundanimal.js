@@ -1,15 +1,15 @@
 import Navbar from '../components/navbar/Navbar';
-import FoundAnAnimal from '../components/FoundAnAnimal';
+import FoundAnimalHome from '../components/found-animal/FoundAnimalHome';
 import Footer from '../components/footer/Footer';
 
-function Home() {
+function FoundAnimal() {
   return (
     <div>
       <Navbar />
-      <FoundAnAnimal />
+      <FoundAnimalHome />
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default FoundAnimal;
