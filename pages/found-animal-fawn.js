@@ -4,13 +4,15 @@ import Navbar from '../components/navbar/Navbar.js';
 import Footer from '../components/footer/Footer.js';
 import Animal from '../components/found-animal-single/Animal.js';
 import Title from '../components/util/Title.js';
+import Creature from '../components/found-animal-single/Fawn.json';
+
 
 function FoundAnimal() {
   return (
     <div className="found-animal">
       <Navbar />
       <Title title="Fawns" />
-      <Animal />
+      <Animal animal={Creature}/>
       <Footer />
     </div>
   );
