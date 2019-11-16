@@ -13,9 +13,10 @@ function Form() {
                 <InputItem1 label="Last Name"></InputItem1>
                 <InputItem1 label="Email"></InputItem1>
                 <InputItem2 label="Your Message" height="200px"></InputItem2>
-                <Button variant='outline' color='green'>Submit</Button>
+                <Button variant='outline' color='green'>SUBMIT</Button>
             </Box>
-            <Box width={1 / 2}>
+
+            <Box width={1 / 2} >
                 <ContactImages></ContactImages>
             </Box>
             <Box width={1 / 5}></Box>
