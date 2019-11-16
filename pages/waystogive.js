@@ -4,7 +4,7 @@ import HelpDeck from '../components/util/HelpDeck';
 import deck from '../components/data/helpdeck.json';
 import Title from '../components/util/Title';
 
-function Help() {
+function WaysToGive() {
   return (
     <div>
       <Navbar />
@@ -15,4 +15,4 @@ function Help() {
   );
 }
 
-export default Help;
+export default WaysToGive;

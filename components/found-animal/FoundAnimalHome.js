@@ -1,9 +1,9 @@
 import Title from '../util/Title';
 import AnimalTopRow from '../animal/AnimalTopRow';
 import ColoredCard from '../util/ColoredCard';
-import './FoundAnAnimal.css';
+import './FoundAnimalHome.css';
 
-function FoundAnAnimal() {
+function FoundAnimalHome() {
   return (
     <div>
       <Title title="Found an animal?" subtitle="Don't panic! We can help." />
@@ -29,4 +29,4 @@ function FoundAnAnimal() {
   );
 }
 
-export default FoundAnAnimal;
+export default FoundAnimalHome;

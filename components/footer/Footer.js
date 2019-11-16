@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Flex, Image } from 'rebass';
+import Link from 'next/link';
 import './Footer.css';
 
 function Footer() {
@@ -32,7 +33,9 @@ function Footer() {
           width={[2 / 5, 2 / 5, 2 / 5]}
           color="white"
           padding="32px 0px 32px 0px">
-          <div className="footer-header">Contact Us</div>
+          <Link href="/contactus">
+            <div className="footer-header">Contact Us</div>
+          </Link>
           <div className="footer-info">
             <p>
               Friends of Texas Wildlife<br></br>
@@ -60,25 +63,36 @@ function Footer() {
           padding="32px 0px 32px 20px"
           height="100px">
           <Flex>
-            <Box
-              p={5}
-              fontSize="12px"
-              width={[2 / 3, 2 / 3, 2 / 3]}
-              color="white"
-              padding="0px 10px 10px 10px">
-              About Us
-            </Box>
-            <Box p={5} fontSize="13px" width={[1, 1, 1]} color="white" padding="0px 10px 10px 10px">
-              Ways to Give
-            </Box>
-            <Box
-              p={5}
-              fontSize="12px"
-              width={[2 / 3, 2 / 3, 2 / 3]}
-              color="white"
-              padding="0px 10px 10px 10px">
-              Found an Animal
-            </Box>
+            <Link href="/aboutus">
+              <Box
+                p={5}
+                fontSize="12px"
+                width={[2 / 3, 2 / 3, 2 / 3]}
+                color="white"
+                padding="0px 10px 10px 10px">
+                About Us
+              </Box>
+            </Link>
+            <Link href="/waystogive">
+              <Box
+                p={5}
+                fontSize="13px"
+                width={[1, 1, 1]}
+                color="white"
+                padding="0px 10px 10px 10px">
+                Ways to Give
+              </Box>
+            </Link>
+            <Link href="foundanimal">
+              <Box
+                p={5}
+                fontSize="12px"
+                width={[2 / 3, 2 / 3, 2 / 3]}
+                color="white"
+                padding="0px 10px 10px 10px">
+                Found an Animal
+              </Box>
+            </Link>
             <Box
               p={5}
               fontSize="12px"
