@@ -1,0 +1,35 @@
+{
+  "logo": "",
+
+  "headers": [
+    {
+      "name": "About Us",
+      "to": "/aboutus"
+    },
+    {
+      "name": "Ways to Give",
+      "to": "/waystogive"
+    },
+    {
+      "name": "Found an Animal?",
+      "to": "/foundanimal"
+    },
+    {
+      "name": "News & Events",
+      "to": ""
+    },
+    {
+      "name": "Store",
+      "to": ""
+    }
+  ],
+
+  "social": [
+    {
+      "name": "Facebook",
+      "img": ""
+    },
+    { "name": "Instagram", "img": "" },
+    { "name": "Twitter", "img": "" }
+  ]
+}
