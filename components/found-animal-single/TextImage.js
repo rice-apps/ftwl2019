@@ -13,7 +13,7 @@ function TextImage(props) {
             </div>
           </p>
           <div className="body">
-            {props.text.map(t => {
+            { props.text.map(t => {
               return <p>{t}</p>;
             })}
           </div>
