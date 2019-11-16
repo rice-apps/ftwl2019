@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box, Flex, Image, Button } from 'rebass';
 import Link from 'next/link';
-// import logo from "../static/ftwllogo.png";
+import logo from '../../static/ftwllogo.png';
+import json from './Navbar.json';
 import './Navbar.css';
 
 function Navbar() {
@@ -10,30 +11,18 @@ function Navbar() {
       <Flex sx={{ justifyContent: 'center' }}>
         <Link href="/">
           <Box fontSize={2} ml={150} mr="auto" width="auto" height="auto" color="black">
-            <Image sx={{ width: 116, height: 116, marginLeft: 0 }} src={'../static/ftwllogo.png'} />
+            <Image sx={{ width: 116, height: 116, marginLeft: 0 }} src={logo} />
           </Box>
         </Link>
-        <Link href="/aboutus">
-          <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
-            <div className="box">About Us</div>
-          </Box>
-        </Link>
-        <Link href="/waystogive">
-          <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
-            <div className="box">Ways to Give</div>
-          </Box>
-        </Link>
-        <Link href="/foundanimal">
-          <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
-            <div className="box">Found an Animal?</div>
-          </Box>
-        </Link>
-        <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
-          <div className="box">News & Events</div>
-        </Box>
-        <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
-          <div className="box">Store</div>
-        </Box>
+        {json.headers.map(h => {
+          return (
+            <Link href={h.to}>
+              <Box fontSize={2} ml="auto" mr="auto" width="auto" height="auto" color="black">
+                <div className="box">{h.name}</div>
+              </Box>
+            </Link>
+          );
+        })}
         <Box
           sx={{ verticalAlign: 'bottom' }}
           fontSize={2}
