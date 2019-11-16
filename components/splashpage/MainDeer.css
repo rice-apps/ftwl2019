@@ -3,18 +3,18 @@
   width: 100vw;
 }
 
-.MenuPlaceholder {
+/* .MenuPlaceholder {
   height: 12vh;
   width: 100vw;
-}
+} */
 
-#DHDMain {
+/* #DHDMain {
   height: 88vh;
   width: 100vw;
   background-image: url('../static/home/deer.png');
   background-size: 100vw 88vh;
   color: white;
-}
+} */
 
 #DHDTextWrapper {
   height: 50vh;
