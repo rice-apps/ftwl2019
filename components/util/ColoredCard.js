@@ -6,14 +6,13 @@ import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
 function ColoredCard(props) {
   return (
     <div>
-      <Box 
+      <Card
         className="Card"
-        height={props.cardheight == '' ? 'auto' : props.cardheight}
         width={props.cardwidth == '' ? 'auto' : props.cardwidth}
         bg={props.cardcolor}>
         <h1 style={{ letterSpacing: props.letterspacing }}>{props.line1text}</h1>
-        <h1 className="line2">{props.line2text}</h1>
-      </Box>
+        <h1>{props.line2text}</h1>
+      </Card>
     </div>
   );
 }
