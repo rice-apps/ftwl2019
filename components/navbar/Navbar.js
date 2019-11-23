@@ -19,20 +19,26 @@ function Navbar() {
 
   return (
     <div className='navbar-wrapper' style={style}>
-    {/* <div className='navbar-catagories'> */}
         <Link href="/">
           <Box ml={150} mr="auto" width="auto" height="auto" color="black">
             <Image sx={{ width: 100, height: 100}} src={logo} />
           </Box>
         </Link>
             {
-                navbar_headers.map(({ name, to, subheaders}) => (
+                navbar_headers.map(({ name, to, subheaders, absoluteTo}) => (
                     <div className='navbar-category' key={name}>
+                        {absoluteTo ? 
+                        <a href={absoluteTo}>
+                          <button className='navbar-dropdown-opener'>
+                              {name}
+                          </button>
+                        </a> : 
                         <Link href={to}>
                           <button className='navbar-dropdown-opener'>
                               {name}
                           </button>
                         </Link>
+                        }
                         <div className='dropdown-subheaders'>
                             {
                                 subheaders.map(({ name, to }) => (
@@ -43,7 +49,6 @@ function Navbar() {
                     </div>
                 ))
             }
-        {/* </div> */}
     </div>
   );
 }

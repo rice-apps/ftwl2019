@@ -85,7 +85,7 @@
         },
         {
             "name": "Store",
-            "to": "https://squareup.com/store/FTWL",
+            "absoluteTo": "https://squareup.com/store/FTWL",
             "subheaders": []
         }
     ]
