@@ -1,14 +1,9 @@
 .Card {
   font-family: 'Kollektif', sans-serif;
-  color: #ffffff;
-  line-height: 2;
+  color: 'white';
+  line-height: 0.75;
   text-align: center;
   box-shadow: 8px 8px 0px 0 #6c6c6c;
-  padding: 40px 0px;
-  margin: 0px;
-}
-
-.line2 {
-  margin: 0px;
-  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
