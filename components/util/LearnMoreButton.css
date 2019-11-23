@@ -1,0 +1,15 @@
+.LearnMoreBox {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   justify-content: center;
+   box-sizing: border-box;
+   border: solid #114B0B 2px 
+}
+
+.LearnMoreText {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.11em;
+    color: #114B0B
+}
