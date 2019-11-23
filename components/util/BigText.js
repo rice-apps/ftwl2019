@@ -1,17 +1,14 @@
 import React from 'react';
 import { Box } from 'rebass';
-import './Title.css';
+import './BigText.css';
 
-function Title(props) {
+function BigText(props) {
   return (
-    <Box className="title-container" width={props.width} ml="auto" mr="auto">
-      <link
-        href="https://fonts.googleapis.com/css?family=Playfair+Display:400i&display=swap"
-        rel="stylesheet"></link>
-      <div className="title">{props.title}</div>
-      <p className="subtitle">{props.subtitle}</p>
+    <Box className="body-container" width={props.width} ml="auto" mr="auto">
+      <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet"></link>
+      <div className="body">{props.body}</div>
     </Box>
   );
 }
 
-export default Title;
+export default BigText;
