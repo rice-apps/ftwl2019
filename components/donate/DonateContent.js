@@ -1,6 +1,5 @@
-import ContactImages from '../contact/ContactImages.js';
 import React from 'react';
-import { Box, Flex, Button } from 'rebass';
+import { Box, Flex, Button, Image } from 'rebass';
 
 function DonateContent() {
     return (
@@ -14,8 +13,8 @@ function DonateContent() {
                     malnourished, seriously ingured, and sick wildlife.
                 </p>
                 <Button variant='outline' color='green'>DONATE</Button>
-                <h2>Do you know how much it costs to <br></br>
-                    rehabilitate an animal?</h2>
+                <h1>Do you know how much it costs to <br></br>
+                    rehabilitate an animal?</h1>
                 <Flex>
                     <Box>
                         <ul>
@@ -36,7 +35,20 @@ function DonateContent() {
                 </Flex>
             </Box>
             <Box width={1 / 2}>
-                <ContactImages></ContactImages>
+                <Image
+                    src={'../static/placeholder.png'}
+                    sx={{
+                        width: ['325px', '325px'],
+                    }}
+                    padding="20px"
+                />
+                <Image
+                    src={'../static/placeholder.png'}
+                    sx={{
+                        width: ['325x', '325px'],
+                    }}
+                    padding="20px"
+                />
             </Box>
             <Box width={1 / 5}></Box>
         </Flex>
