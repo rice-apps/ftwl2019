@@ -6,10 +6,11 @@ function AboutUsBox(props) {
     <Box
       width="340px"
       height="340px"
-      bg="grey"
+      bg={props.color}
       style={{
         textAlign: 'center',
         display: 'flex',
+        alignContent: 'center',
         flexDirection: 'column',
         justifyContent: 'center',
       }}>
@@ -26,6 +27,8 @@ function AboutUsBox(props) {
         style={{
           fontWeight: 'normal',
           fontSize: '14px',
+          paddingLeft: "30px",
+          paddingRight: "30px",
         }}>
         {props.description}
       </h2>
