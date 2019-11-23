@@ -2,7 +2,7 @@ import Navbar from '../components/navbar/Navbar';
 import SupportUs from '../components/supportus/SupportUs';
 import Footer from '../components/footer/Footer';
 
-function Home() {
+function SupportUsPage() {
   return (
     <div>
       <Navbar />
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default SupportUs;
+export default SupportUsPage;
