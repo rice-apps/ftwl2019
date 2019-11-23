@@ -1,35 +1,92 @@
 {
-  "logo": "",
-
-  "headers": [
-    {
-      "name": "About Us",
-      "to": "/aboutus"
-    },
-    {
-      "name": "Ways to Give",
-      "to": "/waystogive"
-    },
-    {
-      "name": "Found an Animal?",
-      "to": "/foundanimal"
-    },
-    {
-      "name": "News & Events",
-      "to": ""
-    },
-    {
-      "name": "Store",
-      "to": ""
-    }
-  ],
-
-  "social": [
-    {
-      "name": "Facebook",
-      "img": ""
-    },
-    { "name": "Instagram", "img": "" },
-    { "name": "Twitter", "img": "" }
-  ]
+    "navbar_headers": [{
+            "name": "About Us",
+            "to" : "/aboutus",
+            "subheaders": [{
+                    "name": "Education and Community Outreach",
+                    "to": "/education-and-outreach"
+                },
+                {
+                    "name": "Our Intake Centers",
+                    "to": "/our-intake-centers"
+                },
+                {
+                    "name": "Our Board Members",
+                    "to": "/our-board-members"
+                }
+            ]
+        },
+        {
+            "name": "Ways to Give",
+            "to": "/waystogive",
+            "subheaders": [{
+                    "name": "Volunteer",
+                    "to": "/volunteer"
+                },
+                {
+                    "name": "Donate",
+                    "to": "/donate"
+                },
+                {
+                    "name": "Host A Party",
+                    "to": "/host-a-party"
+                },
+                {
+                    "name": "Donate Supplies",
+                    "to": "/events/calendar"
+                },
+                {
+                    "name": "Support Us While Shopping",
+                    "to": "/support-us-while-shopping"
+                }
+            ]
+        },
+        {
+            "name": "Found an Animal?",
+            "to": "/foundanimal",
+            "subheaders": [{
+                    "name": "Rabbits",
+                    "to": "/found-animal/bunny"
+                },
+                {
+                    "name": "Squirrels",
+                    "to": "/found-animal/squirrel"
+                },
+                {
+                    "name": "Birds",
+                    "to": "/found-animal/bird"
+                },
+                {
+                    "name": "Fawns",
+                    "to": "/found-animal/fawn"
+                }
+            ]
+        },
+        {
+            "name": "News & Events",
+            "to": "/events",
+            "subheaders": [{
+                    "name": "Upcoming Events",
+                    "to": "/events"
+                },
+                {
+                    "name": "Announcements",
+                    "to": "/events"
+                },
+                {
+                    "name": "Animal Stories",
+                    "to": "/events"
+                },
+                {
+                    "name": "Past Events",
+                    "to": "/events"
+                }
+            ]
+        },
+        {
+            "name": "Store",
+            "to": "https://squareup.com/store/FTWL",
+            "subheaders": []
+        }
+    ]
 }
