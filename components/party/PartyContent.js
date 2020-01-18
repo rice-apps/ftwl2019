@@ -43,7 +43,7 @@ function PartyContent() {
                     birthday child.
                 </p>
                 <h1>What you provide:</h1>
-                <p>Refreshments (snacks, drinks, cake). Please note that their is no
+                <p>Refreshments (snacks, drinks, cake). Please note that there is no
                     refrigerator or stove available. Local pizza may be ordered and
                     delivered to 29816 Dobbin Hufsmith, Magnolia, 77354
                 </p>
@@ -69,10 +69,10 @@ function PartyContent() {
                     padding="20px"
                 />
                 <div className='cards'>
-                    <ColoredCard cardwidth="375px" cardcolor="orange" line1text="CALL US" line2text="281-259-0039"></ColoredCard>
+                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="CALL US" line2text="281-259-0039"></ColoredCard>
                     <br></br>
                     <br></br>
-                    <ColoredCard cardwidth="375px" cardcolor="orange" line1text="EMAIL US" line2text="ftwl.education@gmail.com"></ColoredCard>
+                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="EMAIL US" line2text="ftwl.education@gmail.com"></ColoredCard>
                 </div>
             </Box>
             <Box width={1 / 5}></Box>
