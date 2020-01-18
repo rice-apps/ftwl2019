@@ -2,6 +2,7 @@ import Title from '../util/Title';
 import AnimalTopRow from '../animal/AnimalTopRow';
 import ColoredCard from '../util/ColoredCard';
 import './FoundAnimalHome.css';
+import FrequentlyAskedQuestions from '../faq/FrequentlyAskedQuestions';
 
 function FoundAnimalHome() {
   return (
@@ -25,6 +26,7 @@ function FoundAnimalHome() {
           line2text="281-259-0039"
         />
       </div>
+      <FrequentlyAskedQuestions />
     </div>
   );
 }
