@@ -1,13 +1,25 @@
-import ContactImages from '../contact/ContactImages.js';
 import React from 'react';
-import { Box, Flex, Button } from 'rebass';
+import { Box, Flex, Button, Image } from 'rebass';
 
 function MemberContent() {
     return (
         <Flex align="center">
             <Box width={1 / 5}></Box>
             <Box width={1 / 2}>
-                <ContactImages></ContactImages>
+                <Image
+                    src={'../static/placeholder.png'}
+                    sx={{
+                        width: ['325px', '325px'],
+                    }}
+                    padding="20px"
+                />
+                <Image
+                    src={'../static/placeholder.png'}
+                    sx={{
+                        width: ['325px', '325px'],
+                    }}
+                    padding="20px"
+                />
             </Box>
             <Box width={1 / 2}>
                 <h1>For just $1 per week, you can help<br></br>

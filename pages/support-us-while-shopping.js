@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <SupportUs />
+      {/* <SupportUs/> */}
       <Footer />
     </div>
   );
