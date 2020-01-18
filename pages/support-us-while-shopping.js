@@ -5,9 +5,9 @@ import Footer from '../components/footer/Footer';
 function Home() {
   return (
     <div>
-      <Navbar/>
-      <SupportUs/>
-      <Footer/>
+      <Navbar />
+      {/* <SupportUs/> */}
+      <Footer />
     </div>
   );
 }
