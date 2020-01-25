@@ -1,14 +1,11 @@
-import Title from '../components/util/Title.js';
+import Title from '../util/Title.js';
 
-function Volunteer() {
-    return (
-      <div>
-        <Navbar />
-        <Title title="Volunteer" />
-        <Footer />
-      </div>
-    );
-  }
-  
-  export default Volunteer;
-  
+function VolunteerHome() {
+  return (
+    <div>
+      <Title title="Volunteer" />
+    </div>
+  );
+}
+
+export default VolunteerHome;

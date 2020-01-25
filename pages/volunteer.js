@@ -1,11 +1,12 @@
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
+import VolunteerHome from '../components/volunteer/VolunteerHome';
 
 function Volunteer() {
   return (
     <div>
       <Navbar />
-      <Volunteer />
+      <VolunteerHome />
       <Footer />
     </div>
   );
