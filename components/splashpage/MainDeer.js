@@ -10,7 +10,7 @@ function MainDeer() {
         #DHDMain {
         height: 88vh;
         width: 100vw;
-        background-image: url('../static/home/deer.png');
+        background-image: url('../../static/home/deer.png');
         background-size: 100vw 88vh;
         color: white;
       `}
