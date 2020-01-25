@@ -1,21 +1,22 @@
 import React from 'react';
 import './SupportUs.css';
+import { text } from './SupportUs.json';
+import SupportUsBox from './SupportUsBox.js';
 import Arrow from '../../static/AffProgramsIcon.png';
 import Title from '../util/Title';
 
-function SupportUs() {
+function SupportUs(props) {
   return (
-    <div className="AffProgramsWrapper">
+    <div>
       <Title title={'Support Us While Shopping'}></Title>
-      <div id="AffProgramsWrapper">
-        <div className="AffProgramsItem">
-          <div className="AffProgramsTextWrapper">
-            <div className="title">{props.title}</div>
-            <p className="subtitle">{props.subtitle}</p>
+      {text.map(t => {
+        return (
+          <div>
+            <SupportUsBox cardcolor={'green'} title={t.title} text={t.text} />
+            <img className="AffIcon" src={Arrow} />
           </div>
-          <img className="AffIcon" src={Arrow} />
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 }
