@@ -1,5 +1,5 @@
 // next.config.js
-const debug = process.env.NODE_ENV !== 'production';
+const isProduction = process.env.NODE_ENV === 'production';
 const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 module.exports = withCSS(
@@ -7,6 +7,10 @@ module.exports = withCSS(
     webpack(config, options) {
       return config;
     },
-    assetPrefix: !debug ? '/Next-gh-page-example/' : '',
+    assetPrefix: isProduction ? '/ftwl2019' : '',
+    publicRuntimeConfig: {
+      // used in '/components/Link.js/', for more details go to the component itself
+      linkPrefix: isProduction ? '/ftwl2019' : '',
+    },
   })
 );
