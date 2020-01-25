@@ -21,11 +21,24 @@ function DonateSuppliesContent() {
 
             <Flex align="center">
                 <Box width={1 / 5}></Box>
-                <Collapsible trigger="Animal Food (click to expand)">
-                    <p>Science Diet Feline Maintenance Light dry cat food</p>
-                    <p>Dry cat or kitten chow</p>
-                    <p>Dry puppy or dog chow</p>
-                    <p>Pecans (whole in shell or pieces, unsalted)</p>
+                <Collapsible open="true">
+                    <Collapsible trigger="Animal Food (<)" triggerStyle={{ color: "green" }}>
+                        <ul>
+                            <li>Science Diet Feline Maintenance Light dry cat food</li>
+                            <li>Dry cat or kitten chow</li>
+                            <li>...</li>
+                        </ul>
+                    </Collapsible>
+                    <Collapsible trigger="Paper & Plastic Items (<)" triggerStyle={{ color: "green" }}>
+                        <p>Paper towels</p>
+                        <p>Facial tissues</p>
+                        <p>...</p>
+                    </Collapsible>
+                    <Collapsible trigger="Cleaning Supplies (<)" triggerStyle={{ color: "green" }}>
+                        <p>Liquid bleach</p>
+                        <p>Laundry detergent</p>
+                        <p>...</p>
+                    </Collapsible>
                 </Collapsible>
                 <Box width={1 / 5}></Box>
             </Flex>
