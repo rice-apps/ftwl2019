@@ -1,0 +1,339 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/Navbar.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/footer/Footer.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/util/Title.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/found-animal-single/TextImage.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/party/PartyContent.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/MainDeer.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/found-animal/FoundAnimalHome.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/supportus/SupportUs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/WaysToGive2.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/Sponsors.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/splashpage/NeedAssistance.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/util/Card.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/animal/AnimalTopRow.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faq/TableText.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--5-1!components/navbar/Navbar.css 0": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!components/footer/Footer.css 0": 1,
+      "css node_modules/css-loader/index.js??ref--5-1!components/util/Title.css 0": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!components/found-animal-single/TextImage.css 0": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!components/animal/AnimalTopRow.css 0": 4,
+      "css node_modules/css-loader/index.js??ref--5-1!components/util/Card.css 0": 5,
+      "css node_modules/css-loader/index.js??ref--5-1!components/found-animal/FoundAnimalHome.css 0": 6,
+      "css node_modules/css-loader/index.js??ref--5-1!components/faq/TableText.css 0": 7,
+      "css node_modules/css-loader/index.js??ref--5-1!components/party/PartyContent.css 0": 8,
+      "css node_modules/css-loader/index.js??ref--5-1!components/splashpage/Sponsors.css 0": 9,
+      "css node_modules/css-loader/index.js??ref--5-1!components/splashpage/MainDeer.css 0": 10,
+      "css node_modules/css-loader/index.js??ref--5-1!components/splashpage/NeedAssistance.css 0": 11,
+      "css node_modules/css-loader/index.js??ref--5-1!components/splashpage/WaysToGive2.css 0": 12,
+      "css node_modules/css-loader/index.js??ref--5-1!components/supportus/SupportUs.css 0": 13,
+      "multi next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! node_modules/next/dist/client/router.js": 14
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "framework": 2,
+      "11b5edbcb41cbf0bb2c1351bfee200cf4b627134": 3,
+      "styles": 4,
+      "static/current/pages/_app.js": 5,
+      "static/current/pages/_error.js": 6,
+      "static/current/pages/aboutus.js": 7,
+      "static/current/pages/contactus.js": 8,
+      "static/current/pages/donate-supplies.js": 9,
+      "static/current/pages/donate.js": 10,
+      "static/current/pages/donatesupplies.js": 11,
+      "static/current/pages/education-and-outreach.js": 12,
+      "static/current/pages/events.js": 13,
+      "static/current/pages/found-animal/bird.js": 14,
+      "static/current/pages/found-animal/bunny.js": 15,
+      "static/current/pages/found-animal/fawn.js": 16,
+      "static/current/pages/found-animal/squirrel.js": 17,
+      "static/current/pages/foundanimal.js": 18,
+      "static/current/pages/host-a-party.js": 19,
+      "static/current/pages/index.js": 20,
+      "static/current/pages/our-board-members.js": 21,
+      "static/current/pages/our-intake-centers.js": 22,
+      "static/current/pages/support-us-while-shopping.js": 23,
+      "static/current/pages/volunteer.js": 24,
+      "static/current/pages/waystogive.js": 25,
+      "static/runtime/main.js": 26,
+      "static/runtime/polyfills.js": 27
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
