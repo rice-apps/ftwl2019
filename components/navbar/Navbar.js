@@ -3,8 +3,104 @@ import { Box, Flex, Image, Button } from 'rebass';
 import Link from 'next/link';
 import logo from '../../static/ftwllogo.png';
 // import json from './Navbar.json';
-import { navbar_headers } from './navbar.json';
+// import { navbar_headers } from './navbar.json';
 import './Navbar.css';
+
+var navbar_headers = [
+  {
+    "name": "About Us",
+    "to": "/aboutus",
+    "subheaders": [
+      {
+        "name": "Education and Community Outreach",
+        "to": "/education-and-outreach"
+      },
+      {
+        "name": "Our Intake Centers",
+        "to": "/our-intake-centers"
+      },
+      {
+        "name": "Our Board Members",
+        "to": "/our-board-members"
+      }
+    ]
+  },
+  {
+    "name": "Ways to Give",
+    "to": "/waystogive",
+    "subheaders": [
+      {
+        "name": "Volunteer",
+        "to": "/volunteer"
+      },
+      {
+        "name": "Donate",
+        "to": "/donate"
+      },
+      {
+        "name": "Host A Party",
+        "to": "/host-a-party"
+      },
+      {
+        "name": "Donate Supplies",
+        "to": "/donate-supplies"
+      },
+      {
+        "name": "Support Us While Shopping",
+        "to": "/support-us-while-shopping"
+      }
+    ]
+  },
+  {
+    "name": "Found an Animal?",
+    "to": "/foundanimal",
+    "subheaders": [
+      {
+        "name": "Rabbits",
+        "to": "/found-animal/bunny"
+      },
+      {
+        "name": "Squirrels",
+        "to": "/found-animal/squirrel"
+      },
+      {
+        "name": "Birds",
+        "to": "/found-animal/bird"
+      },
+      {
+        "name": "Fawns",
+        "to": "/found-animal/fawn"
+      }
+    ]
+  },
+  {
+    "name": "News & Events",
+    "to": "/events",
+    "subheaders": [
+      {
+        "name": "Upcoming Events",
+        "to": "/events"
+      },
+      {
+        "name": "Announcements",
+        "to": "/events"
+      },
+      {
+        "name": "Animal Stories",
+        "to": "/events"
+      },
+      {
+        "name": "Past Events",
+        "to": "/events"
+      }
+    ]
+  },
+  {
+    "name": "Store",
+    "absoluteTo": "https://squareup.com/store/FTWL",
+    "subheaders": []
+  }
+]
 
 function Navbar() {
   // let style = {
