@@ -1,13 +1,12 @@
-import Navbar from '../components/navbar/Navbar.js';
-import Footer from '../components/footer/Footer.js';
-import VolunteerPage from '../components/volunteer/VolunteerPage.js';
-
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
+import VolunteerHome from '../components/volunteer/VolunteerHome';
 
 function Volunteer() {
   return (
     <div>
       <Navbar />
-      <VolunteerPage />
+      <VolunteerHome />
       <Footer />
     </div>
   );

@@ -1,13 +1,14 @@
 import Navbar from '../components/navbar/Navbar.js'
 import Footer from '../components/footer/Footer.js'
-import Title from '../components/util/Title.js'
+import CommunityOutreach from '../components/community-outreach-info/communityoutreach.js';
 
 function EducationAndOutreach() {
     return (
         <div>
             <Navbar></Navbar>
-            <Title title="Education and Outreach"></Title>
+            <CommunityOutreach />
             <Footer></Footer>
+
         </div>
     );
 }

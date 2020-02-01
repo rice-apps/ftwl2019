@@ -1,0 +1,26 @@
+{
+    "text": [
+      {
+        "title": "Background",
+        "text": [
+          "Friends of Texas Wildlife participates in many community, civic, and school events as a part of our education and outreach program."
+        ],
+        "image": []
+      },
+      {
+        "title": "Community Events",
+        "text": ["Community events have included Earth Day; National Night Out; Texas Wildlife & Woodland Expo at Lone Star College; and our annual Fall Festival.  We have also visited The Woodlands Children's Museum, garden clubs, business professionals' groups, boy and girl scout functions and camps, and school programs (both private and public)."],
+        "image": ["../static/community.png"]
+      },
+      {
+        "title": "Outreach",
+        "text": ["We are committed to educational outreach as part of our mission in the community.  In addition to familiarizing the public with Friends of Texas Wildlife and what we do, presentions pertaining to coexisiting with local wildlife and  knowing when and how to assist animals in need can be scheduled.  If you or your organization are interested in scheduling a presentation, please contact us at ftwl.center@gmail.com."],
+        "image": ["../static/community2.png"]
+      },
+      {
+          "title": "Media Outlet",
+          "text": ["We also work with the media outlets and partners like Texas Parks & Wildlife to publish news and information to help raise community awareness about wildlife issues."],
+          "image": []
+      }
+    ]
+  }

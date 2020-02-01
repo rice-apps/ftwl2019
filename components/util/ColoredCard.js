@@ -6,9 +6,8 @@ import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
 function ColoredCard(props) {
   return (
     <div>
-      <Box 
+      <Box
         className="Card"
-        height={props.cardheight == '' ? 'auto' : props.cardheight}
         width={props.cardwidth == '' ? 'auto' : props.cardwidth}
         bg={props.cardcolor}>
         <h1 style={{ letterSpacing: props.letterspacing1, fontSize: props.lettersize1}}>{props.line1text}</h1>
