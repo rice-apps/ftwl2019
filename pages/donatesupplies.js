@@ -8,7 +8,7 @@ function DonateSupplies() {
         <div>
             <Navbar></Navbar>
             <Title title="Donate Supplies"></Title>
-            {/* <DonateSuppliesContent></DonateSuppliesContent> */}
+            <DonateSuppliesContent></DonateSuppliesContent>
             <Footer></Footer>
         </div>
     );
