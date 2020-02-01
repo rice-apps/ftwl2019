@@ -14,7 +14,13 @@ function VolunteerHome() {
           <Box width={1/9}></Box>
           <Box width={3/9}>
             <Collapsible trigger="Rehabilitator">
-              <p>Rehabilitator</p>
+              <h1>BECOME A REHABILITATOR</h1>
+              <p>Individuals interested in becoming rehabilitators must:</p>
+              <ol>
+                <li>Become a member of Friends of Texas Wildlife</li>
+                <li>Participate in ongoing education efforts</li>
+              </ol> 
+              <p>Each prospective rehab volunteer will be partnered with a trained permitted rehabilitator.</p>
               {/* <ColoredCard line1text="REHABILITATORS" cardcolor="orange"/> */}
             </Collapsible>
           </Box>
