@@ -10,12 +10,18 @@ function CallUsBox() {
                     <ColoredCard 
                     
                     cardwidth="320px"
-                    cardheight="170px"
+                    cardheight="120px"
+
                     line1text="CALL US" 
+                    letterspacing1="4px"
+                    lettersize1="14px"
+                    
                     line2text="281-259-0039" 
+                    letterspacing2="4px"
+                    lettersize2="30px"
+                    
                     cardcolor="#EE9C3B" 
-                    letterspacing="7px"
-                    lettersize="20px">
+                    >
 
                     </ColoredCard>
                 </Box>

@@ -11,8 +11,8 @@ function ColoredCard(props) {
         height={props.cardheight == '' ? 'auto' : props.cardheight}
         width={props.cardwidth == '' ? 'auto' : props.cardwidth}
         bg={props.cardcolor}>
-        <h1 style={{ letterSpacing: props.letterspacing, fontSize: props.lettersize}}>{props.line1text}</h1>
-        <h1 className="line2">{props.line2text}</h1>
+        <h1 style={{ letterSpacing: props.letterspacing1, fontSize: props.lettersize1}}>{props.line1text}</h1>
+        <h1 style={{ letterSpacing: props.letterspacing2, fontSize: props.lettersize2}}>{props.line2text}</h1>
       </Box>
     </div>
   );
