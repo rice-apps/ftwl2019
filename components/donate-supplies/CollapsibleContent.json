@@ -1,0 +1,23 @@
+{
+    "sections": [
+        {
+            "title": "Animal Food",
+            "rows": [
+                "Science Diet Feline Maintenance Light dry cat food",
+                "Dry cat or kitten chow",
+                "Dry puppy or dog chow",
+                "Pecans (whole in shell or pieces, unsalted",
+                "..."
+            ]
+        },
+        {
+            "title": "Paper & Plastic Items",
+            "rows": [
+                "Paper towels",
+                "Facial tissue",
+                "Large kitchen trash bags",
+                "..."
+            ]
+        }
+    ]
+}
