@@ -1,7 +1,7 @@
 import Title from '../util/Title.js';
 import SubText from '../subtext/subtext.js';
 import ColoredCard from '../util/ColoredCard.js';
-import {Flex, Box, Button} from 'rebass';
+import {Flex, Box, Button, Image} from 'rebass';
 
 
 function VolunteerHome() {
@@ -19,6 +19,20 @@ function VolunteerHome() {
       <div className="button">
           <Button variant='outline' color='green'>Click here to volunteer!</Button>
       </div>
+      <Flex>
+        <Box>
+          <Image src="../../static/volunteerimage1.png" />
+        </Box>
+        <Box>
+          <Image src="../../static/volunteerimage2.png" />
+        </Box>
+        <Box>
+          <Image src="../../static/volunteerimage3.png" />
+        </Box>
+        <Box>
+          <Image src="../../static/volunteerimage4.png" />
+        </Box>
+      </Flex>
     </div>
   );
 }
