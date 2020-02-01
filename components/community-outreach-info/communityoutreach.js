@@ -1,7 +1,7 @@
 import Title from '../util/Title.js'
 import Animal from '../found-animal-single/Animal.js'
 import Community from '../community-outreach-info/community.json'
-import ColoredCard from '../util/ColoredCard.js'
+import CallUs from '../util/CallUsBox'
 import {Flex, Box, Button} from 'rebass';
 
 
@@ -19,7 +19,7 @@ function CommunityOutreach() {
             <Flex>
                 <Box width={1/4}></Box>
                 <Box width={1/2}>
-                    <ColoredCard cardcolor="orange" cardwidth="400px" line1text="CALL US" line2text="281-259-0039" />
+                    <CallUs />
                 </Box>
                 <Box width={1/4}></Box>
             </Flex>
