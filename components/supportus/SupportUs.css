@@ -1,9 +1,16 @@
+.SupportUsBody {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
 .AffProgramsWrapper {
   height: 120vh;
   width: 100vw;
   background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  text-align: center;
   align-items: center;
 }
 
