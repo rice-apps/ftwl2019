@@ -1,9 +1,28 @@
-.Box {
+.Cards {
   font-family: 'Kollektif', sans-serif;
   color: 'black';
-  font-size: 10px;
-  line-height: 0.75;
+  font-size: 9px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Title {
+  text-align: left;
+}
+
+.Subtitle {
+  text-align: left;
+}
+.IndividualCard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.AffIcon {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
 }
