@@ -28,15 +28,13 @@ Redesigned website for [Friends of Texas Wildlife](https://ftwl.org)
 
    ```$ git pull origin master```
 
-2. Create a new branch
+2. Always branch from feature. To do that, checkout to feature first.
 
-    ```$ git branch <your branch name here>```
+   ```$ git checkout feature```
 
-3. Check out (switch) to your new branch
+3. Create a new branch with the issue number and checkout to it.
 
-    ```$ git checkout <your branch name here>```
-
-    A shortcut for steps 2-3 is just running `$ git checkout -b <your branch name here>`
+    ```$ git checkout -b feature-<whatever your issue number is or maybe what the issue is about>```
 
 4. Make your changes
 5. Add and commit your changes
@@ -54,10 +52,11 @@ This assumes you've followed the instructions in the Developing section.
 1. Make sure your code is clean, easily understandable, and formatted properly (run the formatter)
 2. Push your branch to Github
 
-    `$git push origin <your branch name here>`
+    `$git push`
 
-3. Go to the Github repo on your browser, and click on the Pull Request button
-4. Wait for someone to approve or request changes to your pull request
+3. Follow the instructions on your terminal to finish pushing.
+4. Go to the Github repo on your browser, and click on the Pull Request button
+5. Wait for someone to approve or request changes to your pull request
 
 ### Developing Locally
 
