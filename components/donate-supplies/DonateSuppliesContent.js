@@ -47,5 +47,4 @@ function DonateSuppliesContent() {
         </div>
     );
 }
-
 export default DonateSuppliesContent;
