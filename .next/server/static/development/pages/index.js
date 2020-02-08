@@ -457,73 +457,73 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var navbar_headers = [{
-  "name": "About Us",
-  "to": "/aboutus",
-  "subheaders": [{
-    "name": "Education and Community Outreach",
-    "to": "/education-and-outreach"
+  name: 'About Us',
+  to: '/aboutus',
+  subheaders: [{
+    name: 'Education and Community Outreach',
+    to: '/education-and-outreach'
   }, {
-    "name": "Our Intake Centers",
-    "to": "/our-intake-centers"
+    name: 'Our Intake Centers',
+    to: '/our-intake-centers'
   }, {
-    "name": "Our Board Members",
-    "to": "/our-board-members"
+    name: 'Our Board Members',
+    to: '/our-board-members'
   }]
 }, {
-  "name": "Ways to Give",
-  "to": "/waystogive",
-  "subheaders": [{
-    "name": "Volunteer",
-    "to": "/volunteer"
+  name: 'Ways to Give',
+  to: '/waystogive',
+  subheaders: [{
+    name: 'Volunteer',
+    to: '/volunteer'
   }, {
-    "name": "Donate",
-    "to": "/donate"
+    name: 'Donate',
+    to: '/donate'
   }, {
-    "name": "Host A Party",
-    "to": "/host-a-party"
+    name: 'Host A Party',
+    to: '/host-a-party'
   }, {
-    "name": "Donate Supplies",
-    "to": "/donate-supplies"
+    name: 'Donate Supplies',
+    to: '/donate-supplies'
   }, {
-    "name": "Support Us While Shopping",
-    "to": "/support-us-while-shopping"
+    name: 'Support Us While Shopping',
+    to: '/support-us-while-shopping'
   }]
 }, {
-  "name": "Found an Animal?",
-  "to": "/foundanimal",
-  "subheaders": [{
-    "name": "Rabbits",
-    "to": "/found-animal/bunny"
+  name: 'Found an Animal?',
+  to: '/foundanimal',
+  subheaders: [{
+    name: 'Rabbits',
+    to: '/found-animal/bunny'
   }, {
-    "name": "Squirrels",
-    "to": "/found-animal/squirrel"
+    name: 'Squirrels',
+    to: '/found-animal/squirrel'
   }, {
-    "name": "Birds",
-    "to": "/found-animal/bird"
+    name: 'Birds',
+    to: '/found-animal/bird'
   }, {
-    "name": "Fawns",
-    "to": "/found-animal/fawn"
+    name: 'Fawns',
+    to: '/found-animal/fawn'
   }]
 }, {
-  "name": "News & Events",
-  "to": "/events",
-  "subheaders": [{
-    "name": "Upcoming Events",
-    "to": "/events"
+  name: 'News & Events',
+  to: '/events',
+  subheaders: [{
+    name: 'Upcoming Events',
+    to: '/events'
   }, {
-    "name": "Announcements",
-    "to": "/events"
+    name: 'Announcements',
+    to: '/events'
   }, {
-    "name": "Animal Stories",
-    "to": "/events"
+    name: 'Animal Stories',
+    to: '/events'
   }, {
-    "name": "Past Events",
-    "to": "/events"
+    name: 'Past Events',
+    to: '/events'
   }]
 }, {
-  "name": "Store",
-  "absoluteTo": "https://squareup.com/store/FTWL",
-  "subheaders": []
+  name: 'Store',
+  absoluteTo: 'https://squareup.com/store/FTWL',
+  subheaders: []
 }];
 
 function Navbar() {
@@ -533,8 +533,8 @@ function Navbar() {
   let style = {
     paddingTop: '15px',
     paddingBottom: '15px',
-    color: "#515768",
-    backgroundColor: "#DCDFE5"
+    color: '#515768',
+    backgroundColor: '#DCDFE5'
   };
   return __jsx("div", {
     className: "navbar-wrapper",
@@ -544,19 +544,19 @@ function Navbar() {
       lineNumber: 117
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118
-    },
-    __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     ml: 150,
     mr: "auto",
     width: "auto",
     height: "auto",
     color: "black",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119
@@ -583,7 +583,7 @@ function Navbar() {
     key: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 124
     },
     __self: this
   }, absoluteTo ? __jsx("a", {
@@ -591,35 +591,35 @@ function Navbar() {
     className: "navbar-dropdown-absolute",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 126
     },
     __self: this
   }, __jsx("button", {
     className: "navbar-dropdown-opener",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 127
     },
     __self: this
   }, name)) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: to,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 130
     },
     __self: this
   }, __jsx("button", {
     className: "navbar-dropdown-opener",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 131
     },
     __self: this
   }, name)), __jsx("div", {
     className: "dropdown-subheaders",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 134
     },
     __self: this
   }, subheaders.map(({
@@ -630,13 +630,13 @@ function Navbar() {
     key: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 136
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 137
     },
     __self: this
   }, name)))))));
