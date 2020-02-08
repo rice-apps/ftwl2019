@@ -1,0 +1,22 @@
+{
+    "intakecenter":
+        {"title": "Intake Center",
+        "address": ["29615 Highland Blvd", "Magnolia, TX 77354"],
+        "time": "10:00 AM - 2:00 PM",
+        "daysopen": "Every day except Sundays",
+        "image": "../static/intakecentermap.png",
+        "text": ["Our center functions as an intake facility where animals are admitted, triaged, and treated. While some animals with minor injuries stay at the center, most animals are placed with one of our many diverse and dedicated home-based permitted rehabilitators.  We feel the animals can get the very best individualized care in this manner until they can be released back into the wild.",
+        "If you find an orphaned or injured animal, please call us at 281-259-0039 in advance to make sure we are open and prepared to help.  Due to state and local regulations, we ask that you please speak with one of our representatives before bringing any rabies-vector species animals to our center (bats, skunks, raccoons, coyotes, or foxes).",
+        "Due to federal and state regulations regardng the care of wildlife, our intake center is not open to the public for tours.  However, we do offer many educational opportunities at our visitor's center (camps, birthday parties, educational presentations) which can be scheduled by appointment.",
+        "If you have questions about our center, please contact us."]
+        },
+
+    "visitorcenter":
+        {"title": "Visitor's Center",
+        "images": ["../static/ftwlvisitorcenter.png", "../static/ftwlvisitorcenter2.png"],
+        "address": ["29816 Dobbin Huffsmith Road", "Magnolia, 77354"],
+        "time": "10:00 AM - 2:00 PM",
+        "daysopen": "Second Saturday of every month",
+        "text": "Come meet some of our wildlife animal ambassadors (owls, opossum, or hawk), enjoy some hands-on learning about animals, view of wildlife diorama, make a craft, and have some wild fun!  $5 per person, children 3 and under free.  All funds raised go to support the mission of Friends of Texas Wildlife and the animals we assist."
+        }
+}
