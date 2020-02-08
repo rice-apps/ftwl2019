@@ -4,6 +4,7 @@ import Title from '../components/util/Title.js';
 import IntakeCenter from '../components/intake-center/IntakeCenter';
 import VisitorCenter from '../components/intake-center/VisitorCenter';
 
+
 function OurIntakeCenters() {
   return (
     <div>
@@ -12,6 +13,7 @@ function OurIntakeCenters() {
       <IntakeCenter></IntakeCenter>
       <VisitorCenter></VisitorCenter>
       <Footer></Footer>
+      
     </div>
   );
 }
