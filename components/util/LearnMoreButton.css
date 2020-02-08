@@ -1,0 +1,12 @@
+.learn-more-button {
+    color: green;
+    display: flex; 
+    justify-content: middle;
+    align-items: middle;
+}
+
+.learn-more-text {
+    color: green;
+    letter-spacing: 5px;
+    font-size: 17px
+}
