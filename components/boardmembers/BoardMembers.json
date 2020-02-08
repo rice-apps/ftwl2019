@@ -1,0 +1,46 @@
+{
+  "boardofficers": [
+    {
+      "position": "President:",
+      "name": "Marcia Bartos"
+    },
+    {
+      "position": "Vice President:",
+      "name": "Evelyn Heyde"
+    },
+    {
+      "position": "Vice President:",
+      "name": "Madeleine Lay"
+    },
+    {
+      "position": "Executive Director/Secretary:",
+      "name": "Lisa Wolling"
+    },
+    {
+      "position": "Treasurer:",
+      "name": "Nikki Richards"
+    }
+  ],
+  "boardmembers": [
+    {
+      "position": "Director:",
+      "name": "Doug Snyder"
+    },
+    {
+      "position": "Director:",
+      "name": "Pam Morgan"
+    },
+    {
+      "position": "Director:",
+      "name": "Cathie Coudert"
+    }
+  ],
+  "advisoryboard": [
+    {
+      "name": "Jeff Cunningham"
+    },
+    {
+      "name": "Tobi Whittemore"
+    }
+  ]
+}
