@@ -445,19 +445,86 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/ftwllogo.png */ "./static/ftwllogo.png");
 /* harmony import */ var _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _navbar_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar.json */ "./components/navbar/navbar.json");
-var _navbar_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./navbar.json */ "./components/navbar/navbar.json", 1);
-/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Navbar.css */ "./components/navbar/Navbar.css");
-/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar.css */ "./components/navbar/Navbar.css");
+/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/navbar/Navbar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
  // import json from './Navbar.json';
+// import { navbar_headers } from './navbar.json';
 
 
-
+var navbar_headers = [{
+  "name": "About Us",
+  "to": "/aboutus",
+  "subheaders": [{
+    "name": "Education and Community Outreach",
+    "to": "/education-and-outreach"
+  }, {
+    "name": "Our Intake Centers",
+    "to": "/our-intake-centers"
+  }, {
+    "name": "Our Board Members",
+    "to": "/our-board-members"
+  }]
+}, {
+  "name": "Ways to Give",
+  "to": "/waystogive",
+  "subheaders": [{
+    "name": "Volunteer",
+    "to": "/volunteer"
+  }, {
+    "name": "Donate",
+    "to": "/donate"
+  }, {
+    "name": "Host A Party",
+    "to": "/host-a-party"
+  }, {
+    "name": "Donate Supplies",
+    "to": "/donate-supplies"
+  }, {
+    "name": "Support Us While Shopping",
+    "to": "/support-us-while-shopping"
+  }]
+}, {
+  "name": "Found an Animal?",
+  "to": "/foundanimal",
+  "subheaders": [{
+    "name": "Rabbits",
+    "to": "/found-animal/bunny"
+  }, {
+    "name": "Squirrels",
+    "to": "/found-animal/squirrel"
+  }, {
+    "name": "Birds",
+    "to": "/found-animal/bird"
+  }, {
+    "name": "Fawns",
+    "to": "/found-animal/fawn"
+  }]
+}, {
+  "name": "News & Events",
+  "to": "/events",
+  "subheaders": [{
+    "name": "Upcoming Events",
+    "to": "/events"
+  }, {
+    "name": "Announcements",
+    "to": "/events"
+  }, {
+    "name": "Animal Stories",
+    "to": "/events"
+  }, {
+    "name": "Past Events",
+    "to": "/events"
+  }]
+}, {
+  "name": "Store",
+  "absoluteTo": "https://squareup.com/store/FTWL",
+  "subheaders": []
+}];
 
 function Navbar() {
   // let style = {
@@ -474,14 +541,14 @@ function Navbar() {
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 117
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 118
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -492,7 +559,7 @@ function Navbar() {
     color: "black",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 119
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -503,10 +570,10 @@ function Navbar() {
     src: _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 120
     },
     __self: this
-  }))), _navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"].map(({
+  }))), navbar_headers.map(({
     name,
     to,
     subheaders,
@@ -516,7 +583,7 @@ function Navbar() {
     key: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 125
     },
     __self: this
   }, absoluteTo ? __jsx("a", {
@@ -524,35 +591,35 @@ function Navbar() {
     className: "navbar-dropdown-absolute",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 127
     },
     __self: this
   }, __jsx("button", {
     className: "navbar-dropdown-opener",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 128
     },
     __self: this
   }, name)) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: to,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 132
     },
     __self: this
   }, __jsx("button", {
     className: "navbar-dropdown-opener",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 133
     },
     __self: this
   }, name)), __jsx("div", {
     className: "dropdown-subheaders",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 138
     },
     __self: this
   }, subheaders.map(({
@@ -563,13 +630,13 @@ function Navbar() {
     key: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 141
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 141
     },
     __self: this
   }, name)))))));
@@ -580,17 +647,6 @@ const styles = {
   backgroundColor: 'white',
   textColor: 'black'
 };
-
-/***/ }),
-
-/***/ "./components/navbar/navbar.json":
-/*!***************************************!*\
-  !*** ./components/navbar/navbar.json ***!
-  \***************************************/
-/*! exports provided: navbar_headers, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"navbar_headers\":[{\"name\":\"About Us\",\"to\":\"/aboutus\",\"subheaders\":[{\"name\":\"Education and Community Outreach\",\"to\":\"/education-and-outreach\"},{\"name\":\"Our Intake Centers\",\"to\":\"/our-intake-centers\"},{\"name\":\"Our Board Members\",\"to\":\"/our-board-members\"}]},{\"name\":\"Ways to Give\",\"to\":\"/waystogive\",\"subheaders\":[{\"name\":\"Volunteer\",\"to\":\"/volunteer\"},{\"name\":\"Donate\",\"to\":\"/donate\"},{\"name\":\"Host A Party\",\"to\":\"/host-a-party\"},{\"name\":\"Donate Supplies\",\"to\":\"/donate-supplies\"},{\"name\":\"Support Us While Shopping\",\"to\":\"/support-us-while-shopping\"}]},{\"name\":\"Found an Animal?\",\"to\":\"/foundanimal\",\"subheaders\":[{\"name\":\"Rabbits\",\"to\":\"/found-animal/bunny\"},{\"name\":\"Squirrels\",\"to\":\"/found-animal/squirrel\"},{\"name\":\"Birds\",\"to\":\"/found-animal/bird\"},{\"name\":\"Fawns\",\"to\":\"/found-animal/fawn\"}]},{\"name\":\"News & Events\",\"to\":\"/events\",\"subheaders\":[{\"name\":\"Upcoming Events\",\"to\":\"/events\"},{\"name\":\"Announcements\",\"to\":\"/events\"},{\"name\":\"Animal Stories\",\"to\":\"/events\"},{\"name\":\"Past Events\",\"to\":\"/events\"}]},{\"name\":\"Store\",\"absoluteTo\":\"https://squareup.com/store/FTWL\",\"subheaders\":[]}]}");
 
 /***/ }),
 
