@@ -1,3 +1,14 @@
+.TextImage {
+}
+
+.header {
+  font-size: 20px;
+}
+
+.body {
+  font-size: 14px;
+}
+
 .navbar-wrapper {
   z-index: 9999;
   display: inline-flex;
@@ -93,6 +104,129 @@
     display: none;
   }
 }
+.SupportUsBody {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-bottom: 100px;
+}
+
+.AffProgramsWrapper {
+  height: 120vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#AffProgramsWrapper {
+  width: 42vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AffProgramsItem1 {
+  margin-top: 15vh;
+  width: 42vw;
+  color: white;
+  text-align: left;
+  outline: 3px solid green;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem2 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid lightblue;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem3 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid gold;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem4 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid gold;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: gold;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsTextWrapper {
+  height: auto;
+  width: 35vw;
+}
+
+.AffProgramsItemTitle {
+  font-size: 2.7vh;
+  font-weight: bold;
+}
+
+.AffProgramsItem p {
+  width: 35vw;
+  font-size: 10px;
+}
+
+.AffIcon {
+  margin-left: 2.5vw;
+}
+
+.Cards {
+  font-family: 'Kollektif', sans-serif;
+  color: 'black';
+  font-size: 9px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Title {
+  text-align: left;
+}
+
+.Subtitle {
+  text-align: left;
+}
+.IndividualCard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.AffIcon {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
 .footer {
   font-family: 'Open Sans', sans-serif;
   background: #114b0b;
