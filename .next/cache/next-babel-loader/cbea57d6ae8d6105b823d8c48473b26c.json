@@ -1,1 +1,0 @@
-{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Title from '../util/Title.js';\n\nfunction VolunteerHome() {\n  return __jsx(\"div\", null, __jsx(Title, {\n    title: \"Volunteer\"\n  }));\n}\n\nexport default VolunteerHome;","map":null,"metadata":{},"sourceType":"module"}
