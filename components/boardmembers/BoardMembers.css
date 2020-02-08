@@ -1,0 +1,37 @@
+.BoardOfficers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.BoardMembers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.AdvisoryBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.Card {
+  font-family: 'Kollektif', sans-serif;
+  color: #ffffff;
+  line-height: 0.05;
+  text-align: center;
+  box-shadow: 8px 8px 0px 0 #6c6c6c;
+  padding: 40px 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
