@@ -1,0 +1,37 @@
+{
+  "text": [
+    {
+      "cardcolor": "green",
+      "color": "white",
+      "title": "Amazon Smile",
+      "text": [
+        "If you shop on Amazon, shop through Amazon Smile and sign up to support Friends of Texas Wildlife. For all eligible purchases, a portion of what you spend will be donated to us directly!"
+      ]
+    },
+    {
+      "cardcolor": "lightblue",
+      "color": "black",
+      "title": "eBay Giving Works",
+      "text": [
+        "Through eBay Giving Works, you can donate a percentage or the entirety of proceeds of whatever you sell on eBay to Friends of Texas Wildlife. What a great way to clean out your closets and help Friends at the same time!"
+      ]
+    },
+    {
+      "cardcolor": "white",
+      "color": "black",
+      "title": "Kroger Community Rewards",
+      "text": [
+        "Kroger's Community Rewards program allows you to link favorite charities directly to your Kroger Plus card. A portion of everything you purchase will be donated back to Friends of Texas Wildlife."
+      ]
+    },
+
+    {
+      "cardcolor": "gold",
+      "color": "black",
+      "title": "Visit Our Shop",
+      "text": [
+        "Support us by buying from our own online store! We have animals, plushies, apparel, and more!"
+      ]
+    }
+  ]
+}
