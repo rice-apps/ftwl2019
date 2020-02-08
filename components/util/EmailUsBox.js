@@ -11,11 +11,11 @@ function CallUsBox() {
                     
                     cardwidth="320px"
 
-                    line1text="CALL US" 
+                    line1text="EMAIL US" 
                     letterspacing1="4px"
                     lettersize1="14px"
                     
-                    line2text="281-259-0039" 
+                    line2text="ftwl.education@gmail.com" 
                     letterspacing2="4px"
                     lettersize2="30px"
                     
