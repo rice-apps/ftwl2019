@@ -115,7 +115,7 @@ function Navbar() {
 
   return (
     <div className="navbar-wrapper" style={style}>
-      <Box ml={150} mr="auto" width="auto" height="auto" color="black">
+      <Box className="header-logo" ml={150} mr="auto" width="auto" height="auto" color="black">
         <Link href="/">
           <Image sx={{ width: 100, height: 100 }} src={logo} />
         </Link>
