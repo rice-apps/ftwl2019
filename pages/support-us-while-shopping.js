@@ -6,7 +6,7 @@ function SupportUsPage() {
   return (
     <div>
       <Navbar />
-      {/* <SupportUs/> */}
+      <SupportUs/>
       <Footer />
     </div>
   );
