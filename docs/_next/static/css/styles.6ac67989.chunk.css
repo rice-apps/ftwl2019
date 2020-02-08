@@ -1,0 +1,433 @@
+.learn-more-button {
+    color: green;
+    display: flex; 
+    justify-content: middle;
+    align-items: middle;
+}
+
+.learn-more-text {
+    color: green;
+    letter-spacing: 5px;
+    font-size: 17px
+}
+.TextImage {
+}
+
+.header {
+  font-size: 20px;
+}
+
+.body {
+  font-size: 14px;
+}
+
+.toprow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logos-container {
+  margin: 0px 70px;
+}
+
+.DHDCopyWrapper {
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+/* .MenuPlaceholder {
+  height: 12vh;
+  width: 100vw;
+} */
+
+/* #DHDMain {
+  height: 88vh;
+  width: 100vw;
+  background-image: url('../static/home/deer.png');
+  background-size: 100vw 88vh;
+  color: white;
+} */
+
+#DHDTextWrapper {
+  height: 50vh;
+  width: 80vw;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 20vh;
+}
+
+#DHDMain h1 {
+  position: absolute;
+  font-size: calc(30px + 2.3vw + 1vh);
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+#DHDMain h2 {
+  position: absolute;
+  margin-top: 18vh;
+  font-size: 3vh;
+}
+
+#learnBox {
+  height: 5vh;
+  width: 13vw;
+  position: absolute;
+  margin-top: 35vh;
+  outline: 0.3vh solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+}
+
+.NAWrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+#randbunny {
+  height: 100vh;
+  position: absolute;
+  left: 0vw;
+}
+
+.NATextWrapper {
+  height: 100vh;
+  width: 63vw;
+  position: absolute;
+  left: 37vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.NAText {
+  height: 70vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: space-between;
+  margin-left: 7vw;
+  color: #646464;
+}
+
+#NATitle {
+  font-size: calc(35px + 2.5vw + 1.2vh);
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.NAinfo {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+
+#callIcon {
+  height: 3vh;
+  width: 3vh;
+  margin-right: 1vw;
+  position: relative;
+  top: 0.3vh;
+}
+
+#clockBg {
+  height: 3vh;
+  width: 3vh;
+  position: relative;
+  top: 0.3vh;
+}
+
+#clockHand {
+  height: 2.3vh;
+  width: 1vh;
+  left: -1vw;
+  top: -0.1vh;
+  position: relative;
+  z-index: 1;
+}
+
+#calendarIcon {
+  height: 3vh;
+  width: 3vh;
+  margin-right: 1vw;
+  position: relative;
+  top: 0.3vh;
+}
+
+#NAparagraph {
+  margin-top: 2vh;
+}
+
+.NAText p {
+  color: #969696;
+  text-align: left;
+  font-size: 2vh;
+}
+
+#WildlifeHelpBox {
+  height: 6vh;
+  width: 14vw;
+  margin-top: 5vh;
+  outline: 0.3vh solid #646464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+}
+
+.W2G2Wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0054a4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.W2G2Wrapper h1 {
+  margin-top: 15vh;
+  color: white;
+  font-size: 7vh;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+#W2G2OptionWrapper {
+  height: 55vh;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.W2G2Item {
+  height: 47vh;
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.W2G2Icon {
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.W2G2Item h2 {
+  font-size: 3vh;
+}
+
+.W2G2Item p {
+  font-size: 1.8vh;
+  width: 12vw;
+}
+
+.SupportUsBody {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-bottom: 100px;
+}
+
+.AffProgramsWrapper {
+  height: 120vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+#AffProgramsWrapper {
+  width: 42vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AffProgramsItem1 {
+  margin-top: 15vh;
+  width: 42vw;
+  color: white;
+  text-align: left;
+  outline: 3px solid green;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem2 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid lightblue;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem3 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid gold;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsItem4 {
+  width: 42vw;
+  color: black;
+  text-align: left;
+  outline: 3px solid gold;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  background-color: gold;
+  margin-bottom: 5vh;
+}
+
+.AffProgramsTextWrapper {
+  height: auto;
+  width: 35vw;
+}
+
+.AffProgramsItemTitle {
+  font-size: 2.7vh;
+  font-weight: bold;
+}
+
+.AffProgramsItem p {
+  width: 35vw;
+  font-size: 10px;
+}
+
+.AffIcon {
+  margin-left: 2.5vw;
+}
+
+.Cards {
+  font-family: 'Kollektif', sans-serif;
+  color: 'black';
+  font-size: 9px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Title {
+  text-align: left;
+}
+
+.Subtitle {
+  text-align: left;
+}
+.IndividualCard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.AffIcon {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.subtext{
+    text-align:center
+}
+.Card {
+  font-family: 'Kollektif', sans-serif;
+  color: #ffffff;
+  line-height: 0.05;
+  text-align: center;
+  box-shadow: 8px 8px 0px 0 #6c6c6c;
+  padding: 40px 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.TableText {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+.cards {
+    margin: 50px
+}
+.BoardOfficers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.BoardMembers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.AdvisoryBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.Card {
+  font-family: 'Kollektif', sans-serif;
+  color: #ffffff;
+  line-height: 0.05;
+  text-align: center;
+  box-shadow: 8px 8px 0px 0 #6c6c6c;
+  padding: 40px 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
