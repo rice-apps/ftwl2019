@@ -103,14 +103,11 @@ var navbar_headers = [
 ];
 
 function Navbar() {
-  // let style = {
-  //   backgroundColor: "#515768"
-  //     }
   let style = {
     paddingTop: '15px',
     paddingBottom: '15px',
     color: '#515768',
-    backgroundColor: '#DCDFE5',
+    // backgroundColor: '#DCDFE5',
   };
 
   return (
@@ -145,8 +142,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-const styles = {
-  backgroundColor: 'white',
-  textColor: 'black',
-};
