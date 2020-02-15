@@ -12,20 +12,42 @@ function TableText() {
     // Use effect with (func, empty array) means that func gets called when this
     // component is rendered.
     useEffect(() => {
-        // Use client object to retrieve an entry
-        client.getEntry('2XgFSQ5SEmUVz6JLeUTQOw')
-        .then(function (entry) {
-            console.log(entry.fields.questions);
-            setFAQ(entry.fields.questions);
-        });
+
+        // // Use client object to retrieve an entry
+        client.getEntries({
+            'content_type': 'singleQa'
+          })
+          .then(function (entries) {
+            // Sort entries by date
+            // entries.items.sort((a, b) => {
+            //     console.log(Date.parse(a.sys.createdAt));
+            //     return Date.parse(a.sys.createdAt) < Date.parse(b.sys.createdAt);
+            // })
+
+            // Reverse items
+            entries.items.reverse();
+            
+            // Set state FAQ variable
+            setFAQ(entries.items);
+          })
+          
+        // // Use client object to retrieve an entry
+        // client.getEntry('2XgFSQ5SEmUVz6JLeUTQOw')
+        // .then(function (entry) {
+        //     console.log(entry.fields.questions);
+        //     setFAQ(entry.fields.questions);
+        // });
     }, [])
 
     return (
         <div className="TableText">
              {
                 FAQ.map(
+                    // Map an array using (a, b, c) => {} where:
+                    // a is element
+                    // b is element's index in the array
+                    // c is the entire array
                     (q, idx1, arr) => {
-                        console.log(q.fields);
                         return (
                         <Flex key={idx1}>
                             <Box width={1/5}></Box>
