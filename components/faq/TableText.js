@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Box, Flex, Image } from 'rebass';
 import './TableText.css';
-import FAQjson from './FAQ.json';
 import client from '../../client';
 
 function TableText() {
