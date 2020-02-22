@@ -7,6 +7,7 @@ import WaysToGive2 from '../components/splashpage/WaysToGive2';
 import Link from 'next/link';
 
 function Home() {
+
   return (
     <div>
       <Navbar />
