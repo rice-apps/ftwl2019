@@ -6,7 +6,7 @@ function AboutUsBox(props) {
     <Box
       width="340px"
       height="340px"
-      bg="lightgrey"
+      // bg="lightgrey"
       style={{
         textAlign: 'center',
         display: 'flex',
