@@ -93,22 +93,29 @@ function Footer() {
                 Found an Animal
               </Box>
             </Link>
-            <Box
-              p={5}
-              fontSize="12px"
-              width={[2 / 3, 2 / 3, 2 / 3]}
-              color="white"
-              padding="0px 10px 10px 10px">
-              News &amp; Events
-            </Box>
-            <Box
-              p={5}
-              fontSize="12px"
-              width={[2 / 3, 2 / 3, 2 / 3]}
-              color="white"
-              padding="0px 10px 10px 10px">
-              Store
-            </Box>
+            
+            <Link href="news-and-events">
+              <Box
+                p={5}
+                fontSize="12px"
+                width={[2 / 3, 2 / 3, 2 / 3]}
+                color="white"
+                padding="0px 10px 10px 10px">
+                News &amp; Events
+              </Box>
+            </Link>
+
+            <a href={"https://squareup.com/store/FTWL"} target="_blank" style={{textDecoration:"none"}}>
+              <Box
+                p={5}
+                fontSize="12px"
+                width={[2 / 3, 2 / 3, 2 / 3]}
+                color="white"
+                padding="0px 10px 10px 10px">
+                Store
+              </Box>
+            </a>
+
           </Flex>
           <Box>
             <Flex alignContent="flex-end">
