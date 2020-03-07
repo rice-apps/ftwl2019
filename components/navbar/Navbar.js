@@ -120,7 +120,7 @@ function Navbar() {
       {navbar_headers.map(({ name, to, subheaders, absoluteTo }) => (
         <div className="navbar-category" key={name}>
           {absoluteTo ? (
-            <a href={absoluteTo} className="navbar-dropdown-absolute">
+            <a href={absoluteTo} target="_blank" className="navbar-dropdown-absolute">
               <button className="navbar-dropdown-opener">{name}</button>
             </a>
           ) : (
