@@ -120,27 +120,27 @@ function Footer() {
           <Box>
             <Flex alignContent="flex-end">
               <div className="media-icons">
-                <Image
-                  src={'../static/facebook-icon.png'}
+
+              <a href={"https://www.facebook.com/SavingTexasWildlife"} target="_blank" style={{textDecoration:"none"}}>
+               <Image
+                  src={'../static/monotone-icons/facebook-icon.png'}
                   sx={{
                     width: ['30px', '30px'],
                   }}
                   padding="3px"
                 />
+              </a>
+
+              <a href={"https://twitter.com/FriendsofTexas"} target="_blank" style={{textDecoration:"none"}}>
                 <Image
-                  src={'../static/twitter-icon.png'}
+                  src={'../static/monotone-icons/twitter-icon.png'}
                   sx={{
                     width: ['30px', '30px'],
                   }}
                   padding="3px"
                 />
-                <Image
-                  src={'../static/instagram-icon.png'}
-                  sx={{
-                    width: ['30px', '30px'],
-                  }}
-                  padding="3px"
-                />
+              </a>
+
               </div>
             </Flex>
           </Box>

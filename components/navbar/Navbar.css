@@ -26,10 +26,11 @@
   z-index: 9999;
   display: inline-flex;
   top: 0;
-  width: 100%;
+  width: 95%;
   transition: 0.5s ease-in-out;
   color: green;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .header-crest {

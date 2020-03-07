@@ -106,6 +106,7 @@ function Navbar() {
   let style = {
     paddingTop: '15px',
     paddingBottom: '15px',
+    paddingRight: '15px',
     color: '#515768',
     // backgroundColor: '#DCDFE5',
   };
@@ -137,6 +138,39 @@ function Navbar() {
           </div>
         </div>
       ))}
+
+
+    <div style={{textAlign:"right"}}>
+
+    <div style={{display:"flex", flexDirection: "row"}}>
+          <Button style={{color: "white", backgroundColor:"orange"}} mr={2}>Donate</Button>
+          <Button style={{color: "white", backgroundColor:"green"}} mr={2}>Contact Us</Button>
+        </div>
+
+        <a href={"https://www.facebook.com/SavingTexasWildlife"} target="_blank" style={{textDecoration:"none"}}>
+          <Image
+            src={'../static/icons/facebook-icon.png'}
+            sx={{
+              width: ['30px', '30px'],
+            }}
+            padding="3px"
+          />
+        </a>
+
+        <a href={"https://twitter.com/FriendsofTexas"} target="_blank" style={{textDecoration:"none"}}>
+          <Image
+            src={'../static/icons/twitter-icon.png'}
+            sx={{
+              width: ['30px', '30px'],
+            }}
+            padding="3px"
+          />
+        </a>
+
+
+    </div>
+
+
     </div>
   );
 }
