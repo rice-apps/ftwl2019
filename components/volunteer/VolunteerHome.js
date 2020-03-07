@@ -8,8 +8,7 @@ import Collapsible from 'react-collapsible';
 function VolunteerHome() {
   return (
     <div>
-      <Title title="Volunteer" />
-      <SubText text="Friends of Texas Wildlife has no paid staff and relies totally on caring volunteers to help fulfill its mission. Our volunteers fall under two categories:" />
+      <Title subtitle="Friends of Texas Wildlife has no paid staff and relies totally on caring volunteers to help fulfill its mission. Our volunteers fall under two categories:" title="Volunteer" />
       <Flex>
           <Box width={1/9}></Box>
           <Box width={3/9}>
@@ -53,24 +52,23 @@ function VolunteerHome() {
           <Box width={1/9}></Box>
       </Flex>
 
-      <div className="button">
-          <Button variant='outline' color='green'><Link href='http://crm.ftwl.org/civicrm/profile/create?gid=10&reset=1'>Click here to volunteer!</Link></Button>
+      <div style={{textAlign: "center", padding: 40}}>
+      <Link href='http://crm.ftwl.org/civicrm/profile/create?gid=10&reset=1'>
+        <Button variant='outline' color='green'>
+          Click here to volunteer!
+        </Button>
+      </Link>
       </div>
 
-      <Flex>
-        <Box>
-          <Image src="../../static/volunteerimage1.png" />
-        </Box>
-        <Box>
-          <Image src="../../static/volunteerimage2.png" />
-        </Box>
-        <Box>
-          <Image src="../../static/volunteerimage3.png" />
-        </Box>
-        <Box>
-          <Image src="../../static/volunteerimage4.png" />
-        </Box>
-      </Flex>
+      <div style={
+        {paddingLeft: 300, paddingRight: 300, 
+        display: "flex", flexDirection: "row", 
+        justifyContent: "space-between"}}>
+          <Image src="../../static/volunteer/volunteerimage1.png" />
+          <Image src="../../static/volunteer/volunteerimage2.png" />
+          <Image src="../../static/volunteer/volunteerimage3.png" />
+          <Image src="../../static/volunteer/volunteerimage4.png" />
+      </div>
     </div>
   );
 }

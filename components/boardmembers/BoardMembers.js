@@ -12,10 +12,10 @@ function BoardMembers() {
       />
       <Title title="Board Officers" />
 
+      <div className="BoardOfficers">
       {BoardMembersjson.boardofficers.map(q => {
         return (
           <div>
-            <div className="BoardOfficers">
               <ColoredCard
                 className="Cards"
                 cardwidth="400px"
@@ -23,17 +23,17 @@ function BoardMembers() {
                 line1text={q.position}
                 line2text={q.name}
               />
-            </div>
           </div>
         );
       })}
+      </div>
 
       <Title title="Board Members" />
 
+      <div className="BoardMembers">
       {BoardMembersjson.boardmembers.map(i => {
         return (
           <div>
-            <div className="BoardMembers">
               <ColoredCard
                 className="Cards"
                 cardwidth="400px"
@@ -41,16 +41,16 @@ function BoardMembers() {
                 line1text={i.position}
                 line2text={i.name}
               />
-            </div>
           </div>
         );
       })}
+      </div>
       <Title title="Advisory Board Members" />
 
+      <div className="AdvisoryBoard">
       {BoardMembersjson.advisoryboard.map(j => {
         return (
           <div>
-            <div className="AdvisoryBoard">
               <ColoredCard
                 className="Cards"
                 cardwidth="400px"
@@ -58,10 +58,10 @@ function BoardMembers() {
                 line1text={j.position}
                 line2text={j.name}
               />
-            </div>
           </div>
         );
       })}
+      </div>
     </div>
   );
 }

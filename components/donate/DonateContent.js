@@ -4,7 +4,7 @@ import { Box, Flex, Button, Image } from 'rebass';
 function DonateContent() {
     return (
         <Flex align="center">
-            <Box width={1 / 5}></Box>
+            <Box width={1 / 4}></Box>
             <Box width={1 / 2}>
                 <h1>Every dollar helps us save animals.</h1>
                 <p>
@@ -36,21 +36,20 @@ function DonateContent() {
             </Box>
             <Box width={1 / 2}>
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/1.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
                     padding="20px"
                 />
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/2.png'}
                     sx={{
                         width: ['325x', '325px'],
                     }}
                     padding="20px"
                 />
             </Box>
-            <Box width={1 / 5}></Box>
         </Flex>
     );
 }

@@ -2,7 +2,7 @@ import { Heading, Card, Image, Text } from 'rebass';
 
 function SmallCard(props) {
   return (
-    <div style={{ height: 300, width: 200, textAlign: 'center' }}>
+    <div style={{ padding: 20, height: 300, width: 200, textAlign: 'center' }}>
       <Card width={200}>
         <Image src={props.image} sx={{ margin: 'auto', paddingTop: 50 }} />
         <Heading

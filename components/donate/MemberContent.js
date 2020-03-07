@@ -4,17 +4,17 @@ import { Box, Flex, Button, Image } from 'rebass';
 function MemberContent() {
     return (
         <Flex align="center">
-            <Box width={1 / 5}></Box>
+            <Box width={1 / 4}></Box>
             <Box width={1 / 2}>
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/3.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
                     padding="20px"
                 />
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/4.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
@@ -42,7 +42,6 @@ function MemberContent() {
                     Wildlife, ...</p>
                 <Button variant='outline' color='green'>BECOME A MONTHLY DONOR</Button>
             </Box>
-            <Box width={1 / 5}></Box>
         </Flex>
     );
 }

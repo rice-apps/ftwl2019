@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 .BoardMembers {
