@@ -20,6 +20,7 @@
   },
   "homepage": "https://rice-apps.github.io/ftwl2019",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
     "@rebass/forms": "^4.0.6",
     "@zeit/next-css": "^1.0.1",
     "contentful": "^7.14.0",
@@ -29,6 +30,7 @@
     "react": "^16.12.0",
     "react-collapsible": "^2.6.2",
     "react-dom": "^16.12.0",
+    "reactjs-popup": "^1.5.0",
     "rebass": "^4.0.6"
   }
 }
