@@ -1,6 +1,12 @@
 import Title from '../util/Title';
 import ImageText from '../util/ImageText';
 import React, {useState, useEffect} from "react";
+import Popup from "reactjs-popup";
+import { Flex,Button,Box, Image } from 'rebass';
+import './NewsAndEvents.css';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+
+
 
 import client from '../../client.js';
 
@@ -14,7 +20,6 @@ function NewsAndEventsBody() {
     })
     .then( function (response) {
       console.log(response);
-      response.items.reverse();
       setEvent(response.items);
     })
   },[])
@@ -25,7 +30,17 @@ function NewsAndEventsBody() {
     <div>
       {event.map(x => {
         console.log(x.fields.announcementTitle);
-        return <ImageText title={x.fields.announcementTitle} />
+        return (
+        <Box>
+          <Popup trigger={<Button width={1}><ImageText title={x.fields.announcementTitle} image={x.fields.announcementImage.fields.file.url}/></Button>} 
+          modal
+          closeOnDocumentClick position="center">
+          <div>
+          <Image src={x.fields.announcementImage.fields.file.url} sx={{width:['50%','50%']}}></Image>
+          {documentToReactComponents(x.fields.announcementBody1)}</div>
+          </Popup>
+        </Box>
+      );
       })}
     </div>
   );
