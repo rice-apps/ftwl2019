@@ -11,7 +11,7 @@ function ImageText(props) {
           // // px: 200,
           // // py: 200,
           // // width: [1, 1, 1],
-          backgroundImage: 'url(' + props.image + ')',
+          backgroundImage: 'url(' + props.image+ ')',
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
           // borderRadius: 0,
