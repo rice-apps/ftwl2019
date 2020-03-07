@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Flex, Image } from 'rebass';
 import './TableText.css';
-import client from '../../client';
+import { client } from '../../client';
 
 function TableText() {
 
@@ -15,21 +15,21 @@ function TableText() {
         // // Use client object to retrieve an entry
         client.getEntries({
             'content_type': 'singleQa'
-          })
-          .then(function (entries) {
-            // Sort entries by date
-            // entries.items.sort((a, b) => {
-            //     console.log(Date.parse(a.sys.createdAt));
-            //     return Date.parse(a.sys.createdAt) < Date.parse(b.sys.createdAt);
-            // })
+        })
+            .then(function (entries) {
+                // Sort entries by date
+                // entries.items.sort((a, b) => {
+                //     console.log(Date.parse(a.sys.createdAt));
+                //     return Date.parse(a.sys.createdAt) < Date.parse(b.sys.createdAt);
+                // })
 
-            // Reverse items
-            entries.items.reverse();
-            
-            // Set state FAQ variable
-            setFAQ(entries.items);
-          })
-          
+                // Reverse items
+                entries.items.reverse();
+
+                // Set state FAQ variable
+                setFAQ(entries.items);
+            })
+
         // // Use client object to retrieve an entry
         // client.getEntry('2XgFSQ5SEmUVz6JLeUTQOw')
         // .then(function (entry) {
@@ -40,7 +40,7 @@ function TableText() {
 
     return (
         <div className="TableText">
-             {
+            {
                 FAQ.map(
                     // Map an array using (a, b, c) => {} where:
                     // a is element
@@ -48,32 +48,33 @@ function TableText() {
                     // c is the entire array
                     (q, idx1, arr) => {
                         return (
-                        <Flex key={idx1}>
-                            <Box width={1/5}></Box>
-                            <Box width={3/20}>
-                                <p><b>{q.fields.topic}</b></p>
-                            </Box>
-                            <Box width={1/20}></Box>
-                            <Box width={2/5}>
-                                <p><b>{q.fields.question}</b></p>
-                                
-                                {/* Split by \n separates the string
+                            <Flex key={idx1}>
+                                <Box width={1 / 5}></Box>
+                                <Box width={3 / 20}>
+                                    <p><b>{q.fields.topic}</b></p>
+                                </Box>
+                                <Box width={1 / 20}></Box>
+                                <Box width={2 / 5}>
+                                    <p><b>{q.fields.question}</b></p>
+
+                                    {/* Split by \n separates the string
                                     into a list of strings separated by
                                     the paragraphs. */}
-                                {q.fields.answer.split('\n').map(
-                                    (a, idx2) => {return (
-                                        <p key={idx2}>{a}</p>
-                                    );
-                                    }
-                                )}
+                                    {q.fields.answer.split('\n').map(
+                                        (a, idx2) => {
+                                            return (
+                                                <p key={idx2}>{a}</p>
+                                            );
+                                        }
+                                    )}
 
-                            </Box>
-                            <Box width = {1/5}></Box>
+                                </Box>
+                                <Box width={1 / 5}></Box>
 
-                        </Flex>);
+                            </Flex>);
                     }
                 )
-             }
+            }
         </div>
     );
 }

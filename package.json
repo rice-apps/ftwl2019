@@ -23,6 +23,7 @@
     "@rebass/forms": "^4.0.6",
     "@zeit/next-css": "^1.0.1",
     "contentful": "^7.14.0",
+    "emailjs-com": "^2.4.1",
     "eslint": "^6.5.1",
     "next": "^9.2.1",
     "next-fonts": "^1.0.3",
