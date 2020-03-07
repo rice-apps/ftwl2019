@@ -11,4 +11,4 @@ const emailjs_access_token = 'fcaa6008db744767b776793c255a1d75';
 const emailjs_template_id = 'template_FAR4TZ51';
 
 export default client;
-export { emailjs_user_id, emailjs_access_token, emailjs_template_id };
+export { client, emailjs_user_id, emailjs_access_token, emailjs_template_id };
