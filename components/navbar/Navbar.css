@@ -30,8 +30,7 @@
   top: 0;
   transition: 0.5s ease-in-out;
   color: green;
-  /* padding-bottom: 10px; */
-  vertical-align: text-bottom;
+  padding-bottom: 10px;
 }
 
 .header-crest {
