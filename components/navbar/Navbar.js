@@ -142,9 +142,18 @@ function Navbar() {
 
     <div style={{textAlign:"right"}}>
 
+
     <div style={{display:"flex", flexDirection: "row"}}>
+
+        <a href={"https://www.paypal.com/donate?token=Y1QpToJ2gxrxXwAVfnIMtQibxBteaow75FHkSi9-emAPI2gWsi8ekMM2cfOXFSd4G6m_C0&country.x=US&locale.x=US"} target="_blank" style={{textDecoration:"none"}}>
           <Button style={{color: "white", backgroundColor:"orange"}} mr={2}>Donate</Button>
+        </a>
+        
+        <Link href={"contactus"}>
+        <a href={"https://www.facebook.com/SavingTexasWildlife"} style={{textDecoration:"none"}}>
           <Button style={{color: "white", backgroundColor:"green"}} mr={2}>Contact Us</Button>
+        </a>
+        </Link>
         </div>
 
         <a href={"https://www.facebook.com/SavingTexasWildlife"} target="_blank" style={{textDecoration:"none"}}>
