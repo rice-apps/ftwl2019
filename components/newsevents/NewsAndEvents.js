@@ -8,7 +8,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 
 
-import client from '../../client.js';
+import {client} from '../../client.js';
 
 function NewsAndEventsBody() {
   // return <ImageText title="April Fundraiser" date="Thursday, April 12, 2019" preview="hello this is really a short preview of our blog post." />;

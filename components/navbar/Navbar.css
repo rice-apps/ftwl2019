@@ -26,11 +26,13 @@
 /* CSS for Navbar */
 .navbar-wrapper {
   z-index: 9999;
-  display: inline-flex;
+  display: flex;
   top: 0;
   transition: 0.5s ease-in-out;
   color: green;
   padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .header-crest {
@@ -52,7 +54,8 @@
 
 .navbar-category {
   float: left;
-}
+}  
+
 
 /* .navbar-category:nth-of-type(4) {
   padding-right: 40px;
