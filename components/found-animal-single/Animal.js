@@ -5,6 +5,7 @@ import ColoredCard from '../util/ColoredCard';
 
 function FoundAnimal(props) {
   var background = props.animal.text.shift();
+  console.log(props.animal.images);
   return (
     <div style={{width:"60%", margin:"auto"}}>
 

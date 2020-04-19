@@ -39,6 +39,7 @@
 }
 
 #learnBox {
+  cursor: pointer;
   height: 5vh;
   width: 13vw;
   position: absolute;

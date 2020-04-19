@@ -63,7 +63,7 @@
 
 .navbar-dropdown-opener {
   border: none;
-
+  cursor: pointer;
   font-display: swap;
   font-family: 'Kollektif';
   font-style: normal;
