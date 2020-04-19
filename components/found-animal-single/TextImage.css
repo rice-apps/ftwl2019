@@ -1,12 +1,16 @@
 .TextImage {
-  width: 80%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
-.header {
-  font-size: 20px;
+.texttitle {
+  font-size: 28px;
 }
 
-.body {
-  font-size: 14px;
+.textbody {
+  font-size: 18px;
+  line-height: 1.5;
 }
