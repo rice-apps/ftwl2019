@@ -4,31 +4,36 @@
       "description": "Join us by becoming a rehabilitator or administrator at our wildlife center",
       "heading": "Volunteer",
       "image": "../static/help/help-volunteer.png",
-      "color": "lightcyan"
+      "color": "lightcyan",
+      "link": "volunteer"
     },
     {
       "description": "Provide cash donations or become a monthly donor",
       "heading": "Donate",
       "image": "../static/help/help-donate.png",
-      "color": "green"
+      "color": "green",
+      "link": "donate"
     },
     {
       "description": "Support the animals while giving your child a unique and memorable birthday party",
       "heading": "Host a Party",
       "image": "../static/help/help-host.png",
-      "color": "orange"
+      "color": "orange",
+      "link": "host-a-party"
     },
     {
       "description": "View and give the supplies we need the most",
       "heading": "Donate Supplies",
       "image": "../static/help/help-supplies.png",
-      "color": "lightcyan"
+      "color": "lightcyan",
+      "link": "donate-supplies"
     },
     {
       "description": "Support us while you shop, both online and offline",
       "heading": "Support Us While Shopping",
       "image": "../static/help/help-support.png",
-      "color": "green"
+      "color": "green",
+      "link": "support-us-while-shopping"
     }
   ]
 }

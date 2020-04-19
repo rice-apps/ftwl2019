@@ -17,6 +17,7 @@ function HelpDeck(props) {
         return (
           <SmallCard
             key={i}
+            link={card.link}
             description={card.description}
             heading={card.heading}
             image={card.image}

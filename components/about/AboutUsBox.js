@@ -12,6 +12,7 @@ function AboutUsBox(props) {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+        padding: 10
       }}>
       <h1
         style={{
