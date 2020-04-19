@@ -14,15 +14,23 @@ function FoundAnimalHome() {
         <ColoredCard
           className="Cards"
           cardwidth="400px"
-          cardcolor="orange"
+          cardcolor="#EE9C3B"
+          letterspacing1="4px"
+          lettersize1="16px"
           line1text="INJURED ADULT DEER"
+          letterspacing2="4px"
+          lettersize2="30px"
           line2text="512-389-4848"
         />
         <ColoredCard
           className="Cards"
           cardwidth="400px"
-          cardcolor="orange"
+          cardcolor="#EE9C3B"
+          letterspacing1="4px"
+          lettersize1="16px"
           line1text="ALL OTHER ANIMALS"
+          letterspacing2="4px"
+          lettersize2="30px"
           line2text="281-259-0039"
         />
       </div>

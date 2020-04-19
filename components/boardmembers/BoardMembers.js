@@ -2,6 +2,7 @@ import Title from '../util/Title';
 import ColoredCard from '../util/ColoredCard';
 import './BoardMembers.css';
 import BoardMembersjson from './BoardMembers.json';
+import { Flex, Box, Button } from 'rebass';
 
 function BoardMembers() {
   return (
@@ -18,9 +19,11 @@ function BoardMembers() {
             <div className="BoardOfficers">
               <ColoredCard
                 className="Cards"
-                cardwidth="400px"
-                cardcolor="orange"
+                cardwidth="300px"
+                cardcolor="#EE9C3B"
+                lettersize1="16px"
                 line1text={q.position}
+                lettersize2="30px"
                 line2text={q.name}
               />
             </div>
@@ -36,9 +39,11 @@ function BoardMembers() {
             <div className="BoardMembers">
               <ColoredCard
                 className="Cards"
-                cardwidth="400px"
-                cardcolor="orange"
+                cardwidth="300px"
+                cardcolor="#EE9C3B"
+                lettersize1="16px"
                 line1text={i.position}
+                lettersize2="30px"
                 line2text={i.name}
               />
             </div>
@@ -53,9 +58,11 @@ function BoardMembers() {
             <div className="AdvisoryBoard">
               <ColoredCard
                 className="Cards"
-                cardwidth="400px"
-                cardcolor="orange"
+                cardwidth="300px"
+                cardcolor="#EE9C3B"
+                lettersize1="16px"
                 line1text={j.position}
+                lettersize2="30px"
                 line2text={j.name}
               />
             </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Flex, Button, Image } from 'rebass';
 import ColoredCard from "../util/ColoredCard.js";
 import intakeinfo from './intakecenter.json';
+import CallUsBox from '../util/CallUsBox.js';
+import EmailUsBox from '../util/EmailUsBox.js';
 
 function VisitorCenter() {
     return (
@@ -11,35 +13,35 @@ function VisitorCenter() {
                 <h1>{intakeinfo.visitorcenter.title}</h1>
                 {intakeinfo.visitorcenter.address.map(
                     k => {
-                        return(
+                        return (
                             <p><i>{k}</i></p>
                         )
                     }
                 )}
                 <p>Our visitor’s center is open:</p>
-                <p><Image src={'../static/ftwlclock.png'} sx={{width: ['50px', '50px'],}} padding="10px"/>{intakeinfo.visitorcenter.time}</p>
-                <p><Image src={'../static/ftwlcalendar.png'} sx={{width: ['50px', '50px'],}} padding="10px"/>{intakeinfo.visitorcenter.daysopen}</p>
-                {intakeinfo.visitorcenter.text}                
+                <p><Image src={'../static/ftwlclock.png'} sx={{ width: ['50px', '50px'], }} padding="10px" />{intakeinfo.visitorcenter.time}</p>
+                <p><Image src={'../static/ftwlcalendar.png'} sx={{ width: ['50px', '50px'], }} padding="10px" />{intakeinfo.visitorcenter.daysopen}</p>
+                {intakeinfo.visitorcenter.text}
                 <br></br>
                 <br></br>
 
-                
+
                 <div className='cards'>
-                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="CALL US" line2text="281-259-0039"></ColoredCard>
+                    <CallUsBox></CallUsBox>
                     <br></br>
                     <br></br>
-                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="EMAIL US" line2text="ftwl.education@gmail.com"></ColoredCard>
+                    <EmailUsBox></EmailUsBox>
                 </div>
             </Box>
 
             <Box width={1 / 2}>
-            {intakeinfo.visitorcenter.images.map(
-                i => {
-                    return(
-                        <Image src={i} sx={{width: ['300px', '300px'],}} padding="20px"/>
-                    )
-                }
-            )}
+                {intakeinfo.visitorcenter.images.map(
+                    i => {
+                        return (
+                            <Image src={i} sx={{ width: ['300px', '300px'], }} padding="20px" />
+                        )
+                    }
+                )}
             </Box>
 
         </Flex>

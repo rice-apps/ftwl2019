@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Flex, Button, Image } from 'rebass';
 import ColoredCard from "../util/ColoredCard.js";
 import './PartyContent.css'
+import CallUsBox from '../util/CallUsBox.js';
+import EmailUsBox from '../util/EmailUsBox.js';
 
 function PartyContent() {
     return (
@@ -40,16 +42,16 @@ function PartyContent() {
                 </p>
                 <h1>What we provide:</h1>
                 <p>Party Host, decorations, craft/activity, and a special gift for the
-                    birthday child.
+                birthday child.
                 </p>
                 <h1>What you provide:</h1>
                 <p>Refreshments (snacks, drinks, cake). Please note that there is no
-                    refrigerator or stove available. Local pizza may be ordered and
-                    delivered to 29816 Dobbin Hufsmith, Magnolia, 77354
+                refrigerator or stove available. Local pizza may be ordered and
+                delivered to 29816 Dobbin Hufsmith, Magnolia, 77354
                 </p>
                 <h1>Pricing:</h1>
                 <p>$300 - limit 15 children including siblings, $10 per additional child,
-                    maximum 25 children. Guest limit 35 (includes both children and parents)
+                maximum 25 children. Guest limit 35 (includes both children and parents)
                 </p>
                 <p>
                     $100 deposit: $50 to hold date and $50 security desposit.<br></br>
@@ -69,10 +71,10 @@ function PartyContent() {
                     padding="20px"
                 />
                 <div className='cards'>
-                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="CALL US" line2text="281-259-0039"></ColoredCard>
+                    <CallUsBox></CallUsBox>
                     <br></br>
                     <br></br>
-                    <ColoredCard cardwidth="400px" cardcolor="orange" line1text="EMAIL US" line2text="ftwl.education@gmail.com"></ColoredCard>
+                    <EmailUsBox></EmailUsBox>
                 </div>
             </Box>
             <Box width={1 / 5}></Box>
