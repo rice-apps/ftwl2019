@@ -2,8 +2,6 @@ import React from 'react';
 import { Box, Flex, Image, Button } from 'rebass';
 import Link from 'next/link';
 import logo from '../../static/ftwllogo.png';
-// import json from './Navbar.json';
-// import { navbar_headers } from './navbar.json';
 import './Navbar.css';
 
 var navbar_headers = [
@@ -57,7 +55,7 @@ var navbar_headers = [
     subheaders: [
       {
         name: 'Rabbits',
-        to: '/found-animal/bunny',
+        to: '/found-animal/rabbit',
       },
       {
         name: 'Squirrels',
