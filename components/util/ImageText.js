@@ -12,7 +12,7 @@ function ImageText(props) {
         // // py: 200,
         // // width: [1, 1, 1],
         backgroundImage: 'url(https://source.unsplash.com/random/1024x768?sky)',
-        backgroundSize: 'cover',
+        backgroundSize: 'cover', 
         // borderRadius: 0,
         color: 'white',
         bg: 'gray',

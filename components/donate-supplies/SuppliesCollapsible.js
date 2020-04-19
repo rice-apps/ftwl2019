@@ -20,44 +20,39 @@ function SuppliesCollapsible(props) {
 
     }, [])
 
-
-    // return (
-    //     <div>
-    //         {props.supplies.sections.map(section => {
-    //             return <Collapsible trigger={section.title}>
-    //                 {section.rows}
-    //             </Collapsible>
-    //         }
-    //         )}
-    //     </div>
-
-
-    return (
-        <div>
-            {
-                DS.map(
-                    q => {
-                        return (
-                        <Flex className="SupplyList">
-                            <Box width="750px" bg="green"> {q.fields.category} </Box>
+return (
+    <div>
+        {
+            DS.map(
+                q => {
+                    return (
+                        
+                    <Flex className="SupplyList">
+                        <Collapsible trigger={
+                        <Box pl="15px" py="3px" width="800px" height="25px" bg="#6C8C34" color="white"> 
+                        {q.fields.category} 
+                        <i class="down" style={{marginLeft: "8px", marginBottom:"3px"}}> </i> 
+                        </Box>
+                        }>
+                        <Box >
                             {q.fields.supplyList.split(('\n')).map(
                                 a => {return(
-                                    <Box align="center" width={2/3}>
+                                        <div className="Subcategory">
                                         {a}
-                                    </Box>)
-                                }
-                            )
-                            }
-                        </Flex>
-                        )
-                    }
+                                        </div>
+                                )}
+                            )}
+                        </Box>
+                        </Collapsible>
+                    </Flex>
+                    )
+                }
+            )
+        }
+    </div>
+)
 
 
-                )
-            }
-            
-        </div>
-    )
-    
 }
+
 export default SuppliesCollapsible;
