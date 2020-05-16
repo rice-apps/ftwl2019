@@ -4,6 +4,7 @@ import Footer from '../components/footer/Footer.js'
 import Title from '../components/util/Title.js'
 
 function Contact() {
+  
   return (
     <div>
       <Navbar></Navbar>

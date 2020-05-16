@@ -4,8 +4,7 @@
       "title": "Background",
       "text": [
         "In our part of Texas, baby squirrels are born twice a year; once in the early spring (as early as January) and again in the fall (August to December). Squirrels will nest in tree cavities, nest boxes if large enough, or they will build nests in trees. Female squirrels will often build multiple nests os if one nest is destroyed or becomes infested with pests, they can move their babies to another nest."
-      ],
-      "image": []
+      ]
     },
     {
       "title": "How to help",
@@ -14,16 +13,26 @@
         "Babies can be kept warm with a rice sock or hot water bottle (not too hot) placed under the fabric.",
         "Place the box as close to where you found the babies as possible. Do not place babies in direct sunlight.",
         "2. If the mother does not return to her babies, or if the weather is very cold and dark, call a wildlife rehabilitator for assistance."
-      ],
-      "image": ["../static/squirrel1.png", "../static/squirrel2.png"]
+      ]
     },
     {
       "title": "Don’t pet, feed, talk to or hold the squirrel.",
       "text": [
         "This is a wild animal. Human voices, odor and touch only add to the stress and will cause additional harm.",
         "Do not try to make a wild animal your pet. Not only is it not fair to the animal, it is against the law. According to Chapter 63, Section 63.002 of the Parks and Wildlife Code no person can possess a live game animal for any purpose not authorized by their code. The first offense for illegal possession of a live deer is a Class C misdemeanor punishable by a fine of up to $500 plus court costs. There are similar laws for possession of other animals such as raccoons."
-      ],
-      "image": ["../static/squirrel3.png"]
+      ]
+    }
+  ],
+  "images" : [
+    {
+      "caption": "Newborn \"Pinkie\" Squirrel",
+      "image" : "../static/single-animals/squirrel1.png"
+    },{
+      "caption": "Baby Gray Squirrel",
+      "image" : "../static/single-animals/squirrel2.png"
+    },{
+      "caption": "Baby Fox Squirrel",
+      "image" : "../static/single-animals/squirrel3.png"
     }
   ]
 }

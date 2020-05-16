@@ -39,8 +39,10 @@ function MemberContent() {
                     merchandise, and a small gift as our way of saying thank<br></br>
                     you.<br></br></p>
                 <p>Memberships can also be mailed to Friends of Texas<br></br>
-                    Wildlife, ...</p>
-                <Button variant='outline' color='green'>BECOME A MONTHLY DONOR</Button>
+                    Wildlife, 29615 Highland Boulevard, Magnolia TX 77354.</p>
+                <a href={"https://www.paypal.com/donate/?token=ZArjyekKpIC8FpCW2qrkq2wMQ3jnd7XYQgFnnxwnPgzem8v2IAI0AGtMVzFNFAdFhVjxcm&fromUL=true&country.x=US&locale.x=en_US"} target="_blank" style={{textDecoration:"none"}}>
+                    <Button style={{cursor:"pointer"}} variant='outline' color='green'>BECOME A MONTHLY DONOR</Button>
+                </a>
             </Box>
         </Flex>
     );

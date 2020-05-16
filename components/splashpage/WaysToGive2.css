@@ -25,6 +25,7 @@
 }
 
 .W2G2Item {
+  cursor: pointer;
   height: 47vh;
   width: 17vw;
   display: flex;

@@ -1,12 +1,56 @@
-.Collapsible {
-    color: blue;
-}
-
 
 .SupplyList {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    font-size: 17px;
 }
+
+.Subcategory {
+    /* border-radius: 5px;
+    border-bottom-width: 5px;  */
+    line-height: 20px;
+    background: #F3F3F3;
+    border: #DADADA solid 0.5px;
+    padding-left: 1em;
+    font-size: 15px;
+
+}
+
+.hr {
+
+    display: inside;
+    height: 0px; 
+    border: 0;
+    border-top: 1px solid black; 
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

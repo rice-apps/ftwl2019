@@ -64,7 +64,6 @@ This assumes you've followed the instructions in the Developing section.
 
 Runs the website locally in development mode with hot reloading.
 
-
 ### Deployment
 
 `$ npm run deploy`
@@ -77,4 +76,4 @@ Creates a production build of the website, exports this build to the docs folder
 3. Some general components that are used in mulitple places are in the root directory of the components directory, the others are organized by the page of the website they occur at.
 4. The static images and SVGs are located in the static directory.
 5. The pages of the website are located in the pages directory, each page contains its page specific components as well as the navbar, header, and footer components.
-6. The build files are exported to the docs folder after they are compiled, as part of the `$ npm run deploy` command, the gh-pages site is configured to pull from this folder in the master branch. 
+6. The build files are exported to the docs folder after they are compiled, as part of the `$ npm run deploy` command, the gh-pages site is configured to pull from this folder in the master branch.
