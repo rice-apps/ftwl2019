@@ -13,30 +13,29 @@ function BoardMembers() {
       />
       <Title title="Board Officers" />
 
-      {BoardMembersjson.boardofficers.map(q => {
-        return (
-          <div>
-            <div className="BoardOfficers">
-              <ColoredCard
-                className="Cards"
-                cardwidth="300px"
-                cardcolor="#EE9C3B"
-                lettersize1="16px"
-                line1text={q.position}
-                lettersize2="30px"
-                line2text={q.name}
-              />
+        <div className="BoardOfficers">
+        {BoardMembersjson.boardofficers.map(q => {
+          return (
+            <div className="SingleBoardCard">
+            <ColoredCard
+                  className="Cards"
+                  cardwidth="300px"
+                  cardcolor="#EE9C3B"
+                  lettersize1="16px"
+                  line1text={q.position}
+                  lettersize2="30px"
+                  line2text={q.name}
+                />
             </div>
-          </div>
-        );
-      })}
+                );
+        })}
+      </div>
 
       <Title title="Board Members" />
-
+      <div className="BoardMembers">
       {BoardMembersjson.boardmembers.map(i => {
         return (
-          <div>
-            <div className="BoardMembers">
+              <div className="SingleBoardCard">
               <ColoredCard
                 className="Cards"
                 cardwidth="300px"
@@ -45,17 +44,17 @@ function BoardMembers() {
                 line1text={i.position}
                 lettersize2="30px"
                 line2text={i.name}
-              />
-            </div>
-          </div>
-        );
-      })}
+                />
+              </div>
+              );
+            })}
+      </div>
       <Title title="Advisory Board Members" />
 
+      <div className="AdvisoryBoard">
       {BoardMembersjson.advisoryboard.map(j => {
         return (
-          <div>
-            <div className="AdvisoryBoard">
+          <div className="SingleBoardCard">
               <ColoredCard
                 className="Cards"
                 cardwidth="300px"
@@ -66,9 +65,9 @@ function BoardMembers() {
                 line2text={j.name}
               />
             </div>
-          </div>
         );
       })}
+      </div>
     </div>
   );
 }
