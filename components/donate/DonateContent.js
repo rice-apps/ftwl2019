@@ -4,7 +4,7 @@ import { Box, Flex, Button, Image } from 'rebass';
 function DonateContent() {
     return (
         <Flex align="center">
-            <Box width={1 / 5}></Box>
+            <Box width={1 / 4}></Box>
             <Box width={1 / 2}>
                 <h1>Every dollar helps us save animals.</h1>
                 <p>
@@ -12,7 +12,11 @@ function DonateContent() {
                     veterinary care that saves the lives of the <br></br>
                     malnourished, seriously ingured, and sick wildlife.
                 </p>
-                <Button variant='outline' color='green'>DONATE</Button>
+
+                <a href={"https://www.paypal.com/donate?token=Y1QpToJ2gxrxXwAVfnIMtQibxBteaow75FHkSi9-emAPI2gWsi8ekMM2cfOXFSd4G6m_C0&country.x=US&locale.x=US"} target="_blank" style={{textDecoration:"none"}}>
+                    <Button style={{cursor:"pointer"}} variant='outline' color='green'>DONATE</Button>
+                </a>
+                
                 <h1>Do you know how much it costs to <br></br>
                     rehabilitate an animal?</h1>
                 <Flex>
@@ -36,21 +40,20 @@ function DonateContent() {
             </Box>
             <Box width={1 / 2}>
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/1.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
                     padding="20px"
                 />
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/2.png'}
                     sx={{
                         width: ['325x', '325px'],
                     }}
                     padding="20px"
                 />
             </Box>
-            <Box width={1 / 5}></Box>
         </Flex>
     );
 }

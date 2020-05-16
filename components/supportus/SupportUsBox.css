@@ -1,10 +1,10 @@
 .Cards {
   font-family: 'Kollektif', sans-serif;
   color: 'black';
-  font-size: 9px;
+  /* font-size: 9px; */
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -21,8 +21,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.AffIcon {
+/* .AffIcon {
   display: flex;
   justify-content: right;
   flex-direction: column;
-}
+} */

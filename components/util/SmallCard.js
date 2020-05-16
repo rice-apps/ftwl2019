@@ -1,8 +1,10 @@
 import { Heading, Card, Image, Text } from 'rebass';
+import Link from 'next/link';
 
 function SmallCard(props) {
   return (
-    <div style={{ height: 300, width: 200, textAlign: 'center' }}>
+    <div style={{ cursor: "pointer", padding: 20, height: 300, width: 200, textAlign: 'center' }}>
+      <Link href={props.link}>
       <Card width={200}>
         <Image src={props.image} sx={{ margin: 'auto', paddingTop: 50 }} />
         <Heading
@@ -17,6 +19,7 @@ function SmallCard(props) {
           {props.description}
         </Text>
       </Card>
+      </Link>
     </div>
   );
 }

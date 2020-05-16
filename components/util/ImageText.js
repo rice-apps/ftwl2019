@@ -1,4 +1,4 @@
-import { Box, Heading, Flex, Text } from 'rebass';
+import { Box, Heading, Flex, Text, Button } from 'rebass';
 
 // ImageText component has a background image with text at the bottom.
 function ImageText(props) {
@@ -48,7 +48,6 @@ function ImageText(props) {
           {props.preview}
         </Text>
       </Box>
-    </Box>
   );
 }
 

@@ -62,7 +62,7 @@ function PartyContent() {
             </Box>
             <Box width={1 / 2}>
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/party/1.png'}
                     sx={{
                         width: ['400px', '400px'],
                     }}

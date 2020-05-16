@@ -4,17 +4,17 @@ import { Box, Flex, Button, Image } from 'rebass';
 function MemberContent() {
     return (
         <Flex align="center">
-            <Box width={1 / 5}></Box>
+            <Box width={1 / 4}></Box>
             <Box width={1 / 2}>
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/3.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
                     padding="20px"
                 />
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/donate/4.png'}
                     sx={{
                         width: ['325px', '325px'],
                     }}
@@ -39,10 +39,11 @@ function MemberContent() {
                     merchandise, and a small gift as our way of saying thank<br></br>
                     you.<br></br></p>
                 <p>Memberships can also be mailed to Friends of Texas<br></br>
-                    Wildlife, ...</p>
-                <Button variant='outline' color='green'>BECOME A MONTHLY DONOR</Button>
+                    Wildlife, 29615 Highland Boulevard, Magnolia TX 77354.</p>
+                <a href={"https://www.paypal.com/donate/?token=ZArjyekKpIC8FpCW2qrkq2wMQ3jnd7XYQgFnnxwnPgzem8v2IAI0AGtMVzFNFAdFhVjxcm&fromUL=true&country.x=US&locale.x=en_US"} target="_blank" style={{textDecoration:"none"}}>
+                    <Button style={{cursor:"pointer"}} variant='outline' color='green'>BECOME A MONTHLY DONOR</Button>
+                </a>
             </Box>
-            <Box width={1 / 5}></Box>
         </Flex>
     );
 }

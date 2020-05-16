@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainDeer.css';
+import Link from 'next/link'
 
 function MainDeer() {
   return (
@@ -19,7 +20,9 @@ function MainDeer() {
         <div id="DHDTextWrapper">
           <h1>Friends of Texas Wildlife</h1>
           <h2>Giving wildlife a second chance.</h2>
-          <div id="learnBox">LEARN MORE</div>
+          <Link href="/aboutus">
+            <div id="learnBox" onClick>LEARN MORE</div>
+          </Link>
         </div>
       </div>
     </div>
