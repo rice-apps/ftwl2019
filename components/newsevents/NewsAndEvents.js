@@ -7,7 +7,7 @@ import MyModal from './MyModal.js';
 
 
 
-import client from '../../client.js';
+import {client} from '../../client.js';
 
 
 function NewsAndEventsBody() {

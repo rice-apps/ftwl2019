@@ -9,10 +9,24 @@ import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
 function SupportUsBox(props) {
   return (
     <div className="Cards">
-      <Card width={1000} height={125} bg={props.cardcolor} color={props.color}>
-        <h1 className="Title">{props.title}</h1>
-        <h1 className="Subtitle">{props.text}</h1>
-        <img className="AffIcon" src={Arrow} />
+      <Card 
+      style={{paddingLeft:20}} 
+      width={1000} height={125} 
+      bg={props.cardcolor} 
+      color={props.color}>
+
+        <div style={{display:"flex", justifyContent:"space-between"}}>
+
+          <div>
+            <h1 className="Title">{props.title}</h1>
+            {props.text}
+          </div>
+
+          <div style={{paddingTop: 30, paddingRight: 20}}>
+            <img className="AffIcon" src={Arrow} />
+          </div>
+
+        </div>
       </Card>
     </div>
   );

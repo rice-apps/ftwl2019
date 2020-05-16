@@ -4,6 +4,7 @@ import CallIcon from '../../static/home/call_icon.png';
 import ClockBG from '../../static/home/Oval 2.png';
 import ClockHand from '../../static/home/Line.png';
 import Calendar from '../../static/home/calendar.png';
+import Link from 'next/link'
 import './NeedAssistance.css';
 
 function NeedAssistance() {
@@ -36,7 +37,9 @@ function NeedAssistance() {
               you!
             </p>
           </div>
-          <div id="WildlifeHelpBox">WILDLIFE HELP</div>
+          <Link href="foundanimal">
+            <div id="WildlifeHelpBox">WILDLIFE HELP</div>
+          </Link>
         </div>
       </div>
     </div>

@@ -38,6 +38,7 @@
 }
 
 .NAinfo {
+  font-family: 'Kollektif';
   font-size: 3vh;
   font-weight: bold;
   margin-top: 2vh;
@@ -86,6 +87,7 @@
 }
 
 #WildlifeHelpBox {
+  cursor: pointer;
   height: 6vh;
   width: 14vw;
   margin-top: 5vh;

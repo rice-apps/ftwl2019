@@ -1,11 +1,38 @@
+/* Fonts */
+@font-face {
+  font-family: 'Kollektif';
+  src: url('../../static/fonts/Kollektif.ttf');
+}
+
+@font-face {
+  font-family: 'Kollektif';
+  src: url('../../static/fonts/Kollektif-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Kollektif';
+  src: url('../../static/fonts/Kollektif-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Kollektif';
+  src: url('../../static/fonts/Kollektif-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* CSS for Navbar */
 .navbar-wrapper {
   z-index: 9999;
-  display: inline-flex;
+  display: flex;
   top: 0;
-  width: 100%;
   transition: 0.5s ease-in-out;
   color: green;
   padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .header-crest {
@@ -27,31 +54,33 @@
 
 .navbar-category {
   float: left;
-}
+}  
 
-.navbar-category:nth-of-type(4) {
+
+/* .navbar-category:nth-of-type(4) {
   padding-right: 40px;
-}
+} */
 
 .navbar-dropdown-opener {
   border: none;
-  font-family: 'Open Sans';
+  cursor: pointer;
+  font-display: swap;
+  font-family: 'Kollektif';
   font-style: normal;
-  font-weight: 600;
-  font-size: 1.3em;
-  color: inherit;
-  background-color: inherit;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: text-bottom;
 }
 
 .navbar-dropdown-absolute {
   border: none;
-  font-family: 'Open Sans';
+  font-family: 'Kollektif';
   font-style: normal;
-  font-weight: 600;
-  padding: 17px 20px 10px 20px;
-  font-size: 1em;
+  font-size: 14px;
   color: inherit;
   background-color: inherit;
+  bottom: 0;
 }
 
 .navbar-category:hover .navbar-dropdown-opener {
@@ -66,6 +95,7 @@
   display: block;
   position: absolute;
   max-height: 0;
+  max-width: 168px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
   color: #dcdfe5;
@@ -73,7 +103,7 @@
 
 .dropdown-subheaders a {
   display: block;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   background-color: #515768;
   transition: 0.2s ease-in-out;
   color: #dcdfe5;

@@ -5,7 +5,7 @@ import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
 
 function ColoredCard(props) {
   return (
-    <div>
+    <div style={{padding: "20px"}}>
       <Box
         className="Card"
         width={props.cardwidth == '' ? 'auto' : props.cardwidth}
