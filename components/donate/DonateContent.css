@@ -1,0 +1,17 @@
+.Donate {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 30px;
+}
+
+.DonateText {
+    max-width: 500px;
+}
+
+.DonateImages {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
