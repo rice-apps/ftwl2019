@@ -8,7 +8,6 @@ function EducationAndOutreach() {
             <Navbar></Navbar>
             <CommunityOutreach />
             <Footer></Footer>
-
         </div>
     );
 }

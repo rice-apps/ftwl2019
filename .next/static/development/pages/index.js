@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.css */ "./components/footer/Footer.css");
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/footer/Footer.js";
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/footer/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -220,7 +220,14 @@ function Footer() {
       lineNumber: 87
     },
     __self: this
-  }, "Found an Animal")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, "Found an Animal")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "news-and-events",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
@@ -228,10 +235,21 @@ function Footer() {
     padding: "0px 10px 10px 10px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 98
     },
     __self: this
-  }, "News & Events"), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, "News & Events")), __jsx("a", {
+    href: "https://squareup.com/store/FTWL",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: "12px",
     width: [2 / 3, 2 / 3, 2 / 3],
@@ -239,70 +257,81 @@ function Footer() {
     padding: "0px 10px 10px 10px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 109
     },
     __self: this
-  }, "Store")), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, "Store"))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 120
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     alignContent: "flex-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 121
     },
     __self: this
   }, __jsx("div", {
     className: "media-icons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 122
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.facebook.com/SavingTexasWildlife",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: '../static/facebook-icon.png',
+    src: '../static/monotone-icons/facebook-icon.png',
     sx: {
       width: ['30px', '30px']
     },
     padding: "3px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 125
     },
     __self: this
-  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: '../static/twitter-icon.png',
+  })), __jsx("a", {
+    href: "https://twitter.com/FriendsofTexas",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/monotone-icons/twitter-icon.png',
     sx: {
       width: ['30px', '30px']
     },
     padding: "3px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 135
     },
     __self: this
-  }), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: '../static/instagram-icon.png',
-    sx: {
-      width: ['30px', '30px']
-    },
-    padding: "3px",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    },
-    __self: this
-  }))))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  })))))), __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     p: 5,
     fontSize: 2,
     width: [1 / 4, 1 / 4, 1 / 4],
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 148
     },
     __self: this
   })));
@@ -330,13 +359,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar.css */ "./components/navbar/Navbar.css");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/navbar/Navbar.js";
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/navbar/Navbar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // import json from './Navbar.json';
-// import { navbar_headers } from './navbar.json';
 
 
 var navbar_headers = [{
@@ -376,7 +403,7 @@ var navbar_headers = [{
   to: '/foundanimal',
   subheaders: [{
     name: 'Rabbits',
-    to: '/found-animal/bunny'
+    to: '/found-animal/rabbit'
   }, {
     name: 'Squirrels',
     to: '/found-animal/squirrel'
@@ -410,40 +437,35 @@ var navbar_headers = [{
 }];
 
 function Navbar() {
-  // let style = {
-  //   backgroundColor: "#515768"
-  //     }
   var style = {
     paddingTop: '15px',
     paddingBottom: '15px',
-    color: '#515768',
-    backgroundColor: '#DCDFE5'
+    paddingRight: '15px',
+    color: '#515768'
   };
   return __jsx("div", {
     className: "navbar-wrapper",
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 112
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     className: "header-logo",
-    ml: 150,
-    mr: "auto",
     width: "auto",
     height: "auto",
     color: "black",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 114
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 115
     },
     __self: this
   }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -454,10 +476,21 @@ function Navbar() {
     src: _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }))), __jsx("div", {
+    style: {
+      paddingLeft: 30,
+      paddingRight: 30,
+      paddingTop: 50
+    },
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 120
     },
     __self: this
-  }))), navbar_headers.map(function (_ref) {
+  }, navbar_headers.map(function (_ref) {
     var name = _ref.name,
         to = _ref.to,
         subheaders = _ref.subheaders,
@@ -467,43 +500,44 @@ function Navbar() {
       key: name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124
+        lineNumber: 122
       },
       __self: this
     }, absoluteTo ? __jsx("a", {
       href: absoluteTo,
+      target: "_blank",
       className: "navbar-dropdown-absolute",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126
+        lineNumber: 124
       },
       __self: this
     }, __jsx("button", {
       className: "navbar-dropdown-opener",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 127
+        lineNumber: 125
       },
       __self: this
     }, name)) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: to,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130
+        lineNumber: 128
       },
       __self: this
     }, __jsx("button", {
       className: "navbar-dropdown-opener",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131
+        lineNumber: 129
       },
       __self: this
     }, name)), __jsx("div", {
       className: "dropdown-subheaders",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134
+        lineNumber: 132
       },
       __self: this
     }, subheaders.map(function (_ref2) {
@@ -514,25 +548,152 @@ function Navbar() {
         key: name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 134
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 135
         },
         __self: this
       }, name));
     })));
-  }));
+  })), __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      textAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 143
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row",
+      marginLeft: "auto",
+      marginRight: 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.facebook.com/SavingTexasWildlife",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/icons/facebook-icon.png',
+    sx: {
+      width: ['30px', '30px']
+    },
+    padding: "3px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    },
+    __self: this
+  })), __jsx("a", {
+    href: "https://twitter.com/FriendsofTexas",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 156
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: '../static/icons/twitter-icon.png',
+    sx: {
+      width: ['30px', '30px']
+    },
+    padding: "3px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }))), __jsx("div", {
+    style: {
+      display: "flex",
+      flexDirection: "row",
+      marginLeft: "auto",
+      marginRight: 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.paypal.com/donate?token=Y1QpToJ2gxrxXwAVfnIMtQibxBteaow75FHkSi9-emAPI2gWsi8ekMM2cfOXFSd4G6m_C0&country.x=US&locale.x=US",
+    target: "_blank",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    style: {
+      cursor: "pointer",
+      color: "white",
+      backgroundColor: "orange"
+    },
+    mr: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171
+    },
+    __self: this
+  }, "Donate")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "contactus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.facebook.com/SavingTexasWildlife",
+    style: {
+      textDecoration: "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175
+    },
+    __self: this
+  }, __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    style: {
+      cursor: "pointer",
+      color: "white",
+      backgroundColor: "green"
+    },
+    mr: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176
+    },
+    __self: this
+  }, "Contact Us"))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
-var styles = {
-  backgroundColor: 'white',
-  textColor: 'black'
-};
 
 /***/ }),
 
@@ -551,9 +712,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _MainDeer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainDeer.css */ "./components/splashpage/MainDeer.css");
 /* harmony import */ var _MainDeer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_MainDeer_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/splashpage/MainDeer.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/splashpage/MainDeer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -562,25 +726,25 @@ function MainDeer() {
     className: "jsx-4252671488" + " " + "DHDCopyWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
     className: "jsx-4252671488" + " " + "MenuPlaceholder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4252671488",
     __self: this
-  }, "#DHDMain.jsx-4252671488{height:88vh;width:100vw;background-image:url('../../static/home/deer.png');background-size:100vw 88vh;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaGFxdWlsbGV3eWFucXVlL2dpdC9mdHdsMjAxOS9jb21wb25lbnRzL3NwbGFzaHBhZ2UvTWFpbkRlZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUVMsQUFHcUIsWUFDQSxZQUN1QyxtREFDeEIsMkJBQ2YsWUFDZCIsImZpbGUiOiIvVXNlcnMvc2hhcXVpbGxld3lhbnF1ZS9naXQvZnR3bDIwMTkvY29tcG9uZW50cy9zcGxhc2hwYWdlL01haW5EZWVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCAnLi9NYWluRGVlci5jc3MnO1xuXG5mdW5jdGlvbiBNYWluRGVlcigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cIkRIRENvcHlXcmFwcGVyXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIk1lbnVQbGFjZWhvbGRlclwiPjwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgI0RIRE1haW4ge1xuICAgICAgICBoZWlnaHQ6IDg4dmg7XG4gICAgICAgIHdpZHRoOiAxMDB2dztcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi8uLi9zdGF0aWMvaG9tZS9kZWVyLnBuZycpO1xuICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMHZ3IDg4dmg7XG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuICAgICAgPGRpdiBpZD1cIkRIRE1haW5cIj5cbiAgICAgICAgPGRpdiBpZD1cIkRIRFRleHRXcmFwcGVyXCI+XG4gICAgICAgICAgPGgxPkZyaWVuZHMgb2YgVGV4YXMgV2lsZGxpZmU8L2gxPlxuICAgICAgICAgIDxoMj5HaXZpbmcgd2lsZGxpZmUgYSBzZWNvbmQgY2hhbmNlLjwvaDI+XG4gICAgICAgICAgPGRpdiBpZD1cImxlYXJuQm94XCI+TEVBUk4gTU9SRTwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBNYWluRGVlcjtcbiJdfQ== */\n/*@ sourceURL=/Users/shaquillewyanque/git/ftwl2019/components/splashpage/MainDeer.js */"), __jsx("div", {
+  }, "#DHDMain.jsx-4252671488{height:88vh;width:100vw;background-image:url('../../static/home/deer.png');background-size:100vw 88vh;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb25hdGhhbmNhaS9naXRodWIvZnR3bDIwMTkvY29tcG9uZW50cy9zcGxhc2hwYWdlL01haW5EZWVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNTLEFBR3FCLFlBQ0EsWUFDdUMsbURBQ3hCLDJCQUNmLFlBQ2QiLCJmaWxlIjoiL1VzZXJzL2pvbmF0aGFuY2FpL2dpdGh1Yi9mdHdsMjAxOS9jb21wb25lbnRzL3NwbGFzaHBhZ2UvTWFpbkRlZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0ICcuL01haW5EZWVyLmNzcyc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cbmZ1bmN0aW9uIE1haW5EZWVyKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiREhEQ29weVdyYXBwZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiTWVudVBsYWNlaG9sZGVyXCI+PC9kaXY+XG4gICAgICA8c3R5bGUganN4PlxuICAgICAgICB7YFxuICAgICAgICAjREhETWFpbiB7XG4gICAgICAgIGhlaWdodDogODh2aDtcbiAgICAgICAgd2lkdGg6IDEwMHZ3O1xuICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL3N0YXRpYy9ob21lL2RlZXIucG5nJyk7XG4gICAgICAgIGJhY2tncm91bmQtc2l6ZTogMTAwdncgODh2aDtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgICA8ZGl2IGlkPVwiREhETWFpblwiPlxuICAgICAgICA8ZGl2IGlkPVwiREhEVGV4dFdyYXBwZXJcIj5cbiAgICAgICAgICA8aDE+RnJpZW5kcyBvZiBUZXhhcyBXaWxkbGlmZTwvaDE+XG4gICAgICAgICAgPGgyPkdpdmluZyB3aWxkbGlmZSBhIHNlY29uZCBjaGFuY2UuPC9oMj5cbiAgICAgICAgICA8TGluayBocmVmPVwiL2Fib3V0dXNcIj5cbiAgICAgICAgICAgIDxkaXYgaWQ9XCJsZWFybkJveFwiIG9uQ2xpY2s+TEVBUk4gTU9SRTwvZGl2PlxuICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgTWFpbkRlZXI7XG4iXX0= */\n/*@ sourceURL=/Users/jonathancai/github/ftwl2019/components/splashpage/MainDeer.js */"), __jsx("div", {
     id: "DHDMain",
     className: "jsx-4252671488",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
@@ -588,32 +752,40 @@ function MainDeer() {
     className: "jsx-4252671488",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, __jsx("h1", {
     className: "jsx-4252671488",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "Friends of Texas Wildlife"), __jsx("h2", {
     className: "jsx-4252671488",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "Giving wildlife a second chance."), __jsx("div", {
-    id: "learnBox",
-    className: "jsx-4252671488",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "LEARN MORE"))));
+  }, "Giving wildlife a second chance."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/aboutus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    id: "learnBox",
+    onClick: true,
+    className: "jsx-4252671488",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "LEARN MORE")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MainDeer);
@@ -641,10 +813,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_home_Line_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_home_Line_png__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_home_calendar_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/home/calendar.png */ "./static/home/calendar.png");
 /* harmony import */ var _static_home_calendar_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_home_calendar_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _NeedAssistance_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NeedAssistance.css */ "./components/splashpage/NeedAssistance.css");
-/* harmony import */ var _NeedAssistance_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_NeedAssistance_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/splashpage/NeedAssistance.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _NeedAssistance_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./NeedAssistance.css */ "./components/splashpage/NeedAssistance.css");
+/* harmony import */ var _NeedAssistance_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_NeedAssistance_css__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/splashpage/NeedAssistance.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -658,7 +833,7 @@ function NeedAssistance() {
     className: "NAWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx("img", {
@@ -666,35 +841,35 @@ function NeedAssistance() {
     src: _static_home_NA_bunny_png__WEBPACK_IMPORTED_MODULE_1___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), __jsx("div", {
     className: "NATextWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, __jsx("div", {
     className: "NAText",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, __jsx("div", {
     id: "NATitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Found an animal?"), __jsx("div", {
     className: "NAinfo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, __jsx("img", {
@@ -702,14 +877,14 @@ function NeedAssistance() {
     src: _static_home_call_icon_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }), "Call us at 281-259-0039."), __jsx("div", {
     className: "NAinfo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, __jsx("img", {
@@ -717,7 +892,7 @@ function NeedAssistance() {
     src: _static_home_Oval_2_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }), __jsx("img", {
@@ -725,14 +900,14 @@ function NeedAssistance() {
     src: _static_home_Line_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }), " 10 AM to 2 PM", ' '), __jsx("div", {
     className: "NAinfo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, __jsx("img", {
@@ -740,42 +915,49 @@ function NeedAssistance() {
     src: _static_home_calendar_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }), "Monday through Saturday"), __jsx("div", {
     id: "NAparagraph",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, "For assistance after hours, please utilize the resources on this website. Unfortunately, as a volunteer organization, we are unable to provide 24-hour assistance.", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
-  }), "Please call ahead before bringing animals to our center so that we are ready to assist you!")), __jsx("div", {
+  }), "Please call ahead before bringing animals to our center so that we are ready to assist you!")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    href: "foundanimal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("div", {
     id: "WildlifeHelpBox",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
-  }, "WILDLIFE HELP"))));
+  }, "WILDLIFE HELP")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NeedAssistance);
@@ -799,7 +981,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/Title */ "./components/util/Title.js");
 /* harmony import */ var _Sponsors_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sponsors.css */ "./components/splashpage/Sponsors.css");
 /* harmony import */ var _Sponsors_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Sponsors_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/splashpage/Sponsors.js";
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/splashpage/Sponsors.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -839,9 +1021,10 @@ function Logos(props) {
       lineNumber: 21
     },
     __self: this
-  }, props.sponsors.urls.map(function (src) {
+  }, props.sponsors.urls.map(function (src, i) {
     return __jsx(Logo, {
       src: src,
+      key: i,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
@@ -897,8 +1080,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_home_hands_png__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _WaysToGive2_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WaysToGive2.css */ "./components/splashpage/WaysToGive2.css");
 /* harmony import */ var _WaysToGive2_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_WaysToGive2_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/splashpage/WaysToGive2.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/splashpage/WaysToGive2.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -908,102 +1094,82 @@ function WaysToGive2() {
     className: "W2G2Wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, "Ways to Give"), __jsx("div", {
     id: "W2G2OptionWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "W2G2Item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "W2G2Icon",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx("img", {
-    className: "HandsIcon",
-    src: _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "volunteer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  })), __jsx("h2", {
+  }, __jsx("div", {
+    className: "W2G2Item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "W2G2Icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Volunteer"), __jsx("p", {
+  }, __jsx("img", {
+    className: "HandsIcon",
+    src: _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Friends of Texas Wildlife relies totally on caring volunteers like yourself to help fulfill its mission.", ' ')), __jsx("div", {
-    className: "W2G2Item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "W2G2Icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "HandsIcon",
-    src: _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default.a,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
   })), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 17
     },
     __self: this
-  }, "Donate"), __jsx("p", {
+  }, "Volunteer"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Friends of Texas Wildlife relies totally on caring volunteers like yourself to help fulfill its mission.", ' '))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "donate",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "We are a non-profit organization. 100% of all donations directly support native Texas wildlife.")), __jsx("div", {
+  }, __jsx("div", {
     className: "W2G2Item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 26
     },
     __self: this
   }, __jsx("div", {
     className: "W2G2Icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 27
     },
     __self: this
   }, __jsx("img", {
@@ -1011,22 +1177,63 @@ function WaysToGive2() {
     src: _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
     },
     __self: this
   })), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 30
+    },
+    __self: this
+  }, "Donate"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "We are a non-profit organization. 100% of all donations directly support native Texas wildlife."))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "waystogive",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "W2G2Item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "W2G2Icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "HandsIcon",
+    src: _static_home_hands_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  })), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
     },
     __self: this
   }, "More"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 44
     },
     __self: this
-  }, "Explore other ways you can make a difference by supporting the Friends of Texas Wildlife.", ' '))));
+  }, "Explore other ways you can make a difference by supporting the Friends of Texas Wildlife.", ' ')))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (WaysToGive2);
@@ -1047,7 +1254,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
 /* harmony import */ var _Title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Title.css */ "./components/util/Title.css");
 /* harmony import */ var _Title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/components/util/Title.js";
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/util/Title.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -9020,10 +9227,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js!./":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js!./":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15404,7 +15611,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_splashpage_WaysToGive2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/splashpage/WaysToGive2 */ "./components/splashpage/WaysToGive2.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/Users/shaquillewyanque/git/ftwl2019/pages/index.js";
+var _jsxFileName = "/Users/jonathancai/github/ftwl2019/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -15419,43 +15626,43 @@ function Home() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx(_components_navbar_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), __jsx(_components_splashpage_MainDeer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), __jsx(_components_splashpage_NeedAssistance__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), __jsx(_components_splashpage_WaysToGive2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), __jsx(_components_splashpage_Sponsors__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }), __jsx(_components_footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }));
@@ -15542,14 +15749,14 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACmCAYAAABU
 
 /***/ }),
 
-/***/ 1:
-/*!********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js ***!
-  \********************************************************************************************************************************/
+/***/ 8:
+/*!******************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fshaquillewyanque%2Fgit%2Fftwl2019%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -15565,5 +15772,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -4797,7 +4797,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/shaquillewyanque/git/ftwl2019/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/jonathancai/github/ftwl2019/.next");
       return error;
     }
   };
