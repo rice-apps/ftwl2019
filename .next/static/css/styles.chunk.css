@@ -170,248 +170,47 @@ body {
   font-size: 25px;
 }
 
-.TextImage {
-  /* background-color: aquamarine; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
+.Events {
+    width: 100%;
+    height: 100%;
 }
-
-.texttitle {
-  font-size: 28px;
-}
-
-.textbody {
-  font-size: 18px;
-  line-height: 1.5;
-}
-.Card {
-  font-family: 'Kollektif', sans-serif;
-  color: #ffffff;
-  line-height: 0.05;
-  text-align: center;
-  box-shadow: 8px 8px 0px 0 #6c6c6c;
-  padding: 40px 0px;
-  margin: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.logos-container {
-  margin: 0px 70px;
-}
-
-.DHDCopyWrapper {
-  /* height: 100vh; */
-  width: 100vw;
-}
-
-/* .MenuPlaceholder {
-  height: 12vh;
-  width: 100vw;
-} */
-
-/* #DHDMain {
-  height: 88vh;
-  width: 100vw;
-  background-image: url('../static/home/deer.png');
-  background-size: 100vw 88vh;
-  color: white;
-} */
-
-#DHDTextWrapper {
-  height: 50vh;
-  width: 80vw;
-  position: absolute;
-  margin-left: 10vw;
-  margin-top: 20vh;
-}
-
-#DHDMain h1 {
-  position: absolute;
-  font-size: calc(30px + 2.3vw + 1vh);
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
-#DHDMain h2 {
-  position: absolute;
-  margin-top: 18vh;
-  font-size: 3vh;
-}
-
-#learnBox {
-  cursor: pointer;
-  height: 5vh;
-  width: 13vw;
-  position: absolute;
-  margin-top: 35vh;
-  outline: 0.3vh solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2vh;
-}
-
-.NAWrapper {
-  height: 100vh;
-  width: 100vw;
-}
-
-#randbunny {
-  height: 100vh;
-  position: absolute;
-  left: 0vw;
-}
-
-.NATextWrapper {
-  height: 100vh;
-  width: 63vw;
-  position: absolute;
-  left: 37vw;
-  background-color: white;
-  display: flex;
-  align-items: center;
-}
-
-.NAText {
-  height: 70vh;
-  width: 45vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-content: space-between;
-  margin-left: 7vw;
-  color: #646464;
-}
-
-#NATitle {
-  font-size: calc(35px + 2.5vw + 1.2vh);
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
-.NAinfo {
-  font-family: 'Kollektif';
-  font-size: 3vh;
-  font-weight: bold;
-  margin-top: 2vh;
-}
-
-#callIcon {
-  height: 3vh;
-  width: 3vh;
-  margin-right: 1vw;
-  position: relative;
-  top: 0.3vh;
-}
-
-#clockBg {
-  height: 3vh;
-  width: 3vh;
-  position: relative;
-  top: 0.3vh;
-}
-
-#clockHand {
-  height: 2.3vh;
-  width: 1vh;
-  left: -1vw;
-  top: -0.1vh;
-  position: relative;
-  z-index: 1;
-}
-
-#calendarIcon {
-  height: 3vh;
-  width: 3vh;
-  margin-right: 1vw;
-  position: relative;
-  top: 0.3vh;
-}
-
-#NAparagraph {
-  margin-top: 2vh;
-}
-
-.NAText p {
-  color: #969696;
-  text-align: left;
-  font-size: 2vh;
-}
-
-#WildlifeHelpBox {
-  cursor: pointer;
-  height: 6vh;
-  width: 14vw;
-  margin-top: 5vh;
-  outline: 0.3vh solid #646464;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2vh;
-}
-
-.W2G2Wrapper {
-  height: 100vh;
-  width: 100vw;
-  background-color: #0054a4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.W2G2Wrapper h1 {
-  margin-top: 15vh;
-  color: white;
-  font-size: 7vh;
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-}
-
-#W2G2OptionWrapper {
-  height: 55vh;
-  width: 65vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.W2G2Item {
-  cursor: pointer;
-  height: 47vh;
-  width: 17vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-
-.W2G2Icon {
-  height: 14vw;
-  width: 14vw;
-  border-radius: 50%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.W2G2Item h2 {
-  font-size: 3vh;
-}
-
-.W2G2Item p {
-  font-size: 1.8vh;
-  width: 12vw;
-}
-
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 2% 10% 15% 10%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 /*# sourceMappingURL=styles.chunk.css.map*/
