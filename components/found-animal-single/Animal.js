@@ -5,7 +5,6 @@ import ColoredCard from '../util/ColoredCard';
 
 function FoundAnimal(props) {
   var background = props.animal.text.shift();
-  console.log(props.animal.images);
   return (
     <div style={{width:"60%", margin:"auto"}}>
 
@@ -27,12 +26,14 @@ function FoundAnimal(props) {
           cardcolor="#EE9C3B"/>
 
         </div>
-
+        
+        { props.animal.images &&
         <div style={{display: "flex", flexDirection: "column", paddingLeft: 20}}>
           {props.animal.images.map((t, i, arr) => {
             return <ImageWithCaption key={i} caption={t.caption} image={t.image}/>;
           })}
         </div>
+        }
 
       </div>
     </div>
