@@ -1,37 +1,35 @@
-import { Image } from 'rebass';
+import { Image, Flex } from 'rebass';
 import './AnimalTopRow.css';
 
 function AnimalTopRow() {
   return (
     <div className="toprow">
-      <Image
-        src={'../static/animals/Rabbits.png'}
-        pr={3}
-        pl={3}
-        sx={{
-          size: ['23%'],
-        }}></Image>
-      <Image
-        src={'../static/animals/Birds.png'}
-        pr={3}
-        pl={3}
-        sx={{
-          size: ['23%'],
-        }}></Image>
-      <Image
-        src={'../static/animals/Squirrels.png'}
-        pr={3}
-        pl={3}
-        sx={{
-          size: ['23%'],
-        }}></Image>
-      <Image
-        src={'../static/animals/Fawns.png'}
-        pr={3}
-        pl={3}
-        sx={{
-          size: ['23%'],
-        }}></Image>
+      <Flex flexWrap="wrap" flexDirection="row" justifyContent="center">
+        <Image
+          src={'../static/animals/Rabbits.png'}
+          sx={{
+            height: [200],
+            margin: 3,
+          }}></Image>
+        <Image
+          src={'../static/animals/Birds.png'}
+          sx={{
+            height: [200],
+            margin: 3,
+          }}></Image>
+        <Image
+          src={'../static/animals/Squirrels.png'}
+          sx={{
+            height: [200],
+            margin: 3,
+          }}></Image>
+        <Image
+          src={'../static/animals/Fawns.png'}
+          sx={{
+            height: [200],
+            margin: 3,
+          }}></Image>
+      </Flex>
     </div>
   );
 }
