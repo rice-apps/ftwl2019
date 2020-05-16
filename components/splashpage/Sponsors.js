@@ -19,8 +19,8 @@ function Logos(props) {
   return (
     <div className="logos-container">
       <Flex flexWrap="wrap" flexDirection="row" justifyContent="center">
-        {props.sponsors.urls.map(src => (
-          <Logo src={src} />
+        {props.sponsors.urls.map((src, i) => (
+          <Logo src={src} key={i}/>
         ))}
       </Flex>
     </div>

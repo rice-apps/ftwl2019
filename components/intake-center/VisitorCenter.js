@@ -17,12 +17,18 @@ function VisitorCenter() {
                     }
                 )}
                 <p>Our visitor’s center is open:</p>
-                <p><Image src={'../static/ftwlclock.png'} sx={{width: ['50px', '50px'],}} padding="10px"/>{intakeinfo.visitorcenter.time}</p>
-                <p><Image src={'../static/ftwlcalendar.png'} sx={{width: ['50px', '50px'],}} padding="10px"/>{intakeinfo.visitorcenter.daysopen}</p>
+                <Box><Image src={'../static/ftwl-clock.png'} sx={{size: '9%'}} padding="8px"/>
+                {intakeinfo.visitorcenter.time}
+                </Box>
+
+                <Box><Image src={'../static/ftwl-calendar.png'} sx={{size: '10%'}} padding="8px"/>
+                {intakeinfo.visitorcenter.daysopen}
+                </Box>
+                <br></br>
                 {intakeinfo.visitorcenter.text}                
                 <br></br>
                 <br></br>
-
+                <br></br>
                 
                 <div className='cards'>
                     <ColoredCard cardwidth="400px" cardcolor="orange" line1text="CALL US" line2text="281-259-0039"></ColoredCard>
@@ -31,7 +37,7 @@ function VisitorCenter() {
                     <ColoredCard cardwidth="400px" cardcolor="orange" line1text="EMAIL US" line2text="ftwl.education@gmail.com"></ColoredCard>
                 </div>
             </Box>
-
+         
             <Box width={1 / 2}>
             {intakeinfo.visitorcenter.images.map(
                 i => {
