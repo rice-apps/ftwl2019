@@ -28,12 +28,11 @@ return (
                     return (
                         
                     <Flex className="SupplyList">
-                        <Collapsible trigger={
+                        <Collapsible open="true" trigger={
                         <Box pl="15px" py="3px" width="800px" height="25px" bg="#6C8C34" color="white"> 
                         {q.fields.category} 
                         <i class="down" style={{marginLeft: "8px", marginBottom:"3px"}}> </i> 
-                        </Box>
-                        }>
+                        </Box>}>
                         <Box >
                             {q.fields.supplyList.split(('\n')).map(
                                 a => {return(

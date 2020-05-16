@@ -48,6 +48,7 @@ function ImageText(props) {
           {props.preview}
         </Text>
       </Box>
+      </Box>
   );
 }
 

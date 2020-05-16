@@ -125,7 +125,7 @@ function Navbar() {
                     <button className="navbar-dropdown-opener">{name}</button>
                   </a>
                 ) : (
-                  <Link href={to} className="navbar-dropdown-absolute">
+                  <Link href={to}>
                     <button className="navbar-dropdown-opener">{name}</button>
                   </Link>
                 )}
