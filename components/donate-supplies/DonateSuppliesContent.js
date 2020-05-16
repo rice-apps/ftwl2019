@@ -6,10 +6,10 @@ import CollapsibleContent from './CollapsibleContent.json';
 
 
 function DonateSuppliesContent() {
-    
-    return (
+     
+  return (
         <div>
-            <Flex align="center">
+            <Flex align-items="center" justifyContent="center">
                 <Box width={1 / 5}></Box>
                 <Box width={1 / 2}>
                 <p>
@@ -22,7 +22,7 @@ function DonateSuppliesContent() {
                 </Box>
                 <Box width={1 / 5}></Box>
             </Flex>
-            <Flex align="center">
+            <Flex align="center" justifyContent="center">
                 <Box width={1 / 5}></Box>
                 <SuppliesCollapsible supplies={CollapsibleContent}></SuppliesCollapsible>
                 {/* <Collapsible open="true">

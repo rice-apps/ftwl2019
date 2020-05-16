@@ -2,8 +2,6 @@ import React from 'react';
 import { Box, Flex, Image, Button } from 'rebass';
 import Link from 'next/link';
 import logo from '../../static/ftwllogo.png';
-// import json from './Navbar.json';
-// import { navbar_headers } from './navbar.json';
 import './Navbar.css';
 
 var navbar_headers = [
@@ -57,7 +55,7 @@ var navbar_headers = [
     subheaders: [
       {
         name: 'Rabbits',
-        to: '/found-animal/bunny',
+        to: '/found-animal/rabbit',
       },
       {
         name: 'Squirrels',
@@ -170,12 +168,12 @@ function Navbar() {
       <div style={{display:"flex", flexDirection: "row", marginLeft: "auto", marginRight:0}}>
 
           <a href={"https://www.paypal.com/donate?token=Y1QpToJ2gxrxXwAVfnIMtQibxBteaow75FHkSi9-emAPI2gWsi8ekMM2cfOXFSd4G6m_C0&country.x=US&locale.x=US"} target="_blank" style={{textDecoration:"none"}}>
-            <Button style={{color: "white", backgroundColor:"orange"}} mr={2}>Donate</Button>
+            <Button style={{cursor:"pointer", color: "white", backgroundColor:"orange"}} mr={2}>Donate</Button>
           </a>
           
           <Link href={"contactus"}>
           <a href={"https://www.facebook.com/SavingTexasWildlife"} style={{textDecoration:"none"}}>
-            <Button style={{color: "white", backgroundColor:"green"}} mr={2}>Contact Us</Button>
+            <Button style={{cursor:"pointer", color: "white", backgroundColor:"green"}} mr={2}>Contact Us</Button>
           </a>
           </Link>
           </div>

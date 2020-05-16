@@ -147,7 +147,7 @@ function ContactContent() {
 
             <Box width={1 / 2} >
                 <Image
-                    src={'../static/placeholder.png'}
+                    src={'../static/contactus.png'}
                     sx={{
                         width: ['350px', '350px'],
                     }}
