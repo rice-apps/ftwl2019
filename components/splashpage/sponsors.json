@@ -1,0 +1,30 @@
+{
+    "sponsors": [
+        { "img": "../../static/sponsors/walmart 1.png",
+            "link": "https://www.walmart.com/"},
+        { "img": "../../static/sponsors/kroger 1.png",
+            "link": "https://www.kroger.com/"},
+        { "img": "../../static/sponsors/texas forest service 1.png",
+            "link": "https://tfsweb.tamu.edu/"},
+        { "img": "../../static/sponsors/c_e_ sheperd 1.png",
+            "link": "https://ceshepherd.com/"},
+        { "img": "../../static/sponsors/911 Wildlife Logo 1.png",
+            "link": "https://www.911wildlife.com/"},
+        { "img": "../../static/sponsors/cunningham living(1) 1.png",
+            "link": "https://www.cunninghamliving.com/"},
+        { "img": "../../static/sponsors/wildlife center of texas 1.png",
+            "link": "https://wildlifecenteroftexas.org/"},
+        { "img": "../../static/sponsors/pets paw logo(1) 1.png",
+            "link": "https://wildlifecenteroftexas.org/"},
+        { "img": "../../static/sponsors/bay area wildlife logo-page-001 1.png",
+            "link": "http://www.bawr.org/"},
+        { "img": "../../static/sponsors/spring creek greenway 1.png",
+            "link": "https://www.hcp4.net/parks/scg/"},
+        { "img": "../../static/sponsors/dove key ranch(1) 1.png",
+            "link": "http://www.texasescapes.com/Wildlife/Dove-Key-Ranch-Wildlife-Rehabilitation.htm"},
+        { "img": "../../static/sponsors/fox valley 1.png",
+            "link": "https://www.foxvalleynutrition.com/"},
+        { "img": "../../static/sponsors/contentful.png",
+            "link": "https://www.contentful.com/"}
+        ]    
+}
