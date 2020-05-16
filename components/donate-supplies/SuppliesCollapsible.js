@@ -23,16 +23,30 @@ function SuppliesCollapsible(props) {
 return (
     <div>
         {
+        
             DS.map(
-                q => {
+                
+                (q,i) => { 
                     return (
                         
                     <Flex className="SupplyList">
-                        <Collapsible open="true" trigger={
-                        <Box pl="15px" py="3px" width="800px" height="25px" bg="#6C8C34" color="white"> 
+                        <Collapsible open="true" 
+                        
+                        trigger={
+                        <Box pl="15px" py="3px" width="800px" height="25px"  bg= { i % 2 === 0 ? "#6C8C34" : "#2F4C19"}  color="white"> 
                         {q.fields.category} 
-                        <i class="down" style={{marginLeft: "8px", marginBottom:"3px"}}> </i> 
-                        </Box>}>
+                        <i class="down" style={{float: "right", marginRight: "8px", marginTop: "3px"}}> </i> 
+                        </Box>}
+
+                        triggerWhenOpen={
+                            <Box pl="15px" py="3px" width="800px" height="25px"  bg= { i % 2 === 0 ? "#6C8C34" : "#2F4C19"}  color="white"> 
+                            {q.fields.category} 
+                            <i class="up" style={{float: "right", marginRight: "8px", marginTop: "7px"}}> </i> 
+                            </Box>
+                        }
+                        > 
+
+                
                         <Box >
                             {q.fields.supplyList.split(('\n')).map(
                                 a => {return(
@@ -45,6 +59,8 @@ return (
                         </Collapsible>
                     </Flex>
                     )
+
+                
                 }
             )
         }

@@ -17,7 +17,7 @@ function DonateSuppliesContent() {
                     just some of the items we use on a daily basis.
                 </p>
                 <p>
-                    To donate items, visit <u>our rehab center</u> during our business hours or <u>contact us</u> to arrage a donation.
+                    To donate items, visit <u>our rehab center</u> during our business hours or <u>contact us</u> to arrange a donation.
                  </p>
                 </Box>
                 <Box width={1 / 5}></Box>
