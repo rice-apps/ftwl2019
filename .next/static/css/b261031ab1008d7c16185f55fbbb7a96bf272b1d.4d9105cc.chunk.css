@@ -1,0 +1,26 @@
+.title-container {
+  padding: 40px 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: #114b0b;
+  font-size: 52px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.subtitle {
+  margin: 0px;
+  padding: 0px;
+  color: #646464;
+  font-size: 25px;
+}
+
+.Events {
+    width: 100%;
+    height: 100%;
+}
