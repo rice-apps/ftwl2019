@@ -1,0 +1,18 @@
+.Member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+ }
+
+ .MemberText {
+     max-width: 500px;
+ }
+
+ .MemberImages {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+ }
+ 

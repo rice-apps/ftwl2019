@@ -1,6 +1,21 @@
 .TableText {
-    font-style: normal;
-    font-size: 20px;
-    line-height: 24px;
-    color: #6C6C6C;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6c6c6c;
+  text-align: justify;
+}
+
+.Questions {
+  margin: 0 auto;
+  width: 70%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 860px) {
+  .TableText {
+    flex-direction: column;
+  }
 }

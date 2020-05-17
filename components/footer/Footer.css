@@ -1,7 +1,19 @@
 .footer {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kollektif', sans-serif;
   background: #114b0b;
   margin-top: 50px;
+  color: white;
+}
+
+.footer-flex {
+  padding: 40px 10px;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer-block {
+  padding: 0 10px;
+  max-width: 400px;
 }
 
 .footer-header {
@@ -12,6 +24,20 @@
 
 .footer-info {
   font-size: 10px;
+}
+
+.footer-links {
+  padding: 0 20px;
+  /* margin: auto; */
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.footer-link {
+  font-size: 12px;
+  line-height: 0px;
+  padding: 0 10px;
+  white-space:nowrap;
 }
 
 .media-icons {
