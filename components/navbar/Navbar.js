@@ -3,7 +3,7 @@ import { Box, Flex, Image, Button } from 'rebass';
 import Link from 'next/link';
 import logo from '../../static/ftwllogo.png';
 // import json from './Navbar.json';
-import { navbar_headers } from './navbar.json';
+import { navbar_headers } from './Navbar.json';
 import './Navbar.css';
 
 function Navbar() {
