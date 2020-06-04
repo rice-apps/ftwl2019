@@ -9,8 +9,8 @@ function Footer() {
   return (
     <div className="footer">
       <Flex className="footer-flex">
-        {footer_info.map(({ title, text }) => (
-          <Box className="footer-block">
+        {footer_info.map(({ title, text }, i) => (
+          <Box className="footer-block" key={i}>
             <div className="footer-header">{title}</div>
             <div className="footer-info">
               {text.split('\n').map(line => (
@@ -20,8 +20,8 @@ function Footer() {
           </Box>
         ))}
         <Flex className="footer-links">
-          {navbar_headers.map(({ name, toString }) => (
-            <Box className="footer-link">
+          {navbar_headers.map(({ name, toString }, i) => (
+            <Box className="footer-link" key={i}>
               <p>{name}</p>
             </Box>
           ))}

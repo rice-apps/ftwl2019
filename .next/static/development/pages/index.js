@@ -18,8 +18,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Footer_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.json */ "./components/footer/Footer.json");
 var _Footer_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./Footer.json */ "./components/footer/Footer.json", 1);
-/* harmony import */ var _Navbar_copy_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Navbar-copy.json */ "./components/footer/Navbar-copy.json");
-var _Navbar_copy_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./Navbar-copy.json */ "./components/footer/Navbar-copy.json", 1);
+/* harmony import */ var _navbar_Navbar_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../navbar/Navbar.json */ "./components/navbar/Navbar.json");
+var _navbar_Navbar_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../navbar/Navbar.json */ "./components/navbar/Navbar.json", 1);
 var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/footer/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -44,11 +44,12 @@ function Footer() {
       lineNumber: 11
     },
     __self: this
-  }, _Footer_json__WEBPACK_IMPORTED_MODULE_4__["footer_info"].map(function (_ref) {
+  }, _Footer_json__WEBPACK_IMPORTED_MODULE_4__["footer_info"].map(function (_ref, i) {
     var title = _ref.title,
         text = _ref.text;
     return __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
       className: "footer-block",
+      key: i,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
@@ -84,11 +85,12 @@ function Footer() {
       lineNumber: 22
     },
     __self: this
-  }, _Navbar_copy_json__WEBPACK_IMPORTED_MODULE_5__["navbar_headers"].map(function (_ref2) {
+  }, _navbar_Navbar_json__WEBPACK_IMPORTED_MODULE_5__["navbar_headers"].map(function (_ref2, i) {
     var name = _ref2.name,
         toString = _ref2.toString;
     return __jsx(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
       className: "footer-link",
+      key: i,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
@@ -258,17 +260,6 @@ module.exports = JSON.parse("{\"footer_info\":[{\"title\":\"Friends of Texas Wil
 
 /***/ }),
 
-/***/ "./components/footer/Navbar-copy.json":
-/*!********************************************!*\
-  !*** ./components/footer/Navbar-copy.json ***!
-  \********************************************/
-/*! exports provided: navbar_headers, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"navbar_headers\":[{\"name\":\"About Us\",\"to\":\"/aboutus\",\"subheaders\":[{\"name\":\"Education and Community Outreach\",\"to\":\"/education-and-outreach\"},{\"name\":\"Our Intake Centers\",\"to\":\"/our-intake-centers\"},{\"name\":\"Our Board Members\",\"to\":\"/our-board-members\"}]},{\"name\":\"Ways to Give\",\"to\":\"/waystogive\",\"subheaders\":[{\"name\":\"Volunteer\",\"to\":\"/volunteer\"},{\"name\":\"Donate\",\"to\":\"/donate\"},{\"name\":\"Host A Party\",\"to\":\"/host-a-party\"},{\"name\":\"Donate Supplies\",\"to\":\"/donate-supplies\"},{\"name\":\"Support Us While Shopping\",\"to\":\"/support-us-while-shopping\"}]},{\"name\":\"Found an Animal?\",\"to\":\"/foundanimal\",\"subheaders\":[{\"name\":\"Rabbits\",\"to\":\"/found-animal/bunny\"},{\"name\":\"Squirrels\",\"to\":\"/found-animal/squirrel\"},{\"name\":\"Birds\",\"to\":\"/found-animal/bird\"},{\"name\":\"Fawns\",\"to\":\"/found-animal/fawn\"}]},{\"name\":\"News & Events\",\"to\":\"/events\",\"subheaders\":[{\"name\":\"Upcoming Events\",\"to\":\"/events\"},{\"name\":\"Announcements\",\"to\":\"/events\"},{\"name\":\"Animal Stories\",\"to\":\"/events\"},{\"name\":\"Past Events\",\"to\":\"/events\"}]},{\"name\":\"Store\",\"absoluteTo\":\"https://squareup.com/store/FTWL\",\"subheaders\":[]}]}");
-
-/***/ }),
-
 /***/ "./components/navbar/Navbar.js":
 /*!*************************************!*\
   !*** ./components/navbar/Navbar.js ***!
@@ -285,8 +276,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/ftwllogo.png */ "./static/ftwllogo.png");
 /* harmony import */ var _static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_ftwllogo_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _navbar_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar.json */ "./components/navbar/navbar.json");
-var _navbar_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./navbar.json */ "./components/navbar/navbar.json", 1);
+/* harmony import */ var _Navbar_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar.json */ "./components/navbar/Navbar.json");
+var _Navbar_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./Navbar.json */ "./components/navbar/Navbar.json", 1);
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Navbar.css */ "./components/navbar/Navbar.css");
 /* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/jonathancai/github/ftwl2019/components/navbar/Navbar.js";
@@ -345,7 +336,7 @@ function Navbar() {
       lineNumber: 20
     },
     __self: this
-  }, "\u276E"), _navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"][subheaderIndex].subheaders.map(function (_ref) {
+  }, "\u276E"), _Navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"][subheaderIndex].subheaders.map(function (_ref) {
     var name = _ref.name,
         to = _ref.to;
     return __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -430,7 +421,7 @@ function Navbar() {
       lineNumber: 66
     },
     __self: this
-  }, _navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"].map(function (_ref2, index) {
+  }, _Navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"].map(function (_ref2, index) {
     var name = _ref2.name,
         to = _ref2.to,
         absoluteTo = _ref2.absoluteTo;
@@ -533,7 +524,7 @@ function Navbar() {
       lineNumber: 103
     },
     __self: this
-  }, _navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"].map(function (_ref3) {
+  }, _Navbar_json__WEBPACK_IMPORTED_MODULE_4__["navbar_headers"].map(function (_ref3) {
     var name = _ref3.name,
         to = _ref3.to,
         subheaders = _ref3.subheaders,
@@ -736,9 +727,9 @@ function Navbar() {
 
 /***/ }),
 
-/***/ "./components/navbar/navbar.json":
+/***/ "./components/navbar/Navbar.json":
 /*!***************************************!*\
-  !*** ./components/navbar/navbar.json ***!
+  !*** ./components/navbar/Navbar.json ***!
   \***************************************/
 /*! exports provided: navbar_headers, default */
 /***/ (function(module) {
@@ -15818,7 +15809,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACmCAYAAABU
 
 /***/ }),
 
-/***/ 7:
+/***/ 1:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathancai%2Fgithub%2Fftwl2019%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -15841,5 +15832,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

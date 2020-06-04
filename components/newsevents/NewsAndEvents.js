@@ -4,14 +4,10 @@ import Popup from "reactjs-popup";
 import { Flex,Button,Box, Image } from 'rebass';
 import './NewsAndEvents.css';
 import MyModal from './MyModal.js';
-
-
-
 import {client} from '../../client.js';
 
 
 function NewsAndEventsBody() {
-  // return <ImageText title="April Fundraiser" date="Thursday, April 12, 2019" preview="hello this is really a short preview of our blog post." />;
   const [event, setEvent] = useState([]);
 
   const [myModalDisplay, setMyModalDisplay] = useState("none");
@@ -25,15 +21,13 @@ function NewsAndEventsBody() {
       setEvent(response.items);
     })
   },[])
+
+  console.log(event);
   
-  console.log(event)
 
   return (
     <div>
-      {event.map(x => {
-        console.log(x.fields.announcementTitle);
-        
-         
+      {event.map((x, i) => {
         //  // When the user clicks anywhere outside of the modal, close it
         //  window.onclick = function(event) {
         //    if (event.target == modal) {
@@ -41,7 +35,11 @@ function NewsAndEventsBody() {
         //    }
         //  }
         return (
-        <MyModal title={x.fields.announcementTitle} image={x.fields.announcementImage.fields.file.url} announcementBody={x.fields.announcementBody1}/>
+        <MyModal title={x.fields.announcementTitle}
+          key={i} 
+          date={x.sys.updatedAt}
+          image={x.fields.announcementImage.fields.file.url}
+          announcementBody={x.fields.announcementBody1}/>
       );
       })}
     </div>

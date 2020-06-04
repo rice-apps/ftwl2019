@@ -16,7 +16,7 @@ function ArticleBody() {
     client.getEntries({
       links_to_entry: '6230e7e84ad1RzTUayOhBj'
     })
-    .then( function (response) {
+    .then(function (response) {
       console.log(response);
       setEvent(response.items);
     })
@@ -24,9 +24,7 @@ function ArticleBody() {
   
   console.log(events)
 
-
   let flag = 0;
-
   let event = {fields:{announcementTitle:"This event does not exist", announcementImage:{}, announcementBody1:{}}};
   for (let i=0; i<events.length; i++)
   {
@@ -37,27 +35,15 @@ function ArticleBody() {
       break;
     }
   }
-  console.log(event)
-  console.log(event.fields)
-  console.log(event.fields.announcementImage)
-  console.log(event.fields.announcementImage.fields)
-  // console.log(event.fields.announcementImage.fields.file)
-  // console.log(event.fields.announcementImage.fields.file.url)
 
-
-
-
-  // console.log(event.fields.announcementImage.fields.file.url)
-  
-  
-  
 
   return (
     <div>
-      {/* {console.log(event.fields.announcementImage.fields.file.url)} */}
         {
           flag == 1 &&
-          <MyModal title={event.fields.announcementTitle} image={event.fields.announcementImage.fields.file.url} announcementBody={event.fields.announcementBody1}/>
+          <MyModal title={event.fields.announcementTitle} 
+            image={event.fields.announcementImage.fields.file.url} 
+            announcementBody={event.fields.announcementBody1}/>
         }
           {/* {event.fields.announcementImage.fields.file.url} */}
     </div>

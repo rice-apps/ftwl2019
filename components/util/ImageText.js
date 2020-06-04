@@ -11,20 +11,20 @@ function ImageText(props) {
         // // px: 200,
         // // py: 200,
         // // width: [1, 1, 1],
-        backgroundImage: 'url(https://source.unsplash.com/random/1024x768?sky)',
+        backgroundImage: `url(${props.image})`,
         backgroundSize: 'cover', 
         // borderRadius: 0,
         color: 'white',
         bg: 'gray',
       }}>
-      <Box pt={150}></Box>
-      <Box bg="white" opacity={0.5}>
+      <Box pt={200}></Box>
+      <Box bg="white" opacity={0.8} pt={40} style={{paddingBottom:20}}>
         <Text
         opacity={2}
           pt={10}
           ml={20}
           //   fontFamily="monospace"
-          fontSize={[4, 4]}
+          fontSize={[5, 5]}
           fontWeight="bold"
           lineHeight="body"
           color="black">
