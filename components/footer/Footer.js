@@ -3,7 +3,7 @@ import { Box, Flex, Image } from 'rebass';
 import Link from 'next/link';
 import './Footer.css';
 import { footer_info } from './Footer.json';
-import { navbar_headers } from '../Navbar/navbar.json';
+import { navbar_headers } from '../navbar/Navbar.json';
 
 function Footer() {
   return (
